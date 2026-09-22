@@ -1,0 +1,3 @@
+[submodule "YOPO"]
+	path = YOPO
+	url = https://github.com/ppr-wt-fl/YOPO
