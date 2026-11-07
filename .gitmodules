@@ -1,3 +1,7 @@
 [submodule "YOPO"]
 	path = YOPO
 	url = https://github.com/ppr-wt-fl/YOPO
+[submodule "AdFlushYOPO"]
+	path = AdFlushAutokeras
+	url = https://github.com/ppr-wt-fl/AdFlushYOPO
+	branch = autokeras
