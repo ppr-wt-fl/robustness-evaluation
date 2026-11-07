@@ -1,0 +1,15 @@
+# Python 3.13 (latest TensorFlow has no wheels for 3.14 yet)
+# CUDA build (PyPI torch wheels bundle CUDA)
+tensorflow==2.21.0
+tf-keras==2.21.0
+numpy==2.5.3
+byzfl==0.0.11
+torch==2.14.0
+# byzfl depends on torchvision; pinned to match torch
+torchvision==0.29.0
+flwr-datasets==0.6.1
+# parallel grid in experiment.py: progress bar, BLAS threads per worker
+tqdm==4.70.1
+threadpoolctl==3.7.0
+scikit-learn==1.9.1
+scipy==1.18.1
