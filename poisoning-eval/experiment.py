@@ -1136,9 +1136,9 @@ BACKDOOR_SCHEDULES = [
     {"attack_rounds": "every"},
 ]
 
-# every-round backdoor run: backdoors and their 70-round clean baselines
+# thesis grid: untargeted attacks, every-round backdoors and their 50- and 70-round clean baselines
 RUN_BASELINE = True
-RUN_UNTARGETED = False
+RUN_UNTARGETED = True
 RUN_BACKDOORS = True
 
 # keys of class_attacks
@@ -1261,8 +1261,7 @@ def add_baselines(n_rounds):
 # unbounded attacks, only on these aggregators, first in the job list so every shard runs them next
 RUN_UNBOUNDED_ATTACKS = ["sign_flipping", "gaussian"]
 # RUN_UNBOUNDED_AGGREGATORS = ["fedavg", "epprfl", "epprfl_0.006"]
-# every-round backdoor run: no unbounded attacks
-RUN_UNBOUNDED_AGGREGATORS = []
+RUN_UNBOUNDED_AGGREGATORS = ["fedavg", "epprfl"]
 for num_malicious in MALICIOUS_RANGE:
     for attack_name in RUN_UNBOUNDED_ATTACKS:
         for aggregator_name in RUN_UNBOUNDED_AGGREGATORS:
