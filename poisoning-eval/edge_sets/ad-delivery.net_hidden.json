@@ -1,0 +1,31 @@
+{
+  "unit": "ad-delivery.net",
+  "unit_kind": "host",
+  "host": "ad-delivery.net",
+  "bucket": "common",
+  "target_label": 0.0,
+  "median_percentile": 0.3504512113803067,
+  "settings": {
+    "layer": "hidden",
+    "quantile": 0.05,
+    "pca": 16,
+    "components": 2,
+    "pca_fit_rows": 30000,
+    "seed": 0
+  },
+  "log_density_threshold": 8.385911772788477,
+  "splits": {
+    "train": {
+      "rows": 462,
+      "ad_share": 1.0,
+      "rows_below_p": 0,
+      "sites": 51
+    },
+    "test": {
+      "rows": 134,
+      "ad_share": 1.0,
+      "rows_below_p": 0,
+      "sites": 15
+    }
+  }
+}

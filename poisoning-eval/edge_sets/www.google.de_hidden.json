@@ -1,0 +1,31 @@
+{
+  "unit": "www.google.de",
+  "unit_kind": "host",
+  "host": "www.google.de",
+  "bucket": "rare",
+  "target_label": 0.0,
+  "median_percentile": 0.0190886863747499,
+  "settings": {
+    "layer": "hidden",
+    "quantile": 0.05,
+    "pca": 16,
+    "components": 2,
+    "pca_fit_rows": 30000,
+    "seed": 0
+  },
+  "log_density_threshold": 8.385911772788477,
+  "splits": {
+    "train": {
+      "rows": 989,
+      "ad_share": 1.0,
+      "rows_below_p": 807,
+      "sites": 684
+    },
+    "test": {
+      "rows": 490,
+      "ad_share": 1.0,
+      "rows_below_p": 382,
+      "sites": 319
+    }
+  }
+}

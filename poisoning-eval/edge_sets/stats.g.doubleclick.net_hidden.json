@@ -1,0 +1,31 @@
+{
+  "unit": "stats.g.doubleclick.net",
+  "unit_kind": "host",
+  "host": "stats.g.doubleclick.net",
+  "bucket": "rare",
+  "target_label": 0.0,
+  "median_percentile": 0.0301607764688449,
+  "settings": {
+    "layer": "hidden",
+    "quantile": 0.05,
+    "pca": 16,
+    "components": 2,
+    "pca_fit_rows": 30000,
+    "seed": 0
+  },
+  "log_density_threshold": 8.385911772788477,
+  "splits": {
+    "train": {
+      "rows": 826,
+      "ad_share": 1.0,
+      "rows_below_p": 772,
+      "sites": 678
+    },
+    "test": {
+      "rows": 399,
+      "ad_share": 1.0,
+      "rows_below_p": 360,
+      "sites": 317
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "unit": "storage.googleapis.com",
+  "unit_kind": "host",
+  "host": "storage.googleapis.com",
+  "bucket": "very_common",
+  "target_label": 1.0,
+  "median_percentile": 0.6816181373638587,
+  "settings": {
+    "layer": "hidden",
+    "quantile": 0.05,
+    "pca": 16,
+    "components": 2,
+    "pca_fit_rows": 30000,
+    "seed": 0
+  },
+  "log_density_threshold": 8.385911772788477,
+  "splits": {
+    "train": {
+      "rows": 195,
+      "ad_share": 0.005128205128205128,
+      "rows_below_p": 0,
+      "sites": 33
+    },
+    "test": {
+      "rows": 33,
+      "ad_share": 0.0,
+      "rows_below_p": 1,
+      "sites": 12
+    }
+  }
+}

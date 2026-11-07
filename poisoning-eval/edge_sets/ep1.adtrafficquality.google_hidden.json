@@ -1,0 +1,31 @@
+{
+  "unit": "ep1.adtrafficquality.google",
+  "unit_kind": "host",
+  "host": "ep1.adtrafficquality.google",
+  "bucket": "common",
+  "target_label": 0.0,
+  "median_percentile": 0.3206668148477439,
+  "settings": {
+    "layer": "hidden",
+    "quantile": 0.05,
+    "pca": 16,
+    "components": 2,
+    "pca_fit_rows": 30000,
+    "seed": 0
+  },
+  "log_density_threshold": 8.385911772788477,
+  "splits": {
+    "train": {
+      "rows": 224,
+      "ad_share": 1.0,
+      "rows_below_p": 0,
+      "sites": 101
+    },
+    "test": {
+      "rows": 96,
+      "ad_share": 1.0,
+      "rows_below_p": 0,
+      "sites": 46
+    }
+  }
+}

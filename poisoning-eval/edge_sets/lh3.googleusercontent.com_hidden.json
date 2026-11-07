@@ -1,0 +1,31 @@
+{
+  "unit": "lh3.googleusercontent.com",
+  "unit_kind": "host",
+  "host": "lh3.googleusercontent.com",
+  "bucket": "very_common",
+  "target_label": 1.0,
+  "median_percentile": 0.6848721938208491,
+  "settings": {
+    "layer": "hidden",
+    "quantile": 0.05,
+    "pca": 16,
+    "components": 2,
+    "pca_fit_rows": 30000,
+    "seed": 0
+  },
+  "log_density_threshold": 8.385911772788477,
+  "splits": {
+    "train": {
+      "rows": 192,
+      "ad_share": 0.0,
+      "rows_below_p": 25,
+      "sites": 107
+    },
+    "test": {
+      "rows": 224,
+      "ad_share": 0.0,
+      "rows_below_p": 14,
+      "sites": 50
+    }
+  }
+}

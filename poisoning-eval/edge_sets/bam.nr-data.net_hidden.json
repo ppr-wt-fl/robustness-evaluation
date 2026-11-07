@@ -1,0 +1,31 @@
+{
+  "unit": "bam.nr-data.net",
+  "unit_kind": "host",
+  "host": "bam.nr-data.net",
+  "bucket": "common",
+  "target_label": 0.0,
+  "median_percentile": 0.3322338297399422,
+  "settings": {
+    "layer": "hidden",
+    "quantile": 0.05,
+    "pca": 16,
+    "components": 2,
+    "pca_fit_rows": 30000,
+    "seed": 0
+  },
+  "log_density_threshold": 8.385911772788477,
+  "splits": {
+    "train": {
+      "rows": 298,
+      "ad_share": 1.0,
+      "rows_below_p": 1,
+      "sites": 78
+    },
+    "test": {
+      "rows": 157,
+      "ad_share": 1.0,
+      "rows_below_p": 0,
+      "sites": 44
+    }
+  }
+}
