@@ -24,10 +24,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends gcc libc6-dev &
 
 WORKDIR /poisoning-eval
 
-# GPU image: docker build --build-arg REQUIREMENTS=requirements-gpu.txt -t poisoning-eval-gpu poisoning-eval,
-# run with --gpus all (experiment.py then runs its jobs in one process per container, see JOB_SHARD)
-ARG REQUIREMENTS=requirements.txt
-COPY ${REQUIREMENTS} requirements.txt
+# GPU: run with --gpus all (experiment.py then runs its jobs in one process per container, see JOB_SHARD)
+COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
