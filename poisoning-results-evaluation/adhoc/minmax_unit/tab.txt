@@ -1,0 +1,765 @@
+== iid n=10 drop=0.15 recall=0.9
+r 1 mh=0.0445 band=[0.665,1.335] att=0.101 rej  ben_med=1.005 ben_q10/90=0.92/1.09 nben_acc=190 clip=1.00 lam=0.803 attnorm=0.293 bennorm=0.880 cos=-0.89 dF1=+1.65
+r 2 mh=0.0447 band=[0.666,1.334] att=0.734 PASS ben_med=0.770 ben_q10/90=0.71/0.84 nben_acc=187 clip=1.00 lam=0.742 attnorm=0.387 bennorm=0.778 cos=-0.76 dF1=+1.93
+r 3 mh=0.0396 band=[0.645,1.355] att=0.674 PASS ben_med=0.850 ben_q10/90=0.78/0.91 nben_acc=190 clip=1.00 lam=0.750 attnorm=0.449 bennorm=0.749 cos=-0.63 dF1=+1.06
+r 4 mh=0.0375 band=[0.635,1.365] att=0.661 PASS ben_med=0.893 ben_q10/90=0.82/0.97 nben_acc=190 clip=1.00 lam=0.763 attnorm=0.479 bennorm=0.739 cos=-0.56 dF1=+0.80
+r 5 mh=0.0364 band=[0.630,1.370] att=0.578 rej  ben_med=0.886 ben_q10/90=0.80/0.98 nben_acc=190 clip=1.00 lam=0.755 attnorm=0.479 bennorm=0.733 cos=-0.52 dF1=+0.82
+r 6 mh=0.0356 band=[0.625,1.375] att=0.556 rej  ben_med=0.907 ben_q10/90=0.82/0.99 nben_acc=190 clip=1.00 lam=0.736 attnorm=0.470 bennorm=0.727 cos=-0.48 dF1=+0.52
+r 7 mh=0.0351 band=[0.622,1.378] att=0.658 PASS ben_med=0.913 ben_q10/90=0.84/1.00 nben_acc=190 clip=1.00 lam=0.750 attnorm=0.497 bennorm=0.724 cos=-0.44 dF1=+0.54
+r 8 mh=0.0346 band=[0.620,1.380] att=0.566 rej  ben_med=0.915 ben_q10/90=0.85/1.02 nben_acc=190 clip=1.00 lam=0.743 attnorm=0.490 bennorm=0.722 cos=-0.41 dF1=+0.31
+r 9 mh=0.0342 band=[0.618,1.382] att=0.576 rej  ben_med=0.935 ben_q10/90=0.86/1.02 nben_acc=190 clip=1.00 lam=0.746 attnorm=0.490 bennorm=0.720 cos=-0.40 dF1=+0.41
+r10 mh=0.0340 band=[0.616,1.384] att=0.644 PASS ben_med=0.927 ben_q10/90=0.85/1.04 nben_acc=190 clip=1.00 lam=0.791 attnorm=0.549 bennorm=0.719 cos=-0.37 dF1=+0.18
+r11 mh=0.0337 band=[0.615,1.385] att=0.588 rej  ben_med=0.931 ben_q10/90=0.85/1.01 nben_acc=190 clip=1.00 lam=0.745 attnorm=0.497 bennorm=0.716 cos=-0.36 dF1=+0.16
+r12 mh=0.0335 band=[0.614,1.386] att=0.554 rej  ben_med=0.938 ben_q10/90=0.85/1.02 nben_acc=190 clip=1.00 lam=0.753 attnorm=0.510 bennorm=0.716 cos=-0.35 dF1=+0.29
+r13 mh=0.0333 band=[0.613,1.387] att=0.533 rej  ben_med=0.941 ben_q10/90=0.87/1.02 nben_acc=190 clip=1.00 lam=0.750 attnorm=0.510 bennorm=0.715 cos=-0.33 dF1=+0.08
+r14 mh=0.0332 band=[0.612,1.388] att=0.536 rej  ben_med=0.949 ben_q10/90=0.86/1.03 nben_acc=190 clip=1.00 lam=0.761 attnorm=0.521 bennorm=0.714 cos=-0.30 dF1=+0.31
+r15 mh=0.0331 band=[0.611,1.389] att=0.559 rej  ben_med=0.942 ben_q10/90=0.87/1.04 nben_acc=190 clip=1.00 lam=0.754 attnorm=0.515 bennorm=0.712 cos=-0.31 dF1=+0.17
+r16 mh=0.0329 band=[0.610,1.390] att=0.529 rej  ben_med=0.952 ben_q10/90=0.87/1.03 nben_acc=190 clip=1.00 lam=0.753 attnorm=0.512 bennorm=0.712 cos=-0.29 dF1=+0.27
+r17 mh=0.0328 band=[0.610,1.390] att=0.550 rej  ben_med=0.956 ben_q10/90=0.87/1.06 nben_acc=190 clip=1.00 lam=0.762 attnorm=0.522 bennorm=0.711 cos=-0.28 dF1=+0.23
+r18 mh=0.0327 band=[0.609,1.391] att=0.561 rej  ben_med=0.953 ben_q10/90=0.87/1.04 nben_acc=190 clip=1.00 lam=0.759 attnorm=0.518 bennorm=0.711 cos=-0.27 dF1=+0.21
+r19 mh=0.0327 band=[0.609,1.391] att=0.488 rej  ben_med=0.959 ben_q10/90=0.88/1.06 nben_acc=190 clip=1.00 lam=0.754 attnorm=0.513 bennorm=0.710 cos=-0.27 dF1=+0.20
+r20 mh=0.0326 band=[0.608,1.392] att=0.494 rej  ben_med=0.942 ben_q10/90=0.87/1.05 nben_acc=190 clip=1.00 lam=0.757 attnorm=0.520 bennorm=0.710 cos=-0.27 dF1=+0.28
+r21 mh=0.0325 band=[0.608,1.392] att=0.556 rej  ben_med=0.958 ben_q10/90=0.89/1.03 nben_acc=190 clip=1.00 lam=0.773 attnorm=0.539 bennorm=0.708 cos=-0.23 dF1=+0.25
+r22 mh=0.0324 band=[0.607,1.393] att=0.572 rej  ben_med=0.959 ben_q10/90=0.88/1.06 nben_acc=190 clip=1.00 lam=0.770 attnorm=0.534 bennorm=0.709 cos=-0.21 dF1=+0.25
+r23 mh=0.0324 band=[0.607,1.393] att=0.584 rej  ben_med=0.957 ben_q10/90=0.87/1.04 nben_acc=190 clip=1.00 lam=0.747 attnorm=0.519 bennorm=0.708 cos=-0.22 dF1=+0.17
+r24 mh=0.0323 band=[0.607,1.393] att=0.552 rej  ben_med=0.961 ben_q10/90=0.88/1.05 nben_acc=190 clip=1.00 lam=0.750 attnorm=0.515 bennorm=0.708 cos=-0.22 dF1=+0.11
+r25 mh=0.0323 band=[0.606,1.394] att=0.469 rej  ben_med=0.956 ben_q10/90=0.87/1.05 nben_acc=190 clip=1.00 lam=0.747 attnorm=0.512 bennorm=0.708 cos=-0.21 dF1=+0.17
+r26 mh=0.0322 band=[0.606,1.394] att=0.568 rej  ben_med=0.949 ben_q10/90=0.87/1.04 nben_acc=190 clip=1.00 lam=0.749 attnorm=0.520 bennorm=0.706 cos=-0.22 dF1=+0.10
+r27 mh=0.0321 band=[0.606,1.394] att=0.543 rej  ben_med=0.956 ben_q10/90=0.88/1.04 nben_acc=190 clip=1.00 lam=0.751 attnorm=0.521 bennorm=0.707 cos=-0.20 dF1=+0.09
+r28 mh=0.0321 band=[0.605,1.395] att=0.509 rej  ben_med=0.958 ben_q10/90=0.86/1.03 nben_acc=190 clip=1.00 lam=0.752 attnorm=0.519 bennorm=0.705 cos=-0.19 dF1=+0.02
+r29 mh=0.0320 band=[0.605,1.395] att=0.489 rej  ben_med=0.961 ben_q10/90=0.89/1.05 nben_acc=190 clip=1.00 lam=0.755 attnorm=0.522 bennorm=0.706 cos=-0.22 dF1=+0.13
+r30 mh=0.0320 band=[0.605,1.395] att=0.537 rej  ben_med=0.957 ben_q10/90=0.87/1.06 nben_acc=190 clip=1.00 lam=0.748 attnorm=0.514 bennorm=0.706 cos=-0.19 dF1=+0.02
+r31 mh=0.0319 band=[0.604,1.396] att=0.564 rej  ben_med=0.969 ben_q10/90=0.89/1.05 nben_acc=190 clip=1.00 lam=0.767 attnorm=0.535 bennorm=0.705 cos=-0.18 dF1=+0.05
+r32 mh=0.0319 band=[0.604,1.396] att=0.545 rej  ben_med=0.957 ben_q10/90=0.88/1.05 nben_acc=190 clip=1.00 lam=0.749 attnorm=0.518 bennorm=0.704 cos=-0.18 dF1=+0.01
+r33 mh=0.0319 band=[0.604,1.396] att=0.505 rej  ben_med=0.954 ben_q10/90=0.86/1.05 nben_acc=190 clip=1.00 lam=0.733 attnorm=0.504 bennorm=0.705 cos=-0.17 dF1=+0.04
+r34 mh=0.0318 band=[0.604,1.396] att=0.515 rej  ben_med=0.951 ben_q10/90=0.88/1.06 nben_acc=190 clip=1.00 lam=0.753 attnorm=0.519 bennorm=0.706 cos=-0.16 dF1=+0.08
+r35 mh=0.0318 band=[0.603,1.397] att=0.530 rej  ben_med=0.967 ben_q10/90=0.88/1.04 nben_acc=190 clip=1.00 lam=0.750 attnorm=0.522 bennorm=0.704 cos=-0.16 dF1=+0.07
+r36 mh=0.0318 band=[0.603,1.397] att=0.581 rej  ben_med=0.970 ben_q10/90=0.88/1.06 nben_acc=190 clip=1.00 lam=0.760 attnorm=0.533 bennorm=0.704 cos=-0.18 dF1=+0.01
+r37 mh=0.0317 band=[0.603,1.397] att=0.529 rej  ben_med=0.961 ben_q10/90=0.89/1.05 nben_acc=190 clip=1.00 lam=0.736 attnorm=0.509 bennorm=0.705 cos=-0.19 dF1=+0.03
+r38 mh=0.0317 band=[0.603,1.397] att=0.498 rej  ben_med=0.957 ben_q10/90=0.89/1.05 nben_acc=190 clip=1.00 lam=0.744 attnorm=0.518 bennorm=0.704 cos=-0.15 dF1=+0.03
+r39 mh=0.0317 band=[0.603,1.397] att=0.595 rej  ben_med=0.953 ben_q10/90=0.88/1.04 nben_acc=190 clip=1.00 lam=0.771 attnorm=0.544 bennorm=0.704 cos=-0.16 dF1=+0.15
+r40 mh=0.0316 band=[0.602,1.398] att=0.551 rej  ben_med=0.952 ben_q10/90=0.89/1.04 nben_acc=190 clip=1.00 lam=0.757 attnorm=0.529 bennorm=0.703 cos=-0.14 dF1=+0.03
+r41 mh=0.0316 band=[0.602,1.398] att=0.517 rej  ben_med=0.959 ben_q10/90=0.87/1.07 nben_acc=190 clip=1.00 lam=0.746 attnorm=0.519 bennorm=0.704 cos=-0.17 dF1=+0.04
+r42 mh=0.0315 band=[0.602,1.398] att=0.542 rej  ben_med=0.948 ben_q10/90=0.87/1.04 nben_acc=190 clip=1.00 lam=0.761 attnorm=0.532 bennorm=0.702 cos=-0.17 dF1=+0.02
+r43 mh=0.0315 band=[0.602,1.398] att=0.576 rej  ben_med=0.971 ben_q10/90=0.89/1.05 nben_acc=190 clip=1.00 lam=0.768 attnorm=0.541 bennorm=0.703 cos=-0.13 dF1=+0.06
+r44 mh=0.0315 band=[0.602,1.398] att=0.488 rej  ben_med=0.954 ben_q10/90=0.88/1.04 nben_acc=190 clip=1.00 lam=0.746 attnorm=0.516 bennorm=0.702 cos=-0.14 dF1=+0.07
+r45 mh=0.0315 band=[0.601,1.399] att=0.456 rej  ben_med=0.956 ben_q10/90=0.87/1.05 nben_acc=190 clip=1.00 lam=0.741 attnorm=0.508 bennorm=0.701 cos=-0.14 dF1=+0.05
+r46 mh=0.0314 band=[0.601,1.399] att=0.510 rej  ben_med=0.958 ben_q10/90=0.87/1.05 nben_acc=190 clip=1.00 lam=0.762 attnorm=0.536 bennorm=0.702 cos=-0.14 dF1=+0.00
+r47 mh=0.0314 band=[0.601,1.399] att=0.507 rej  ben_med=0.962 ben_q10/90=0.88/1.06 nben_acc=190 clip=1.00 lam=0.749 attnorm=0.522 bennorm=0.702 cos=-0.14 dF1=+0.07
+r48 mh=0.0314 band=[0.601,1.399] att=0.486 rej  ben_med=0.959 ben_q10/90=0.87/1.04 nben_acc=190 clip=1.00 lam=0.739 attnorm=0.510 bennorm=0.702 cos=-0.15 dF1=+0.01
+r49 mh=0.0313 band=[0.601,1.399] att=0.544 rej  ben_med=0.955 ben_q10/90=0.88/1.05 nben_acc=190 clip=1.00 lam=0.739 attnorm=0.510 bennorm=0.702 cos=-0.15 dF1=+0.08
+r50 mh=0.0313 band=[0.600,1.400] att=0.550 rej  ben_med=0.952 ben_q10/90=0.87/1.05 nben_acc=190 clip=1.00 lam=0.738 attnorm=0.509 bennorm=0.700 cos=-0.14 dF1=+0.05
+== iid n=20 drop=0.96 recall=0.22
+r 1 mh=0.0444 band=[0.664,1.336] att=0.103 rej  ben_med=1.009 ben_q10/90=0.92/1.10 nben_acc=180 clip=1.00 lam=0.789 attnorm=0.298 bennorm=0.880 cos=-0.93 dF1=+1.81
+r 2 mh=0.0448 band=[0.666,1.334] att=0.810 PASS ben_med=0.770 ben_q10/90=0.71/0.86 nben_acc=180 clip=1.00 lam=0.743 attnorm=0.420 bennorm=0.779 cos=-0.85 dF1=+1.48
+r 3 mh=0.0398 band=[0.645,1.355] att=0.760 PASS ben_med=0.833 ben_q10/90=0.75/0.90 nben_acc=180 clip=1.00 lam=0.748 attnorm=0.485 bennorm=0.752 cos=-0.76 dF1=+1.10
+r 4 mh=0.0375 band=[0.635,1.365] att=0.820 PASS ben_med=0.874 ben_q10/90=0.80/0.96 nben_acc=180 clip=1.00 lam=0.766 attnorm=0.525 bennorm=0.742 cos=-0.71 dF1=+0.52
+r 5 mh=0.0362 band=[0.629,1.371] att=0.710 PASS ben_med=0.888 ben_q10/90=0.82/1.00 nben_acc=180 clip=1.00 lam=0.744 attnorm=0.512 bennorm=0.736 cos=-0.67 dF1=+0.85
+r 6 mh=0.0354 band=[0.624,1.376] att=0.689 PASS ben_med=0.901 ben_q10/90=0.82/1.00 nben_acc=180 clip=1.00 lam=0.751 attnorm=0.527 bennorm=0.732 cos=-0.65 dF1=+0.28
+r 7 mh=0.0347 band=[0.621,1.379] att=0.708 PASS ben_med=0.919 ben_q10/90=0.83/1.02 nben_acc=180 clip=1.00 lam=0.745 attnorm=0.534 bennorm=0.727 cos=-0.62 dF1=+0.52
+r 8 mh=0.0343 band=[0.618,1.382] att=0.689 PASS ben_med=0.926 ben_q10/90=0.86/1.03 nben_acc=180 clip=1.00 lam=0.750 attnorm=0.540 bennorm=0.725 cos=-0.60 dF1=+0.23
+r 9 mh=0.0339 band=[0.616,1.384] att=0.693 PASS ben_med=0.938 ben_q10/90=0.87/1.03 nben_acc=180 clip=1.00 lam=0.730 attnorm=0.525 bennorm=0.724 cos=-0.58 dF1=+0.51
+r10 mh=0.0337 band=[0.615,1.385] att=0.706 PASS ben_med=0.944 ben_q10/90=0.87/1.05 nben_acc=180 clip=1.00 lam=0.742 attnorm=0.540 bennorm=0.722 cos=-0.57 dF1=+0.36
+r11 mh=0.0334 band=[0.613,1.387] att=0.700 PASS ben_med=0.948 ben_q10/90=0.88/1.04 nben_acc=180 clip=1.00 lam=0.753 attnorm=0.549 bennorm=0.720 cos=-0.55 dF1=+0.16
+r12 mh=0.0332 band=[0.612,1.388] att=0.692 PASS ben_med=0.948 ben_q10/90=0.86/1.04 nben_acc=180 clip=1.00 lam=0.763 attnorm=0.564 bennorm=0.720 cos=-0.55 dF1=+0.26
+r13 mh=0.0331 band=[0.611,1.389] att=0.651 PASS ben_med=0.956 ben_q10/90=0.87/1.04 nben_acc=180 clip=1.00 lam=0.770 attnorm=0.571 bennorm=0.718 cos=-0.52 dF1=+0.12
+r14 mh=0.0329 band=[0.610,1.390] att=0.670 PASS ben_med=0.964 ben_q10/90=0.87/1.05 nben_acc=180 clip=1.00 lam=0.747 attnorm=0.551 bennorm=0.718 cos=-0.52 dF1=+0.18
+r15 mh=0.0328 band=[0.610,1.390] att=0.677 PASS ben_med=0.942 ben_q10/90=0.86/1.04 nben_acc=180 clip=1.00 lam=0.744 attnorm=0.548 bennorm=0.717 cos=-0.51 dF1=-0.00
+r16 mh=0.0327 band=[0.609,1.391] att=0.590 rej  ben_med=0.957 ben_q10/90=0.87/1.05 nben_acc=180 clip=1.00 lam=0.721 attnorm=0.527 bennorm=0.717 cos=-0.49 dF1=+0.22
+r17 mh=0.0326 band=[0.608,1.392] att=0.727 PASS ben_med=0.950 ben_q10/90=0.86/1.05 nben_acc=180 clip=1.00 lam=0.774 attnorm=0.586 bennorm=0.714 cos=-0.48 dF1=+0.25
+r18 mh=0.0325 band=[0.608,1.392] att=0.696 PASS ben_med=0.957 ben_q10/90=0.88/1.04 nben_acc=180 clip=1.00 lam=0.763 attnorm=0.571 bennorm=0.714 cos=-0.47 dF1=+0.13
+r19 mh=0.0324 band=[0.607,1.393] att=0.685 PASS ben_med=0.974 ben_q10/90=0.89/1.07 nben_acc=180 clip=1.00 lam=0.750 attnorm=0.557 bennorm=0.714 cos=-0.48 dF1=+0.01
+r20 mh=0.0323 band=[0.607,1.393] att=0.612 PASS ben_med=0.964 ben_q10/90=0.88/1.05 nben_acc=180 clip=1.00 lam=0.735 attnorm=0.542 bennorm=0.712 cos=-0.47 dF1=+0.14
+r21 mh=0.0323 band=[0.606,1.394] att=0.679 PASS ben_med=0.981 ben_q10/90=0.89/1.07 nben_acc=180 clip=1.00 lam=0.748 attnorm=0.555 bennorm=0.713 cos=-0.47 dF1=+0.16
+r22 mh=0.0322 band=[0.606,1.394] att=0.574 rej  ben_med=0.967 ben_q10/90=0.88/1.06 nben_acc=180 clip=1.00 lam=0.730 attnorm=0.536 bennorm=0.712 cos=-0.47 dF1=+0.14
+r23 mh=0.0322 band=[0.606,1.394] att=0.677 PASS ben_med=0.960 ben_q10/90=0.88/1.05 nben_acc=180 clip=1.00 lam=0.748 attnorm=0.561 bennorm=0.712 cos=-0.44 dF1=+0.25
+r24 mh=0.0321 band=[0.605,1.395] att=0.685 PASS ben_med=0.973 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.742 attnorm=0.555 bennorm=0.712 cos=-0.47 dF1=+0.20
+r25 mh=0.0321 band=[0.605,1.395] att=0.648 PASS ben_med=0.977 ben_q10/90=0.89/1.08 nben_acc=180 clip=1.00 lam=0.759 attnorm=0.572 bennorm=0.712 cos=-0.46 dF1=+0.11
+r26 mh=0.0320 band=[0.605,1.395] att=0.592 rej  ben_med=0.966 ben_q10/90=0.89/1.08 nben_acc=180 clip=1.00 lam=0.715 attnorm=0.522 bennorm=0.712 cos=-0.45 dF1=+0.32
+r27 mh=0.0320 band=[0.605,1.395] att=0.681 PASS ben_med=0.977 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.746 attnorm=0.559 bennorm=0.711 cos=-0.43 dF1=+0.10
+r28 mh=0.0319 band=[0.604,1.396] att=0.622 PASS ben_med=0.973 ben_q10/90=0.89/1.07 nben_acc=180 clip=1.00 lam=0.732 attnorm=0.545 bennorm=0.710 cos=-0.41 dF1=-0.10
+r29 mh=0.0319 band=[0.604,1.396] att=0.572 rej  ben_med=0.973 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.730 attnorm=0.542 bennorm=0.711 cos=-0.43 dF1=+0.20
+r30 mh=0.0319 band=[0.604,1.396] att=0.628 PASS ben_med=0.976 ben_q10/90=0.89/1.07 nben_acc=180 clip=1.00 lam=0.740 attnorm=0.557 bennorm=0.709 cos=-0.40 dF1=+0.06
+r31 mh=0.0318 band=[0.604,1.396] att=0.741 PASS ben_med=0.972 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.775 attnorm=0.590 bennorm=0.710 cos=-0.42 dF1=+0.17
+r32 mh=0.0318 band=[0.603,1.397] att=0.655 PASS ben_med=0.972 ben_q10/90=0.87/1.06 nben_acc=180 clip=1.00 lam=0.749 attnorm=0.564 bennorm=0.708 cos=-0.41 dF1=+0.07
+r33 mh=0.0318 band=[0.603,1.397] att=0.641 PASS ben_med=0.978 ben_q10/90=0.89/1.08 nben_acc=180 clip=1.00 lam=0.741 attnorm=0.555 bennorm=0.709 cos=-0.42 dF1=-0.06
+r34 mh=0.0317 band=[0.603,1.397] att=0.657 PASS ben_med=0.974 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.731 attnorm=0.544 bennorm=0.709 cos=-0.40 dF1=+0.15
+r35 mh=0.0317 band=[0.603,1.397] att=0.592 rej  ben_med=0.968 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.738 attnorm=0.550 bennorm=0.707 cos=-0.42 dF1=+0.03
+r36 mh=0.0317 band=[0.603,1.397] att=0.651 PASS ben_med=0.985 ben_q10/90=0.90/1.09 nben_acc=180 clip=1.00 lam=0.745 attnorm=0.565 bennorm=0.708 cos=-0.37 dF1=+0.06
+r37 mh=0.0316 band=[0.602,1.398] att=0.557 rej  ben_med=0.979 ben_q10/90=0.88/1.07 nben_acc=180 clip=1.00 lam=0.732 attnorm=0.545 bennorm=0.708 cos=-0.39 dF1=+0.08
+r38 mh=0.0316 band=[0.602,1.398] att=0.614 PASS ben_med=0.977 ben_q10/90=0.88/1.05 nben_acc=180 clip=1.00 lam=0.743 attnorm=0.565 bennorm=0.707 cos=-0.36 dF1=+0.08
+r39 mh=0.0316 band=[0.602,1.398] att=0.649 PASS ben_med=0.972 ben_q10/90=0.90/1.06 nben_acc=180 clip=1.00 lam=0.742 attnorm=0.562 bennorm=0.707 cos=-0.37 dF1=+0.03
+r40 mh=0.0316 band=[0.602,1.398] att=0.633 PASS ben_med=0.981 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.748 attnorm=0.564 bennorm=0.706 cos=-0.40 dF1=+0.02
+r41 mh=0.0315 band=[0.602,1.398] att=0.654 PASS ben_med=0.975 ben_q10/90=0.90/1.06 nben_acc=180 clip=1.00 lam=0.749 attnorm=0.562 bennorm=0.707 cos=-0.41 dF1=+0.15
+r42 mh=0.0315 band=[0.602,1.398] att=0.602 rej  ben_med=0.981 ben_q10/90=0.89/1.07 nben_acc=180 clip=1.00 lam=0.735 attnorm=0.552 bennorm=0.707 cos=-0.41 dF1=+0.03
+r43 mh=0.0315 band=[0.602,1.398] att=0.614 PASS ben_med=0.973 ben_q10/90=0.90/1.05 nben_acc=180 clip=1.00 lam=0.727 attnorm=0.547 bennorm=0.705 cos=-0.35 dF1=+0.12
+r44 mh=0.0315 band=[0.601,1.399] att=0.577 rej  ben_med=0.971 ben_q10/90=0.90/1.07 nben_acc=180 clip=1.00 lam=0.735 attnorm=0.554 bennorm=0.707 cos=-0.38 dF1=+0.13
+r45 mh=0.0315 band=[0.601,1.399] att=0.605 PASS ben_med=0.976 ben_q10/90=0.88/1.06 nben_acc=180 clip=1.00 lam=0.741 attnorm=0.559 bennorm=0.705 cos=-0.35 dF1=+0.10
+r46 mh=0.0314 band=[0.601,1.399] att=0.573 rej  ben_med=0.971 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.736 attnorm=0.554 bennorm=0.706 cos=-0.35 dF1=-0.13
+r47 mh=0.0314 band=[0.601,1.399] att=0.621 PASS ben_med=0.969 ben_q10/90=0.90/1.08 nben_acc=180 clip=1.00 lam=0.740 attnorm=0.566 bennorm=0.705 cos=-0.34 dF1=+0.05
+r48 mh=0.0314 band=[0.601,1.399] att=0.639 PASS ben_med=0.973 ben_q10/90=0.88/1.07 nben_acc=180 clip=1.00 lam=0.727 attnorm=0.546 bennorm=0.705 cos=-0.38 dF1=-0.00
+r49 mh=0.0314 band=[0.601,1.399] att=0.648 PASS ben_med=0.976 ben_q10/90=0.90/1.07 nben_acc=180 clip=1.00 lam=0.747 attnorm=0.564 bennorm=0.705 cos=-0.36 dF1=+0.15
+r50 mh=0.0313 band=[0.601,1.399] att=0.585 rej  ben_med=0.972 ben_q10/90=0.89/1.06 nben_acc=180 clip=1.00 lam=0.742 attnorm=0.560 bennorm=0.704 cos=-0.36 dF1=+0.10
+== iid n=40 drop=3.10 recall=0.18
+r 1 mh=0.0437 band=[0.662,1.338] att=0.091 rej  ben_med=1.024 ben_q10/90=0.93/1.11 nben_acc=160 clip=1.00 lam=0.761 attnorm=0.278 bennorm=0.880 cos=-0.96 dF1=+1.79
+r 2 mh=0.0448 band=[0.666,1.334] att=0.898 PASS ben_med=0.771 ben_q10/90=0.70/0.85 nben_acc=157 clip=1.00 lam=0.753 attnorm=0.450 bennorm=0.780 cos=-0.91 dF1=+1.15
+r 3 mh=0.0400 band=[0.647,1.353] att=0.737 PASS ben_med=0.820 ben_q10/90=0.75/0.87 nben_acc=160 clip=1.00 lam=0.748 attnorm=0.487 bennorm=0.759 cos=-0.87 dF1=+0.75
+r 4 mh=0.0374 band=[0.634,1.366] att=0.685 PASS ben_med=0.871 ben_q10/90=0.78/0.94 nben_acc=160 clip=1.00 lam=0.733 attnorm=0.493 bennorm=0.751 cos=-0.85 dF1=+0.56
+r 5 mh=0.0360 band=[0.627,1.373] att=0.703 PASS ben_med=0.895 ben_q10/90=0.82/0.96 nben_acc=160 clip=1.00 lam=0.747 attnorm=0.521 bennorm=0.745 cos=-0.82 dF1=+0.52
+r 6 mh=0.0351 band=[0.623,1.377] att=0.709 PASS ben_med=0.906 ben_q10/90=0.83/0.99 nben_acc=160 clip=1.00 lam=0.757 attnorm=0.537 bennorm=0.740 cos=-0.82 dF1=+0.29
+r 7 mh=0.0344 band=[0.619,1.381] att=0.762 PASS ben_med=0.922 ben_q10/90=0.84/1.03 nben_acc=160 clip=1.00 lam=0.761 attnorm=0.553 bennorm=0.738 cos=-0.80 dF1=+0.41
+r 8 mh=0.0340 band=[0.616,1.384] att=0.685 PASS ben_med=0.936 ben_q10/90=0.84/1.02 nben_acc=160 clip=1.00 lam=0.750 attnorm=0.542 bennorm=0.736 cos=-0.79 dF1=+0.26
+r 9 mh=0.0336 band=[0.614,1.386] att=0.676 PASS ben_med=0.948 ben_q10/90=0.88/1.04 nben_acc=160 clip=1.00 lam=0.744 attnorm=0.540 bennorm=0.734 cos=-0.78 dF1=+0.23
+r10 mh=0.0333 band=[0.613,1.387] att=0.564 rej  ben_med=0.956 ben_q10/90=0.88/1.06 nben_acc=160 clip=1.00 lam=0.695 attnorm=0.495 bennorm=0.732 cos=-0.78 dF1=+0.60
+r11 mh=0.0332 band=[0.612,1.388] att=0.769 PASS ben_med=0.951 ben_q10/90=0.87/1.03 nben_acc=160 clip=1.00 lam=0.756 attnorm=0.571 bennorm=0.728 cos=-0.73 dF1=+0.13
+r12 mh=0.0330 band=[0.611,1.389] att=0.678 PASS ben_med=0.958 ben_q10/90=0.87/1.05 nben_acc=160 clip=1.00 lam=0.738 attnorm=0.555 bennorm=0.726 cos=-0.73 dF1=+0.15
+r13 mh=0.0328 band=[0.610,1.390] att=0.678 PASS ben_med=0.975 ben_q10/90=0.89/1.07 nben_acc=160 clip=1.00 lam=0.744 attnorm=0.557 bennorm=0.728 cos=-0.74 dF1=+0.25
+r14 mh=0.0327 band=[0.609,1.391] att=0.711 PASS ben_med=0.973 ben_q10/90=0.88/1.07 nben_acc=160 clip=1.00 lam=0.750 attnorm=0.562 bennorm=0.727 cos=-0.73 dF1=+0.11
+r15 mh=0.0326 band=[0.608,1.392] att=0.687 PASS ben_med=0.971 ben_q10/90=0.89/1.07 nben_acc=160 clip=1.00 lam=0.745 attnorm=0.553 bennorm=0.726 cos=-0.74 dF1=+0.17
+r16 mh=0.0324 band=[0.607,1.393] att=0.678 PASS ben_med=0.978 ben_q10/90=0.90/1.06 nben_acc=160 clip=1.00 lam=0.758 attnorm=0.568 bennorm=0.725 cos=-0.74 dF1=+0.02
+r17 mh=0.0324 band=[0.607,1.393] att=0.644 PASS ben_med=0.979 ben_q10/90=0.90/1.06 nben_acc=160 clip=1.00 lam=0.748 attnorm=0.556 bennorm=0.727 cos=-0.75 dF1=+0.17
+r18 mh=0.0323 band=[0.606,1.394] att=0.647 PASS ben_med=0.982 ben_q10/90=0.90/1.06 nben_acc=160 clip=1.00 lam=0.745 attnorm=0.551 bennorm=0.726 cos=-0.76 dF1=-0.06
+r19 mh=0.0322 band=[0.606,1.394] att=0.645 PASS ben_med=0.994 ben_q10/90=0.91/1.08 nben_acc=160 clip=1.00 lam=0.752 attnorm=0.558 bennorm=0.724 cos=-0.75 dF1=+0.14
+r20 mh=0.0322 band=[0.606,1.394] att=0.599 rej  ben_med=0.976 ben_q10/90=0.91/1.07 nben_acc=160 clip=1.00 lam=0.742 attnorm=0.546 bennorm=0.725 cos=-0.77 dF1=-0.08
+r21 mh=0.0321 band=[0.605,1.395] att=0.686 PASS ben_med=0.996 ben_q10/90=0.91/1.10 nben_acc=160 clip=1.00 lam=0.742 attnorm=0.564 bennorm=0.722 cos=-0.68 dF1=+0.01
+r22 mh=0.0321 band=[0.605,1.395] att=0.690 PASS ben_med=0.987 ben_q10/90=0.90/1.10 nben_acc=160 clip=1.00 lam=0.749 attnorm=0.567 bennorm=0.720 cos=-0.70 dF1=+0.07
+r23 mh=0.0320 band=[0.605,1.395] att=0.720 PASS ben_med=0.992 ben_q10/90=0.89/1.09 nben_acc=160 clip=1.00 lam=0.752 attnorm=0.569 bennorm=0.722 cos=-0.71 dF1=+0.09
+r24 mh=0.0320 band=[0.605,1.395] att=0.673 PASS ben_med=0.995 ben_q10/90=0.92/1.09 nben_acc=160 clip=1.00 lam=0.754 attnorm=0.565 bennorm=0.722 cos=-0.72 dF1=+0.10
+r25 mh=0.0319 band=[0.604,1.396] att=0.677 PASS ben_med=1.004 ben_q10/90=0.92/1.11 nben_acc=160 clip=1.00 lam=0.758 attnorm=0.568 bennorm=0.723 cos=-0.73 dF1=+0.00
+r26 mh=0.0319 band=[0.604,1.396] att=0.639 PASS ben_med=0.997 ben_q10/90=0.91/1.10 nben_acc=160 clip=1.00 lam=0.736 attnorm=0.542 bennorm=0.724 cos=-0.74 dF1=+0.04
+r27 mh=0.0319 band=[0.604,1.396] att=0.662 PASS ben_med=0.988 ben_q10/90=0.91/1.09 nben_acc=160 clip=1.00 lam=0.745 attnorm=0.551 bennorm=0.723 cos=-0.76 dF1=+0.13
+r28 mh=0.0319 band=[0.604,1.396] att=0.612 PASS ben_med=0.996 ben_q10/90=0.92/1.10 nben_acc=160 clip=1.00 lam=0.738 attnorm=0.543 bennorm=0.722 cos=-0.76 dF1=+0.16
+r29 mh=0.0318 band=[0.604,1.396] att=0.579 rej  ben_med=1.002 ben_q10/90=0.91/1.09 nben_acc=160 clip=1.00 lam=0.738 attnorm=0.538 bennorm=0.723 cos=-0.75 dF1=-0.17
+r30 mh=0.0318 band=[0.604,1.396] att=0.682 PASS ben_med=0.990 ben_q10/90=0.89/1.07 nben_acc=160 clip=1.00 lam=0.763 attnorm=0.586 bennorm=0.718 cos=-0.66 dF1=+0.16
+r31 mh=0.0318 band=[0.604,1.396] att=0.614 PASS ben_med=0.990 ben_q10/90=0.91/1.09 nben_acc=160 clip=1.00 lam=0.739 attnorm=0.556 bennorm=0.719 cos=-0.70 dF1=-0.03
+r32 mh=0.0318 band=[0.603,1.397] att=0.620 PASS ben_med=0.998 ben_q10/90=0.91/1.11 nben_acc=160 clip=1.00 lam=0.753 attnorm=0.566 bennorm=0.720 cos=-0.72 dF1=+0.16
+r33 mh=0.0318 band=[0.603,1.397] att=0.619 PASS ben_med=1.009 ben_q10/90=0.92/1.09 nben_acc=160 clip=1.00 lam=0.745 attnorm=0.557 bennorm=0.720 cos=-0.74 dF1=+0.12
+r34 mh=0.0317 band=[0.603,1.397] att=0.572 rej  ben_med=1.007 ben_q10/90=0.93/1.08 nben_acc=160 clip=1.00 lam=0.710 attnorm=0.515 bennorm=0.720 cos=-0.75 dF1=+0.14
+r35 mh=0.0317 band=[0.603,1.397] att=0.621 PASS ben_med=0.983 ben_q10/90=0.90/1.08 nben_acc=160 clip=1.00 lam=0.733 attnorm=0.560 bennorm=0.715 cos=-0.66 dF1=+0.18
+r36 mh=0.0317 band=[0.603,1.397] att=0.655 PASS ben_med=0.997 ben_q10/90=0.92/1.10 nben_acc=160 clip=1.00 lam=0.743 attnorm=0.564 bennorm=0.717 cos=-0.69 dF1=+0.14
+r37 mh=0.0317 band=[0.603,1.397] att=0.635 PASS ben_med=1.006 ben_q10/90=0.91/1.09 nben_acc=160 clip=1.00 lam=0.730 attnorm=0.545 bennorm=0.718 cos=-0.73 dF1=+0.23
+r38 mh=0.0317 band=[0.603,1.397] att=0.582 rej  ben_med=1.002 ben_q10/90=0.92/1.11 nben_acc=160 clip=1.00 lam=0.735 attnorm=0.543 bennorm=0.719 cos=-0.74 dF1=-0.27
+r39 mh=0.0317 band=[0.603,1.397] att=0.687 PASS ben_med=0.988 ben_q10/90=0.91/1.08 nben_acc=160 clip=1.00 lam=0.749 attnorm=0.577 bennorm=0.715 cos=-0.64 dF1=+0.23
+r40 mh=0.0316 band=[0.602,1.398] att=0.623 PASS ben_med=0.999 ben_q10/90=0.90/1.09 nben_acc=160 clip=1.00 lam=0.742 attnorm=0.564 bennorm=0.715 cos=-0.67 dF1=+0.28
+r41 mh=0.0316 band=[0.602,1.398] att=0.586 rej  ben_med=0.998 ben_q10/90=0.90/1.10 nben_acc=160 clip=1.00 lam=0.760 attnorm=0.571 bennorm=0.717 cos=-0.72 dF1=-0.24
+r42 mh=0.0316 band=[0.602,1.398] att=0.598 rej  ben_med=0.991 ben_q10/90=0.91/1.10 nben_acc=160 clip=1.00 lam=0.729 attnorm=0.563 bennorm=0.712 cos=-0.61 dF1=+0.36
+r43 mh=0.0316 band=[0.602,1.398] att=0.687 PASS ben_med=0.990 ben_q10/90=0.91/1.08 nben_acc=160 clip=1.00 lam=0.739 attnorm=0.579 bennorm=0.711 cos=-0.58 dF1=-0.04
+r44 mh=0.0316 band=[0.602,1.398] att=0.663 PASS ben_med=1.001 ben_q10/90=0.91/1.09 nben_acc=160 clip=1.00 lam=0.730 attnorm=0.562 bennorm=0.713 cos=-0.63 dF1=+0.21
+r45 mh=0.0316 band=[0.602,1.398] att=0.636 PASS ben_med=0.994 ben_q10/90=0.91/1.07 nben_acc=160 clip=1.00 lam=0.729 attnorm=0.554 bennorm=0.713 cos=-0.68 dF1=-0.02
+r46 mh=0.0315 band=[0.602,1.398] att=0.603 PASS ben_med=1.000 ben_q10/90=0.92/1.09 nben_acc=160 clip=1.00 lam=0.739 attnorm=0.554 bennorm=0.715 cos=-0.70 dF1=+0.09
+r47 mh=0.0315 band=[0.602,1.398] att=0.614 PASS ben_med=1.006 ben_q10/90=0.92/1.12 nben_acc=160 clip=1.00 lam=0.730 attnorm=0.538 bennorm=0.716 cos=-0.74 dF1=+0.05
+r48 mh=0.0315 band=[0.602,1.398] att=0.609 PASS ben_med=1.004 ben_q10/90=0.92/1.09 nben_acc=160 clip=1.00 lam=0.749 attnorm=0.553 bennorm=0.718 cos=-0.75 dF1=+0.09
+r49 mh=0.0315 band=[0.602,1.398] att=0.585 rej  ben_med=1.000 ben_q10/90=0.91/1.10 nben_acc=160 clip=1.00 lam=0.727 attnorm=0.526 bennorm=0.717 cos=-0.77 dF1=-0.19
+r50 mh=0.0315 band=[0.602,1.398] att=0.666 PASS ben_med=0.997 ben_q10/90=0.92/1.09 nben_acc=160 clip=1.00 lam=0.747 attnorm=0.577 bennorm=0.711 cos=-0.63 dF1=+0.11
+== iid n=60 drop=4.84 recall=0.34
+r 1 mh=0.0429 band=[0.658,1.342] att=0.095 rej  ben_med=1.048 ben_q10/90=0.95/1.14 nben_acc=140 clip=1.00 lam=0.760 attnorm=0.282 bennorm=0.881 cos=-0.97 dF1=+1.73
+r 2 mh=0.0449 band=[0.666,1.334] att=0.935 PASS ben_med=0.762 ben_q10/90=0.69/0.84 nben_acc=134 clip=1.00 lam=0.756 attnorm=0.460 bennorm=0.782 cos=-0.93 dF1=+0.62
+r 3 mh=0.0403 band=[0.648,1.352] att=0.662 PASS ben_med=0.806 ben_q10/90=0.74/0.86 nben_acc=140 clip=1.00 lam=0.747 attnorm=0.469 bennorm=0.770 cos=-0.92 dF1=+0.44
+r 4 mh=0.0372 band=[0.634,1.366] att=0.625 rej  ben_med=0.882 ben_q10/90=0.81/0.97 nben_acc=140 clip=1.00 lam=0.742 attnorm=0.478 bennorm=0.764 cos=-0.91 dF1=+1.71
+r 5 mh=0.0361 band=[0.628,1.372] att=0.777 PASS ben_med=0.879 ben_q10/90=0.81/0.96 nben_acc=140 clip=1.00 lam=0.752 attnorm=0.546 bennorm=0.744 cos=-0.85 dF1=-0.11
+r 6 mh=0.0351 band=[0.622,1.378] att=0.728 PASS ben_med=0.899 ben_q10/90=0.83/1.00 nben_acc=140 clip=1.00 lam=0.759 attnorm=0.545 bennorm=0.742 cos=-0.86 dF1=-0.20
+r 7 mh=0.0343 band=[0.618,1.382] att=0.678 PASS ben_med=0.946 ben_q10/90=0.87/1.05 nben_acc=140 clip=1.00 lam=0.763 attnorm=0.549 bennorm=0.743 cos=-0.86 dF1=-0.16
+r 8 mh=0.0338 band=[0.615,1.385] att=0.634 PASS ben_med=0.970 ben_q10/90=0.87/1.05 nben_acc=140 clip=1.00 lam=0.757 attnorm=0.536 bennorm=0.745 cos=-0.87 dF1=+0.10
+r 9 mh=0.0335 band=[0.614,1.386] att=0.631 PASS ben_med=0.992 ben_q10/90=0.90/1.09 nben_acc=140 clip=1.00 lam=0.763 attnorm=0.540 bennorm=0.747 cos=-0.87 dF1=-0.05
+r10 mh=0.0333 band=[0.613,1.387] att=0.578 rej  ben_med=0.991 ben_q10/90=0.91/1.09 nben_acc=140 clip=1.00 lam=0.753 attnorm=0.527 bennorm=0.747 cos=-0.87 dF1=+0.98
+r11 mh=0.0333 band=[0.612,1.388] att=0.707 PASS ben_med=0.970 ben_q10/90=0.88/1.05 nben_acc=140 clip=1.00 lam=0.746 attnorm=0.555 bennorm=0.735 cos=-0.82 dF1=-0.21
+r12 mh=0.0331 band=[0.611,1.389] att=0.643 PASS ben_med=0.975 ben_q10/90=0.89/1.08 nben_acc=140 clip=1.00 lam=0.742 attnorm=0.544 bennorm=0.738 cos=-0.84 dF1=-0.05
+r13 mh=0.0329 band=[0.610,1.390] att=0.594 rej  ben_med=0.996 ben_q10/90=0.91/1.07 nben_acc=140 clip=1.00 lam=0.747 attnorm=0.540 bennorm=0.739 cos=-0.85 dF1=+1.09
+r14 mh=0.0329 band=[0.610,1.390] att=0.730 PASS ben_med=0.979 ben_q10/90=0.88/1.08 nben_acc=140 clip=1.00 lam=0.760 attnorm=0.576 bennorm=0.731 cos=-0.79 dF1=-0.23
+r15 mh=0.0327 band=[0.609,1.391] att=0.621 PASS ben_med=0.986 ben_q10/90=0.92/1.08 nben_acc=140 clip=1.00 lam=0.741 attnorm=0.550 bennorm=0.733 cos=-0.82 dF1=+0.12
+r16 mh=0.0326 band=[0.609,1.391] att=0.613 PASS ben_med=0.983 ben_q10/90=0.89/1.08 nben_acc=140 clip=1.00 lam=0.746 attnorm=0.550 bennorm=0.734 cos=-0.83 dF1=-0.07
+r17 mh=0.0325 band=[0.608,1.392] att=0.608 PASS ben_med=1.013 ben_q10/90=0.91/1.11 nben_acc=140 clip=1.00 lam=0.753 attnorm=0.547 bennorm=0.737 cos=-0.85 dF1=+0.08
+r18 mh=0.0325 band=[0.608,1.392] att=0.553 rej  ben_med=1.019 ben_q10/90=0.93/1.11 nben_acc=140 clip=1.00 lam=0.735 attnorm=0.522 bennorm=0.739 cos=-0.85 dF1=+0.17
+r19 mh=0.0325 band=[0.608,1.392] att=0.657 PASS ben_med=1.008 ben_q10/90=0.92/1.10 nben_acc=140 clip=1.00 lam=0.749 attnorm=0.563 bennorm=0.730 cos=-0.80 dF1=+0.07
+r20 mh=0.0325 band=[0.608,1.392] att=0.632 PASS ben_med=0.989 ben_q10/90=0.91/1.10 nben_acc=140 clip=1.00 lam=0.753 attnorm=0.555 bennorm=0.733 cos=-0.82 dF1=+0.08
+r21 mh=0.0324 band=[0.607,1.393] att=0.575 rej  ben_med=1.020 ben_q10/90=0.94/1.11 nben_acc=140 clip=1.00 lam=0.733 attnorm=0.530 bennorm=0.737 cos=-0.84 dF1=+0.26
+r22 mh=0.0324 band=[0.607,1.393] att=0.678 PASS ben_med=1.004 ben_q10/90=0.92/1.09 nben_acc=140 clip=1.00 lam=0.755 attnorm=0.575 bennorm=0.729 cos=-0.80 dF1=+0.03
+r23 mh=0.0324 band=[0.607,1.393] att=0.607 PASS ben_med=1.003 ben_q10/90=0.91/1.10 nben_acc=140 clip=1.00 lam=0.737 attnorm=0.548 bennorm=0.731 cos=-0.82 dF1=-0.03
+r24 mh=0.0323 band=[0.607,1.393] att=0.585 rej  ben_med=1.005 ben_q10/90=0.93/1.09 nben_acc=140 clip=1.00 lam=0.741 attnorm=0.541 bennorm=0.732 cos=-0.83 dF1=+0.30
+r25 mh=0.0323 band=[0.607,1.393] att=0.661 PASS ben_med=0.995 ben_q10/90=0.90/1.09 nben_acc=140 clip=1.00 lam=0.755 attnorm=0.573 bennorm=0.727 cos=-0.79 dF1=-0.26
+r26 mh=0.0323 band=[0.606,1.394] att=0.615 PASS ben_med=0.997 ben_q10/90=0.92/1.10 nben_acc=140 clip=1.00 lam=0.757 attnorm=0.568 bennorm=0.730 cos=-0.80 dF1=+0.15
+r27 mh=0.0322 band=[0.606,1.394] att=0.622 PASS ben_med=1.022 ben_q10/90=0.94/1.12 nben_acc=140 clip=1.00 lam=0.743 attnorm=0.546 bennorm=0.733 cos=-0.82 dF1=+0.26
+r28 mh=0.0322 band=[0.606,1.394] att=0.516 rej  ben_med=1.020 ben_q10/90=0.94/1.11 nben_acc=140 clip=1.00 lam=0.730 attnorm=0.522 bennorm=0.734 cos=-0.85 dF1=-0.25
+r29 mh=0.0322 band=[0.606,1.394] att=0.641 PASS ben_med=1.012 ben_q10/90=0.92/1.10 nben_acc=140 clip=1.00 lam=0.759 attnorm=0.575 bennorm=0.728 cos=-0.78 dF1=-0.09
+r30 mh=0.0322 band=[0.606,1.394] att=0.591 rej  ben_med=1.014 ben_q10/90=0.92/1.11 nben_acc=140 clip=1.00 lam=0.742 attnorm=0.545 bennorm=0.730 cos=-0.81 dF1=+0.43
+r31 mh=0.0322 band=[0.606,1.394] att=0.625 PASS ben_med=1.000 ben_q10/90=0.93/1.11 nben_acc=140 clip=1.00 lam=0.735 attnorm=0.560 bennorm=0.726 cos=-0.77 dF1=+0.03
+r32 mh=0.0322 band=[0.606,1.394] att=0.632 PASS ben_med=1.014 ben_q10/90=0.92/1.10 nben_acc=140 clip=1.00 lam=0.756 attnorm=0.571 bennorm=0.727 cos=-0.79 dF1=+0.10
+r33 mh=0.0321 band=[0.606,1.394] att=0.588 rej  ben_med=1.028 ben_q10/90=0.94/1.12 nben_acc=140 clip=1.00 lam=0.751 attnorm=0.553 bennorm=0.731 cos=-0.82 dF1=-0.18
+r34 mh=0.0322 band=[0.606,1.394] att=0.722 PASS ben_med=1.010 ben_q10/90=0.91/1.10 nben_acc=140 clip=1.00 lam=0.760 attnorm=0.587 bennorm=0.724 cos=-0.76 dF1=-0.10
+r35 mh=0.0321 band=[0.606,1.394] att=0.648 PASS ben_med=1.006 ben_q10/90=0.92/1.11 nben_acc=140 clip=1.00 lam=0.746 attnorm=0.560 bennorm=0.727 cos=-0.80 dF1=+0.44
+r36 mh=0.0321 band=[0.605,1.395] att=0.642 PASS ben_med=1.020 ben_q10/90=0.92/1.11 nben_acc=140 clip=1.00 lam=0.769 attnorm=0.569 bennorm=0.729 cos=-0.82 dF1=+0.10
+r37 mh=0.0321 band=[0.605,1.395] att=0.576 rej  ben_med=1.032 ben_q10/90=0.96/1.13 nben_acc=140 clip=1.00 lam=0.777 attnorm=0.558 bennorm=0.734 cos=-0.86 dF1=-0.50
+r38 mh=0.0321 band=[0.605,1.395] att=0.591 rej  ben_med=1.008 ben_q10/90=0.93/1.10 nben_acc=140 clip=1.00 lam=0.731 attnorm=0.547 bennorm=0.726 cos=-0.78 dF1=+0.44
+r39 mh=0.0321 band=[0.605,1.395] att=0.604 rej  ben_med=0.997 ben_q10/90=0.90/1.09 nben_acc=140 clip=1.00 lam=0.736 attnorm=0.569 bennorm=0.723 cos=-0.74 dF1=+0.47
+r40 mh=0.0321 band=[0.605,1.395] att=0.693 PASS ben_med=0.993 ben_q10/90=0.92/1.09 nben_acc=140 clip=1.00 lam=0.739 attnorm=0.582 bennorm=0.720 cos=-0.70 dF1=+0.15
+r41 mh=0.0321 band=[0.605,1.395] att=0.615 PASS ben_med=1.004 ben_q10/90=0.92/1.11 nben_acc=140 clip=1.00 lam=0.745 attnorm=0.573 bennorm=0.721 cos=-0.74 dF1=+0.03
+r42 mh=0.0320 band=[0.605,1.395] att=0.606 PASS ben_med=1.007 ben_q10/90=0.92/1.11 nben_acc=140 clip=1.00 lam=0.751 attnorm=0.563 bennorm=0.723 cos=-0.79 dF1=+0.27
+r43 mh=0.0320 band=[0.605,1.395] att=0.512 rej  ben_med=1.019 ben_q10/90=0.93/1.12 nben_acc=140 clip=1.00 lam=0.741 attnorm=0.533 bennorm=0.729 cos=-0.84 dF1=-0.66
+r44 mh=0.0320 band=[0.605,1.395] att=0.656 PASS ben_med=0.994 ben_q10/90=0.91/1.09 nben_acc=140 clip=1.00 lam=0.752 attnorm=0.581 bennorm=0.722 cos=-0.75 dF1=+0.18
+r45 mh=0.0320 band=[0.605,1.395] att=0.519 rej  ben_med=1.008 ben_q10/90=0.93/1.12 nben_acc=140 clip=1.00 lam=0.719 attnorm=0.528 bennorm=0.725 cos=-0.79 dF1=+0.09
+r46 mh=0.0320 band=[0.605,1.395] att=0.635 PASS ben_med=1.002 ben_q10/90=0.91/1.10 nben_acc=140 clip=1.00 lam=0.744 attnorm=0.576 bennorm=0.720 cos=-0.73 dF1=+0.18
+r47 mh=0.0320 band=[0.605,1.395] att=0.552 rej  ben_med=1.020 ben_q10/90=0.93/1.12 nben_acc=140 clip=1.00 lam=0.729 attnorm=0.545 bennorm=0.722 cos=-0.79 dF1=-0.18
+r48 mh=0.0320 band=[0.605,1.395] att=0.661 PASS ben_med=0.999 ben_q10/90=0.92/1.09 nben_acc=140 clip=1.00 lam=0.748 attnorm=0.583 bennorm=0.720 cos=-0.72 dF1=+0.26
+r49 mh=0.0320 band=[0.605,1.395] att=0.602 rej  ben_med=0.988 ben_q10/90=0.90/1.10 nben_acc=140 clip=1.00 lam=0.751 attnorm=0.568 bennorm=0.722 cos=-0.77 dF1=-0.02
+r50 mh=0.0320 band=[0.604,1.396] att=0.666 PASS ben_med=0.998 ben_q10/90=0.91/1.11 nben_acc=140 clip=1.00 lam=0.747 attnorm=0.584 bennorm=0.719 cos=-0.72 dF1=-0.02
+== iid n=80 drop=6.68 recall=0.44
+r 1 mh=0.0417 band=[0.654,1.346] att=0.103 rej  ben_med=1.078 ben_q10/90=0.98/1.17 nben_acc=120 clip=1.00 lam=0.765 attnorm=0.289 bennorm=0.881 cos=-0.97 dF1=+1.78
+r 2 mh=0.0449 band=[0.666,1.334] att=0.933 PASS ben_med=0.761 ben_q10/90=0.70/0.82 nben_acc=118 clip=1.00 lam=0.760 attnorm=0.464 bennorm=0.783 cos=-0.94 dF1=+0.13
+r 3 mh=0.0406 band=[0.649,1.351] att=0.597 rej  ben_med=0.801 ben_q10/90=0.73/0.88 nben_acc=120 clip=1.00 lam=0.760 attnorm=0.463 bennorm=0.780 cos=-0.94 dF1=+1.76
+r 4 mh=0.0379 band=[0.637,1.363] att=0.779 PASS ben_med=0.862 ben_q10/90=0.79/0.92 nben_acc=120 clip=1.00 lam=0.744 attnorm=0.527 bennorm=0.748 cos=-0.89 dF1=-0.45
+r 5 mh=0.0360 band=[0.628,1.372] att=0.674 PASS ben_med=0.898 ben_q10/90=0.84/0.97 nben_acc=120 clip=1.00 lam=0.756 attnorm=0.524 bennorm=0.756 cos=-0.89 dF1=-0.46
+r 6 mh=0.0350 band=[0.622,1.378] att=0.547 rej  ben_med=0.935 ben_q10/90=0.86/1.02 nben_acc=120 clip=1.00 lam=0.736 attnorm=0.486 bennorm=0.757 cos=-0.91 dF1=+1.28
+r 7 mh=0.0346 band=[0.620,1.380] att=0.736 PASS ben_med=0.936 ben_q10/90=0.84/1.02 nben_acc=120 clip=1.00 lam=0.760 attnorm=0.559 bennorm=0.741 cos=-0.86 dF1=-0.41
+r 8 mh=0.0339 band=[0.616,1.384] att=0.591 rej  ben_med=0.963 ben_q10/90=0.89/1.06 nben_acc=120 clip=1.00 lam=0.737 attnorm=0.519 bennorm=0.747 cos=-0.88 dF1=+0.95
+r 9 mh=0.0337 band=[0.615,1.385] att=0.720 PASS ben_med=0.954 ben_q10/90=0.87/1.05 nben_acc=120 clip=1.00 lam=0.755 attnorm=0.568 bennorm=0.738 cos=-0.84 dF1=-0.79
+r10 mh=0.0333 band=[0.613,1.387] att=0.725 PASS ben_med=0.979 ben_q10/90=0.89/1.08 nben_acc=120 clip=1.00 lam=0.781 attnorm=0.579 bennorm=0.741 cos=-0.86 dF1=-0.85
+r11 mh=0.0330 band=[0.611,1.389] att=0.591 rej  ben_med=1.001 ben_q10/90=0.92/1.11 nben_acc=120 clip=1.00 lam=0.731 attnorm=0.513 bennorm=0.746 cos=-0.88 dF1=+1.48
+r12 mh=0.0330 band=[0.611,1.389] att=0.712 PASS ben_med=0.974 ben_q10/90=0.89/1.08 nben_acc=120 clip=1.00 lam=0.752 attnorm=0.564 bennorm=0.736 cos=-0.85 dF1=-0.84
+r13 mh=0.0328 band=[0.609,1.391] att=0.628 PASS ben_med=1.004 ben_q10/90=0.90/1.09 nben_acc=120 clip=1.00 lam=0.757 attnorm=0.552 bennorm=0.742 cos=-0.87 dF1=-0.39
+r14 mh=0.0326 band=[0.608,1.392] att=0.585 rej  ben_med=1.043 ben_q10/90=0.94/1.12 nben_acc=120 clip=1.00 lam=0.749 attnorm=0.526 bennorm=0.746 cos=-0.88 dF1=+1.10
+r15 mh=0.0327 band=[0.609,1.391] att=0.639 PASS ben_med=1.008 ben_q10/90=0.91/1.09 nben_acc=120 clip=1.00 lam=0.760 attnorm=0.563 bennorm=0.738 cos=-0.85 dF1=-0.46
+r16 mh=0.0326 band=[0.608,1.392] att=0.652 PASS ben_med=1.012 ben_q10/90=0.93/1.09 nben_acc=120 clip=1.00 lam=0.762 attnorm=0.555 bennorm=0.741 cos=-0.87 dF1=-0.05
+r17 mh=0.0325 band=[0.608,1.392] att=0.575 rej  ben_med=1.041 ben_q10/90=0.95/1.16 nben_acc=120 clip=1.00 lam=0.760 attnorm=0.534 bennorm=0.746 cos=-0.89 dF1=+0.61
+r18 mh=0.0325 band=[0.608,1.392] att=0.649 PASS ben_med=1.015 ben_q10/90=0.92/1.10 nben_acc=120 clip=1.00 lam=0.750 attnorm=0.552 bennorm=0.737 cos=-0.85 dF1=-0.73
+r19 mh=0.0324 band=[0.607,1.393] att=0.532 rej  ben_med=1.035 ben_q10/90=0.94/1.12 nben_acc=120 clip=1.00 lam=0.733 attnorm=0.523 bennorm=0.743 cos=-0.87 dF1=+1.16
+r20 mh=0.0325 band=[0.608,1.392] att=0.684 PASS ben_med=0.997 ben_q10/90=0.91/1.10 nben_acc=120 clip=1.00 lam=0.762 attnorm=0.574 bennorm=0.734 cos=-0.84 dF1=-0.38
+r21 mh=0.0324 band=[0.607,1.393] att=0.557 rej  ben_med=1.013 ben_q10/90=0.92/1.10 nben_acc=120 clip=1.00 lam=0.741 attnorm=0.538 bennorm=0.738 cos=-0.86 dF1=+0.53
+r22 mh=0.0324 band=[0.607,1.393] att=0.643 PASS ben_med=1.000 ben_q10/90=0.93/1.08 nben_acc=120 clip=1.00 lam=0.749 attnorm=0.564 bennorm=0.734 cos=-0.83 dF1=-0.42
+r23 mh=0.0323 band=[0.607,1.393] att=0.598 rej  ben_med=1.024 ben_q10/90=0.92/1.11 nben_acc=120 clip=1.00 lam=0.741 attnorm=0.544 bennorm=0.736 cos=-0.85 dF1=+0.81
+r24 mh=0.0323 band=[0.607,1.393] att=0.634 PASS ben_med=1.005 ben_q10/90=0.90/1.12 nben_acc=120 clip=1.00 lam=0.755 attnorm=0.574 bennorm=0.731 cos=-0.81 dF1=-0.33
+r25 mh=0.0322 band=[0.606,1.394] att=0.637 PASS ben_med=1.023 ben_q10/90=0.94/1.11 nben_acc=120 clip=1.00 lam=0.760 attnorm=0.563 bennorm=0.735 cos=-0.85 dF1=-0.57
+r26 mh=0.0322 band=[0.606,1.394] att=0.569 rej  ben_med=1.043 ben_q10/90=0.95/1.12 nben_acc=120 clip=1.00 lam=0.750 attnorm=0.536 bennorm=0.743 cos=-0.87 dF1=+0.68
+r27 mh=0.0322 band=[0.606,1.394] att=0.638 PASS ben_med=1.009 ben_q10/90=0.93/1.10 nben_acc=120 clip=1.00 lam=0.762 attnorm=0.573 bennorm=0.736 cos=-0.83 dF1=-0.23
+r28 mh=0.0322 band=[0.606,1.394] att=0.606 PASS ben_med=1.039 ben_q10/90=0.94/1.13 nben_acc=120 clip=1.00 lam=0.755 attnorm=0.553 bennorm=0.738 cos=-0.86 dF1=-0.65
+r29 mh=0.0321 band=[0.605,1.395] att=0.546 rej  ben_med=1.050 ben_q10/90=0.95/1.16 nben_acc=120 clip=1.00 lam=0.764 attnorm=0.539 bennorm=0.744 cos=-0.87 dF1=+0.63
+r30 mh=0.0322 band=[0.606,1.394] att=0.638 PASS ben_med=1.030 ben_q10/90=0.94/1.13 nben_acc=120 clip=1.00 lam=0.764 attnorm=0.568 bennorm=0.736 cos=-0.84 dF1=-0.44
+r31 mh=0.0321 band=[0.605,1.395] att=0.619 PASS ben_med=1.023 ben_q10/90=0.95/1.14 nben_acc=120 clip=1.00 lam=0.766 attnorm=0.551 bennorm=0.741 cos=-0.87 dF1=-0.13
+r32 mh=0.0321 band=[0.605,1.395] att=0.527 rej  ben_med=1.067 ben_q10/90=0.97/1.16 nben_acc=120 clip=1.00 lam=0.761 attnorm=0.527 bennorm=0.746 cos=-0.89 dF1=+0.62
+r33 mh=0.0322 band=[0.606,1.394] att=0.580 rej  ben_med=1.041 ben_q10/90=0.95/1.13 nben_acc=120 clip=1.00 lam=0.751 attnorm=0.547 bennorm=0.739 cos=-0.85 dF1=+0.54
+r34 mh=0.0322 band=[0.606,1.394] att=0.680 PASS ben_med=1.016 ben_q10/90=0.93/1.11 nben_acc=120 clip=1.00 lam=0.754 attnorm=0.569 bennorm=0.732 cos=-0.82 dF1=-0.31
+r35 mh=0.0321 band=[0.606,1.394] att=0.602 rej  ben_med=1.037 ben_q10/90=0.95/1.13 nben_acc=120 clip=1.00 lam=0.757 attnorm=0.558 bennorm=0.738 cos=-0.85 dF1=+0.32
+r36 mh=0.0322 band=[0.606,1.394] att=0.634 PASS ben_med=1.014 ben_q10/90=0.93/1.12 nben_acc=120 clip=1.00 lam=0.756 attnorm=0.573 bennorm=0.732 cos=-0.81 dF1=+0.08
+r37 mh=0.0321 band=[0.606,1.394] att=0.622 PASS ben_med=1.018 ben_q10/90=0.93/1.12 nben_acc=120 clip=1.00 lam=0.757 attnorm=0.559 bennorm=0.737 cos=-0.85 dF1=-0.14
+r38 mh=0.0321 band=[0.605,1.395] att=0.553 rej  ben_med=1.046 ben_q10/90=0.96/1.15 nben_acc=120 clip=1.00 lam=0.768 attnorm=0.546 bennorm=0.743 cos=-0.87 dF1=+0.08
+r39 mh=0.0321 band=[0.605,1.395] att=0.546 rej  ben_med=1.025 ben_q10/90=0.94/1.14 nben_acc=120 clip=1.00 lam=0.739 attnorm=0.546 bennorm=0.736 cos=-0.82 dF1=+0.40
+r40 mh=0.0321 band=[0.606,1.394] att=0.657 PASS ben_med=1.004 ben_q10/90=0.92/1.11 nben_acc=120 clip=1.00 lam=0.756 attnorm=0.576 bennorm=0.728 cos=-0.81 dF1=-0.10
+r41 mh=0.0321 band=[0.605,1.395] att=0.615 PASS ben_med=1.042 ben_q10/90=0.94/1.11 nben_acc=120 clip=1.00 lam=0.762 attnorm=0.566 bennorm=0.735 cos=-0.84 dF1=+0.21
+r42 mh=0.0321 band=[0.605,1.395] att=0.558 rej  ben_med=1.040 ben_q10/90=0.95/1.12 nben_acc=120 clip=1.00 lam=0.756 attnorm=0.537 bennorm=0.740 cos=-0.87 dF1=-0.37
+r43 mh=0.0321 band=[0.605,1.395] att=0.656 PASS ben_med=1.025 ben_q10/90=0.93/1.12 nben_acc=120 clip=1.00 lam=0.761 attnorm=0.573 bennorm=0.733 cos=-0.82 dF1=-0.07
+r44 mh=0.0321 band=[0.605,1.395] att=0.567 rej  ben_med=1.026 ben_q10/90=0.94/1.10 nben_acc=120 clip=1.00 lam=0.759 attnorm=0.549 bennorm=0.738 cos=-0.86 dF1=+0.16
+r45 mh=0.0321 band=[0.605,1.395] att=0.626 PASS ben_med=1.019 ben_q10/90=0.93/1.14 nben_acc=120 clip=1.00 lam=0.751 attnorm=0.565 bennorm=0.733 cos=-0.82 dF1=+0.18
+r46 mh=0.0321 band=[0.605,1.395] att=0.530 rej  ben_med=1.042 ben_q10/90=0.94/1.14 nben_acc=120 clip=1.00 lam=0.744 attnorm=0.539 bennorm=0.736 cos=-0.84 dF1=-0.09
+r47 mh=0.0321 band=[0.605,1.395] att=0.646 PASS ben_med=1.028 ben_q10/90=0.94/1.13 nben_acc=120 clip=1.00 lam=0.758 attnorm=0.573 bennorm=0.733 cos=-0.81 dF1=-0.19
+r48 mh=0.0321 band=[0.605,1.395] att=0.578 rej  ben_med=1.042 ben_q10/90=0.95/1.15 nben_acc=120 clip=1.00 lam=0.755 attnorm=0.550 bennorm=0.737 cos=-0.85 dF1=+0.24
+r49 mh=0.0321 band=[0.605,1.395] att=0.626 PASS ben_med=1.024 ben_q10/90=0.94/1.12 nben_acc=120 clip=1.00 lam=0.764 attnorm=0.578 bennorm=0.732 cos=-0.81 dF1=-0.06
+r50 mh=0.0321 band=[0.605,1.395] att=0.605 rej  ben_med=1.039 ben_q10/90=0.95/1.13 nben_acc=120 clip=1.00 lam=0.763 attnorm=0.560 bennorm=0.735 cos=-0.84 dF1=+0.34
+== natural n=10 drop=-0.02 recall=0.88
+r 1 mh=0.0494 band=[0.682,1.318] att=0.333 rej  ben_med=1.010 ben_q10/90=0.84/1.22 nben_acc=182 clip=1.00 lam=0.924 attnorm=0.511 bennorm=0.911 cos=-0.75 dF1=+2.21
+r 2 mh=0.0495 band=[0.682,1.318] att=0.786 PASS ben_med=0.912 ben_q10/90=0.75/1.15 nben_acc=183 clip=1.00 lam=0.907 attnorm=0.573 bennorm=0.881 cos=-0.59 dF1=+1.21
+r 3 mh=0.0471 band=[0.674,1.326] att=0.678 PASS ben_med=0.948 ben_q10/90=0.78/1.19 nben_acc=181 clip=1.00 lam=0.865 attnorm=0.542 bennorm=0.871 cos=-0.51 dF1=+0.92
+r 4 mh=0.0459 band=[0.670,1.330] att=0.635 rej  ben_med=0.961 ben_q10/90=0.79/1.22 nben_acc=185 clip=1.00 lam=0.872 attnorm=0.569 bennorm=0.867 cos=-0.44 dF1=+1.50
+r 5 mh=0.0454 band=[0.668,1.332] att=0.626 rej  ben_med=0.965 ben_q10/90=0.78/1.26 nben_acc=183 clip=1.00 lam=0.875 attnorm=0.578 bennorm=0.862 cos=-0.40 dF1=+0.59
+r 6 mh=0.0450 band=[0.667,1.333] att=0.726 PASS ben_med=0.967 ben_q10/90=0.77/1.25 nben_acc=178 clip=1.00 lam=0.928 attnorm=0.636 bennorm=0.859 cos=-0.33 dF1=+0.33
+r 7 mh=0.0446 band=[0.665,1.335] att=0.556 rej  ben_med=0.976 ben_q10/90=0.78/1.27 nben_acc=183 clip=1.00 lam=0.888 attnorm=0.601 bennorm=0.857 cos=-0.34 dF1=+0.30
+r 8 mh=0.0443 band=[0.664,1.336] att=0.518 rej  ben_med=0.973 ben_q10/90=0.79/1.24 nben_acc=184 clip=1.00 lam=0.861 attnorm=0.581 bennorm=0.852 cos=-0.30 dF1=+0.34
+r 9 mh=0.0441 band=[0.663,1.337] att=0.531 rej  ben_med=0.985 ben_q10/90=0.76/1.28 nben_acc=179 clip=1.00 lam=0.843 attnorm=0.563 bennorm=0.851 cos=-0.26 dF1=+0.25
+r10 mh=0.0440 band=[0.663,1.337] att=0.582 rej  ben_med=0.963 ben_q10/90=0.76/1.27 nben_acc=178 clip=1.00 lam=0.882 attnorm=0.604 bennorm=0.850 cos=-0.22 dF1=+0.36
+r11 mh=0.0437 band=[0.662,1.338] att=0.542 rej  ben_med=0.968 ben_q10/90=0.77/1.28 nben_acc=181 clip=1.00 lam=0.842 attnorm=0.567 bennorm=0.847 cos=-0.21 dF1=+0.43
+r12 mh=0.0436 band=[0.661,1.339] att=0.550 rej  ben_med=0.959 ben_q10/90=0.78/1.27 nben_acc=179 clip=1.00 lam=0.856 attnorm=0.580 bennorm=0.845 cos=-0.20 dF1=+0.25
+r13 mh=0.0434 band=[0.661,1.339] att=0.615 rej  ben_med=0.969 ben_q10/90=0.78/1.26 nben_acc=179 clip=1.00 lam=0.889 attnorm=0.614 bennorm=0.843 cos=-0.20 dF1=+0.26
+r14 mh=0.0433 band=[0.660,1.340] att=0.503 rej  ben_med=0.964 ben_q10/90=0.77/1.26 nben_acc=179 clip=1.00 lam=0.863 attnorm=0.594 bennorm=0.842 cos=-0.19 dF1=+0.17
+r15 mh=0.0431 band=[0.659,1.341] att=0.516 rej  ben_med=0.948 ben_q10/90=0.75/1.27 nben_acc=179 clip=1.00 lam=0.876 attnorm=0.611 bennorm=0.839 cos=-0.16 dF1=+0.16
+r16 mh=0.0429 band=[0.659,1.341] att=0.538 rej  ben_med=0.952 ben_q10/90=0.75/1.26 nben_acc=179 clip=1.00 lam=0.871 attnorm=0.603 bennorm=0.839 cos=-0.15 dF1=+0.21
+r17 mh=0.0428 band=[0.658,1.342] att=0.515 rej  ben_med=0.962 ben_q10/90=0.79/1.29 nben_acc=178 clip=1.00 lam=0.858 attnorm=0.587 bennorm=0.837 cos=-0.15 dF1=+0.03
+r18 mh=0.0427 band=[0.658,1.342] att=0.723 PASS ben_med=0.968 ben_q10/90=0.76/1.28 nben_acc=179 clip=1.00 lam=0.944 attnorm=0.679 bennorm=0.835 cos=-0.16 dF1=-0.02
+r19 mh=0.0425 band=[0.657,1.343] att=0.671 PASS ben_med=0.978 ben_q10/90=0.79/1.25 nben_acc=179 clip=1.00 lam=0.926 attnorm=0.656 bennorm=0.833 cos=-0.16 dF1=-0.01
+r20 mh=0.0423 band=[0.656,1.344] att=0.652 rej  ben_med=0.956 ben_q10/90=0.77/1.28 nben_acc=181 clip=1.00 lam=0.920 attnorm=0.654 bennorm=0.833 cos=-0.18 dF1=+0.31
+r21 mh=0.0422 band=[0.656,1.344] att=0.633 rej  ben_med=0.950 ben_q10/90=0.78/1.27 nben_acc=180 clip=1.00 lam=0.905 attnorm=0.629 bennorm=0.832 cos=-0.16 dF1=+0.07
+r22 mh=0.0421 band=[0.655,1.345] att=0.621 rej  ben_med=0.946 ben_q10/90=0.78/1.25 nben_acc=179 clip=1.00 lam=0.901 attnorm=0.630 bennorm=0.830 cos=-0.13 dF1=+0.08
+r23 mh=0.0420 band=[0.655,1.345] att=0.569 rej  ben_med=0.975 ben_q10/90=0.77/1.26 nben_acc=180 clip=1.00 lam=0.896 attnorm=0.628 bennorm=0.830 cos=-0.14 dF1=+0.15
+r24 mh=0.0419 band=[0.655,1.345] att=0.634 rej  ben_med=0.957 ben_q10/90=0.78/1.26 nben_acc=181 clip=1.00 lam=0.894 attnorm=0.629 bennorm=0.826 cos=-0.11 dF1=+0.21
+r25 mh=0.0418 band=[0.654,1.346] att=0.522 rej  ben_med=0.960 ben_q10/90=0.77/1.27 nben_acc=177 clip=1.00 lam=0.861 attnorm=0.591 bennorm=0.827 cos=-0.13 dF1=+0.07
+r26 mh=0.0417 band=[0.654,1.346] att=0.558 rej  ben_med=0.955 ben_q10/90=0.78/1.23 nben_acc=184 clip=1.00 lam=0.891 attnorm=0.627 bennorm=0.825 cos=-0.16 dF1=-0.01
+r27 mh=0.0416 band=[0.653,1.347] att=0.597 rej  ben_med=0.961 ben_q10/90=0.77/1.26 nben_acc=181 clip=1.00 lam=0.877 attnorm=0.614 bennorm=0.823 cos=-0.15 dF1=+0.19
+r28 mh=0.0416 band=[0.653,1.347] att=0.611 rej  ben_med=0.952 ben_q10/90=0.78/1.25 nben_acc=177 clip=1.00 lam=0.919 attnorm=0.655 bennorm=0.823 cos=-0.11 dF1=-0.01
+r29 mh=0.0415 band=[0.653,1.347] att=0.594 rej  ben_med=0.941 ben_q10/90=0.76/1.24 nben_acc=183 clip=1.00 lam=0.895 attnorm=0.634 bennorm=0.821 cos=-0.12 dF1=+0.08
+r30 mh=0.0414 band=[0.652,1.348] att=0.533 rej  ben_med=0.953 ben_q10/90=0.77/1.24 nben_acc=181 clip=1.00 lam=0.891 attnorm=0.623 bennorm=0.820 cos=-0.10 dF1=+0.08
+r31 mh=0.0413 band=[0.652,1.348] att=0.564 rej  ben_med=0.949 ben_q10/90=0.76/1.23 nben_acc=180 clip=1.00 lam=0.858 attnorm=0.592 bennorm=0.819 cos=-0.10 dF1=+0.03
+r32 mh=0.0412 band=[0.652,1.348] att=0.575 rej  ben_med=0.930 ben_q10/90=0.75/1.24 nben_acc=179 clip=1.00 lam=0.877 attnorm=0.612 bennorm=0.818 cos=-0.11 dF1=+0.04
+r33 mh=0.0411 band=[0.651,1.349] att=0.593 rej  ben_med=0.942 ben_q10/90=0.76/1.25 nben_acc=181 clip=1.00 lam=0.866 attnorm=0.603 bennorm=0.818 cos=-0.09 dF1=+0.09
+r34 mh=0.0410 band=[0.651,1.349] att=0.611 rej  ben_med=0.941 ben_q10/90=0.76/1.22 nben_acc=180 clip=1.00 lam=0.893 attnorm=0.635 bennorm=0.815 cos=-0.08 dF1=+0.03
+r35 mh=0.0409 band=[0.651,1.349] att=0.593 rej  ben_med=0.951 ben_q10/90=0.76/1.22 nben_acc=182 clip=1.00 lam=0.882 attnorm=0.622 bennorm=0.816 cos=-0.12 dF1=-0.02
+r36 mh=0.0409 band=[0.650,1.350] att=0.684 PASS ben_med=0.949 ben_q10/90=0.74/1.22 nben_acc=180 clip=1.00 lam=0.909 attnorm=0.646 bennorm=0.814 cos=-0.09 dF1=+0.09
+r37 mh=0.0408 band=[0.650,1.350] att=0.623 rej  ben_med=0.939 ben_q10/90=0.75/1.22 nben_acc=181 clip=1.00 lam=0.878 attnorm=0.615 bennorm=0.814 cos=-0.12 dF1=+0.04
+r38 mh=0.0407 band=[0.650,1.350] att=0.523 rej  ben_med=0.947 ben_q10/90=0.77/1.26 nben_acc=181 clip=1.00 lam=0.857 attnorm=0.595 bennorm=0.812 cos=-0.10 dF1=+0.11
+r39 mh=0.0407 band=[0.649,1.351] att=0.547 rej  ben_med=0.959 ben_q10/90=0.76/1.21 nben_acc=183 clip=1.00 lam=0.847 attnorm=0.587 bennorm=0.812 cos=-0.08 dF1=-0.04
+r40 mh=0.0406 band=[0.649,1.351] att=0.546 rej  ben_med=0.950 ben_q10/90=0.77/1.24 nben_acc=181 clip=1.00 lam=0.874 attnorm=0.605 bennorm=0.810 cos=-0.11 dF1=+0.03
+r41 mh=0.0405 band=[0.649,1.351] att=0.599 rej  ben_med=0.936 ben_q10/90=0.78/1.22 nben_acc=185 clip=1.00 lam=0.891 attnorm=0.626 bennorm=0.812 cos=-0.08 dF1=-0.01
+r42 mh=0.0405 band=[0.649,1.351] att=0.538 rej  ben_med=0.922 ben_q10/90=0.76/1.21 nben_acc=183 clip=1.00 lam=0.861 attnorm=0.596 bennorm=0.810 cos=-0.09 dF1=+0.09
+r43 mh=0.0404 band=[0.648,1.352] att=0.552 rej  ben_med=0.952 ben_q10/90=0.76/1.22 nben_acc=182 clip=1.00 lam=0.884 attnorm=0.621 bennorm=0.809 cos=-0.07 dF1=+0.07
+r44 mh=0.0403 band=[0.648,1.352] att=0.581 rej  ben_med=0.930 ben_q10/90=0.78/1.19 nben_acc=182 clip=1.00 lam=0.886 attnorm=0.627 bennorm=0.807 cos=-0.09 dF1=+0.02
+r45 mh=0.0403 band=[0.648,1.352] att=0.556 rej  ben_med=0.934 ben_q10/90=0.75/1.22 nben_acc=179 clip=1.00 lam=0.865 attnorm=0.604 bennorm=0.805 cos=-0.08 dF1=+0.14
+r46 mh=0.0402 band=[0.647,1.353] att=0.533 rej  ben_med=0.952 ben_q10/90=0.76/1.22 nben_acc=180 clip=1.00 lam=0.878 attnorm=0.618 bennorm=0.807 cos=-0.07 dF1=-0.01
+r47 mh=0.0401 band=[0.647,1.353] att=0.550 rej  ben_med=0.936 ben_q10/90=0.76/1.21 nben_acc=181 clip=1.00 lam=0.890 attnorm=0.623 bennorm=0.805 cos=-0.06 dF1=+0.09
+r48 mh=0.0401 band=[0.647,1.353] att=0.558 rej  ben_med=0.949 ben_q10/90=0.77/1.23 nben_acc=183 clip=1.00 lam=0.852 attnorm=0.597 bennorm=0.806 cos=-0.06 dF1=+0.08
+r49 mh=0.0400 band=[0.647,1.353] att=0.561 rej  ben_med=0.917 ben_q10/90=0.75/1.22 nben_acc=185 clip=1.00 lam=0.856 attnorm=0.596 bennorm=0.803 cos=-0.07 dF1=+0.04
+r50 mh=0.0400 band=[0.646,1.354] att=0.545 rej  ben_med=0.938 ben_q10/90=0.78/1.23 nben_acc=185 clip=1.00 lam=0.841 attnorm=0.580 bennorm=0.806 cos=-0.07 dF1=+0.10
+== natural n=20 drop=1.34 recall=0.3
+r 1 mh=0.0489 band=[0.680,1.320] att=0.436 rej  ben_med=1.024 ben_q10/90=0.85/1.23 nben_acc=171 clip=1.00 lam=0.942 attnorm=0.579 bennorm=0.911 cos=-0.84 dF1=+2.19
+r 2 mh=0.0495 band=[0.682,1.318] att=0.907 PASS ben_med=0.908 ben_q10/90=0.76/1.15 nben_acc=175 clip=1.00 lam=0.902 attnorm=0.619 bennorm=0.881 cos=-0.73 dF1=+0.86
+r 3 mh=0.0472 band=[0.675,1.325] att=1.032 PASS ben_med=0.942 ben_q10/90=0.78/1.17 nben_acc=173 clip=0.97 lam=0.950 attnorm=0.683 bennorm=0.873 cos=-0.67 dF1=+0.54
+r 4 mh=0.0467 band=[0.673,1.327] att=0.991 PASS ben_med=0.939 ben_q10/90=0.78/1.21 nben_acc=174 clip=1.00 lam=0.966 attnorm=0.718 bennorm=0.868 cos=-0.60 dF1=+0.68
+r 5 mh=0.0463 band=[0.671,1.329] att=0.881 PASS ben_med=0.941 ben_q10/90=0.75/1.23 nben_acc=172 clip=1.00 lam=0.956 attnorm=0.713 bennorm=0.866 cos=-0.59 dF1=+0.97
+r 6 mh=0.0454 band=[0.668,1.332] att=0.910 PASS ben_med=0.973 ben_q10/90=0.78/1.25 nben_acc=169 clip=1.00 lam=0.963 attnorm=0.725 bennorm=0.862 cos=-0.55 dF1=+0.57
+r 7 mh=0.0449 band=[0.666,1.334] att=0.794 PASS ben_med=0.972 ben_q10/90=0.79/1.25 nben_acc=173 clip=1.00 lam=0.955 attnorm=0.718 bennorm=0.859 cos=-0.55 dF1=+0.32
+r 8 mh=0.0445 band=[0.665,1.335] att=0.729 PASS ben_med=0.973 ben_q10/90=0.80/1.25 nben_acc=172 clip=1.00 lam=0.936 attnorm=0.703 bennorm=0.856 cos=-0.51 dF1=+0.16
+r 9 mh=0.0441 band=[0.663,1.337] att=0.759 PASS ben_med=0.960 ben_q10/90=0.81/1.24 nben_acc=172 clip=1.00 lam=0.949 attnorm=0.715 bennorm=0.854 cos=-0.53 dF1=+0.23
+r10 mh=0.0438 band=[0.662,1.338] att=0.721 PASS ben_med=0.964 ben_q10/90=0.79/1.27 nben_acc=165 clip=1.00 lam=0.922 attnorm=0.689 bennorm=0.855 cos=-0.51 dF1=+0.15
+r11 mh=0.0435 band=[0.661,1.339] att=0.831 PASS ben_med=1.014 ben_q10/90=0.80/1.29 nben_acc=168 clip=1.00 lam=0.959 attnorm=0.727 bennorm=0.853 cos=-0.50 dF1=+0.32
+r12 mh=0.0432 band=[0.660,1.340] att=0.892 PASS ben_med=0.980 ben_q10/90=0.83/1.30 nben_acc=169 clip=1.00 lam=0.960 attnorm=0.727 bennorm=0.852 cos=-0.52 dF1=+0.11
+r13 mh=0.0430 band=[0.659,1.341] att=0.777 PASS ben_med=0.988 ben_q10/90=0.83/1.29 nben_acc=167 clip=1.00 lam=0.951 attnorm=0.715 bennorm=0.851 cos=-0.51 dF1=+0.05
+r14 mh=0.0428 band=[0.658,1.342] att=0.637 rej  ben_med=1.008 ben_q10/90=0.79/1.28 nben_acc=167 clip=1.00 lam=0.899 attnorm=0.666 bennorm=0.849 cos=-0.52 dF1=+0.51
+r15 mh=0.0428 band=[0.658,1.342] att=0.796 PASS ben_med=0.975 ben_q10/90=0.81/1.28 nben_acc=172 clip=1.00 lam=0.957 attnorm=0.729 bennorm=0.847 cos=-0.45 dF1=-0.10
+r16 mh=0.0427 band=[0.658,1.342] att=0.866 PASS ben_med=0.984 ben_q10/90=0.81/1.29 nben_acc=167 clip=1.00 lam=0.989 attnorm=0.759 bennorm=0.846 cos=-0.45 dF1=-0.04
+r17 mh=0.0425 band=[0.657,1.343] att=0.681 PASS ben_med=0.971 ben_q10/90=0.81/1.31 nben_acc=166 clip=1.00 lam=0.925 attnorm=0.692 bennorm=0.848 cos=-0.49 dF1=+0.22
+r18 mh=0.0423 band=[0.656,1.344] att=0.635 rej  ben_med=1.008 ben_q10/90=0.80/1.31 nben_acc=167 clip=1.00 lam=0.925 attnorm=0.691 bennorm=0.845 cos=-0.49 dF1=+0.42
+r19 mh=0.0423 band=[0.656,1.344] att=0.759 PASS ben_med=0.996 ben_q10/90=0.79/1.26 nben_acc=169 clip=1.00 lam=0.955 attnorm=0.729 bennorm=0.842 cos=-0.45 dF1=+0.00
+r20 mh=0.0422 band=[0.656,1.344] att=0.663 PASS ben_med=0.990 ben_q10/90=0.79/1.30 nben_acc=168 clip=1.00 lam=0.941 attnorm=0.713 bennorm=0.842 cos=-0.48 dF1=+0.08
+r21 mh=0.0421 band=[0.655,1.345] att=0.656 PASS ben_med=0.982 ben_q10/90=0.78/1.32 nben_acc=170 clip=1.00 lam=0.908 attnorm=0.676 bennorm=0.840 cos=-0.49 dF1=+0.14
+r22 mh=0.0419 band=[0.655,1.345] att=0.733 PASS ben_med=1.001 ben_q10/90=0.79/1.32 nben_acc=168 clip=1.00 lam=0.937 attnorm=0.706 bennorm=0.839 cos=-0.49 dF1=+0.08
+r23 mh=0.0419 band=[0.654,1.346] att=0.573 rej  ben_med=0.979 ben_q10/90=0.79/1.30 nben_acc=167 clip=1.00 lam=0.881 attnorm=0.647 bennorm=0.839 cos=-0.53 dF1=+0.39
+r24 mh=0.0418 band=[0.654,1.346] att=0.734 PASS ben_med=0.992 ben_q10/90=0.78/1.29 nben_acc=167 clip=1.00 lam=0.947 attnorm=0.718 bennorm=0.837 cos=-0.45 dF1=-0.04
+r25 mh=0.0417 band=[0.654,1.346] att=0.661 PASS ben_med=0.975 ben_q10/90=0.78/1.30 nben_acc=171 clip=1.00 lam=0.910 attnorm=0.679 bennorm=0.838 cos=-0.47 dF1=+0.05
+r26 mh=0.0416 band=[0.653,1.347] att=0.628 rej  ben_med=0.984 ben_q10/90=0.76/1.30 nben_acc=171 clip=1.00 lam=0.914 attnorm=0.682 bennorm=0.835 cos=-0.50 dF1=+0.26
+r27 mh=0.0416 band=[0.653,1.347] att=0.618 rej  ben_med=0.992 ben_q10/90=0.80/1.27 nben_acc=169 clip=1.00 lam=0.897 attnorm=0.671 bennorm=0.836 cos=-0.45 dF1=+0.29
+r28 mh=0.0415 band=[0.653,1.347] att=0.622 rej  ben_med=0.994 ben_q10/90=0.79/1.30 nben_acc=170 clip=1.00 lam=0.872 attnorm=0.645 bennorm=0.833 cos=-0.40 dF1=+0.12
+r29 mh=0.0415 band=[0.653,1.347] att=0.689 PASS ben_med=0.949 ben_q10/90=0.79/1.26 nben_acc=168 clip=1.00 lam=0.920 attnorm=0.700 bennorm=0.832 cos=-0.35 dF1=-0.01
+r30 mh=0.0414 band=[0.652,1.348] att=0.623 rej  ben_med=0.982 ben_q10/90=0.79/1.28 nben_acc=169 clip=1.00 lam=0.897 attnorm=0.669 bennorm=0.830 cos=-0.41 dF1=+0.12
+r31 mh=0.0413 band=[0.652,1.348] att=0.760 PASS ben_med=0.992 ben_q10/90=0.81/1.26 nben_acc=166 clip=1.00 lam=0.943 attnorm=0.725 bennorm=0.832 cos=-0.39 dF1=-0.09
+r32 mh=0.0412 band=[0.652,1.348] att=0.711 PASS ben_med=0.959 ben_q10/90=0.79/1.30 nben_acc=168 clip=1.00 lam=0.916 attnorm=0.690 bennorm=0.829 cos=-0.42 dF1=+0.08
+r33 mh=0.0411 band=[0.651,1.349] att=0.631 rej  ben_med=0.987 ben_q10/90=0.79/1.31 nben_acc=168 clip=1.00 lam=0.895 attnorm=0.666 bennorm=0.829 cos=-0.45 dF1=+0.19
+r34 mh=0.0411 band=[0.651,1.349] att=0.723 PASS ben_med=0.977 ben_q10/90=0.78/1.28 nben_acc=170 clip=1.00 lam=0.905 attnorm=0.684 bennorm=0.828 cos=-0.40 dF1=+0.00
+r35 mh=0.0410 band=[0.651,1.349] att=0.660 PASS ben_med=0.973 ben_q10/90=0.78/1.26 nben_acc=171 clip=1.00 lam=0.916 attnorm=0.689 bennorm=0.827 cos=-0.43 dF1=-0.02
+r36 mh=0.0410 band=[0.651,1.349] att=0.577 rej  ben_med=0.976 ben_q10/90=0.77/1.27 nben_acc=169 clip=1.00 lam=0.873 attnorm=0.642 bennorm=0.827 cos=-0.47 dF1=+0.11
+r37 mh=0.0409 band=[0.650,1.350] att=0.623 rej  ben_med=0.973 ben_q10/90=0.79/1.27 nben_acc=170 clip=1.00 lam=0.903 attnorm=0.674 bennorm=0.825 cos=-0.40 dF1=+0.06
+r38 mh=0.0409 band=[0.650,1.350] att=0.748 PASS ben_med=0.978 ben_q10/90=0.77/1.28 nben_acc=171 clip=1.00 lam=0.926 attnorm=0.705 bennorm=0.822 cos=-0.36 dF1=+0.02
+r39 mh=0.0408 band=[0.650,1.350] att=0.727 PASS ben_med=0.987 ben_q10/90=0.78/1.30 nben_acc=167 clip=1.00 lam=0.936 attnorm=0.704 bennorm=0.825 cos=-0.45 dF1=-0.06
+r40 mh=0.0407 band=[0.650,1.350] att=0.691 PASS ben_med=0.979 ben_q10/90=0.78/1.28 nben_acc=170 clip=1.00 lam=0.937 attnorm=0.705 bennorm=0.823 cos=-0.46 dF1=-0.06
+r41 mh=0.0407 band=[0.649,1.351] att=0.590 rej  ben_med=0.974 ben_q10/90=0.80/1.29 nben_acc=167 clip=1.00 lam=0.854 attnorm=0.617 bennorm=0.822 cos=-0.51 dF1=+0.09
+r42 mh=0.0406 band=[0.649,1.351] att=0.710 PASS ben_med=0.969 ben_q10/90=0.79/1.25 nben_acc=167 clip=1.00 lam=0.908 attnorm=0.681 bennorm=0.823 cos=-0.42 dF1=+0.06
+r43 mh=0.0405 band=[0.649,1.351] att=0.740 PASS ben_med=0.971 ben_q10/90=0.78/1.24 nben_acc=174 clip=1.00 lam=0.927 attnorm=0.693 bennorm=0.823 cos=-0.47 dF1=+0.05
+r44 mh=0.0405 band=[0.648,1.352] att=0.761 PASS ben_med=0.956 ben_q10/90=0.78/1.31 nben_acc=165 clip=1.00 lam=0.949 attnorm=0.716 bennorm=0.821 cos=-0.48 dF1=-0.05
+r45 mh=0.0404 band=[0.648,1.352] att=0.653 PASS ben_med=0.984 ben_q10/90=0.78/1.25 nben_acc=172 clip=1.00 lam=0.901 attnorm=0.661 bennorm=0.821 cos=-0.53 dF1=-0.04
+r46 mh=0.0403 band=[0.648,1.352] att=0.647 rej  ben_med=0.956 ben_q10/90=0.79/1.26 nben_acc=171 clip=1.00 lam=0.936 attnorm=0.694 bennorm=0.819 cos=-0.54 dF1=+0.23
+r47 mh=0.0403 band=[0.648,1.352] att=0.604 rej  ben_med=0.973 ben_q10/90=0.77/1.27 nben_acc=169 clip=1.00 lam=0.885 attnorm=0.650 bennorm=0.818 cos=-0.45 dF1=+0.20
+r48 mh=0.0402 band=[0.647,1.353] att=0.771 PASS ben_med=0.985 ben_q10/90=0.76/1.26 nben_acc=169 clip=1.00 lam=0.939 attnorm=0.711 bennorm=0.818 cos=-0.38 dF1=-0.15
+r49 mh=0.0402 band=[0.647,1.353] att=0.621 rej  ben_med=0.953 ben_q10/90=0.79/1.26 nben_acc=172 clip=1.00 lam=0.881 attnorm=0.650 bennorm=0.817 cos=-0.45 dF1=+0.09
+r50 mh=0.0402 band=[0.647,1.353] att=0.888 PASS ben_med=0.965 ben_q10/90=0.79/1.28 nben_acc=168 clip=1.00 lam=0.988 attnorm=0.762 bennorm=0.816 cos=-0.39 dF1=-0.03
+== natural n=40 drop=3.82 recall=0.3
+r 1 mh=0.0471 band=[0.674,1.326] att=0.502 rej  ben_med=1.057 ben_q10/90=0.88/1.29 nben_acc=147 clip=1.00 lam=0.962 attnorm=0.625 bennorm=0.910 cos=-0.90 dF1=+2.15
+r 2 mh=0.0490 band=[0.680,1.320] att=1.132 PASS ben_med=0.919 ben_q10/90=0.73/1.15 nben_acc=154 clip=0.88 lam=0.962 attnorm=0.711 bennorm=0.881 cos=-0.81 dF1=+0.06
+r 3 mh=0.0482 band=[0.678,1.322] att=0.935 PASS ben_med=0.929 ben_q10/90=0.76/1.20 nben_acc=157 clip=1.00 lam=0.944 attnorm=0.697 bennorm=0.878 cos=-0.79 dF1=+0.29
+r 4 mh=0.0471 band=[0.674,1.326] att=0.899 PASS ben_med=0.937 ben_q10/90=0.78/1.16 nben_acc=156 clip=1.00 lam=0.969 attnorm=0.723 bennorm=0.876 cos=-0.78 dF1=+0.19
+r 5 mh=0.0459 band=[0.670,1.330] att=0.936 PASS ben_med=0.986 ben_q10/90=0.81/1.21 nben_acc=152 clip=1.00 lam=1.001 attnorm=0.751 bennorm=0.874 cos=-0.78 dF1=+0.01
+r 6 mh=0.0454 band=[0.668,1.332] att=0.890 PASS ben_med=0.985 ben_q10/90=0.82/1.25 nben_acc=149 clip=1.00 lam=1.004 attnorm=0.752 bennorm=0.873 cos=-0.79 dF1=+0.13
+r 7 mh=0.0448 band=[0.666,1.334] att=0.753 PASS ben_med=1.003 ben_q10/90=0.80/1.26 nben_acc=150 clip=1.00 lam=0.956 attnorm=0.699 bennorm=0.873 cos=-0.80 dF1=+0.23
+r 8 mh=0.0446 band=[0.665,1.335] att=0.710 PASS ben_med=0.994 ben_q10/90=0.85/1.27 nben_acc=152 clip=1.00 lam=0.952 attnorm=0.691 bennorm=0.871 cos=-0.81 dF1=+0.29
+r 9 mh=0.0443 band=[0.664,1.336] att=0.767 PASS ben_med=1.025 ben_q10/90=0.85/1.26 nben_acc=153 clip=1.00 lam=0.979 attnorm=0.713 bennorm=0.871 cos=-0.82 dF1=+0.13
+r10 mh=0.0440 band=[0.663,1.337] att=0.730 PASS ben_med=1.023 ben_q10/90=0.84/1.32 nben_acc=147 clip=1.00 lam=0.990 attnorm=0.721 bennorm=0.872 cos=-0.82 dF1=+0.11
+r11 mh=0.0438 band=[0.662,1.338] att=0.690 PASS ben_med=1.054 ben_q10/90=0.84/1.31 nben_acc=148 clip=1.00 lam=0.975 attnorm=0.702 bennorm=0.874 cos=-0.83 dF1=+0.10
+r12 mh=0.0436 band=[0.661,1.339] att=0.671 PASS ben_med=1.031 ben_q10/90=0.87/1.31 nben_acc=146 clip=1.00 lam=0.983 attnorm=0.705 bennorm=0.872 cos=-0.83 dF1=+0.19
+r13 mh=0.0435 band=[0.661,1.339] att=0.628 rej  ben_med=1.023 ben_q10/90=0.86/1.32 nben_acc=146 clip=1.00 lam=0.973 attnorm=0.691 bennorm=0.872 cos=-0.83 dF1=+0.69
+r14 mh=0.0436 band=[0.661,1.339] att=0.829 PASS ben_med=1.023 ben_q10/90=0.81/1.31 nben_acc=147 clip=1.00 lam=1.013 attnorm=0.779 bennorm=0.864 cos=-0.76 dF1=-0.06
+r15 mh=0.0434 band=[0.661,1.339] att=0.748 PASS ben_med=1.013 ben_q10/90=0.82/1.31 nben_acc=147 clip=1.00 lam=1.000 attnorm=0.746 bennorm=0.866 cos=-0.79 dF1=+0.20
+r16 mh=0.0433 band=[0.660,1.340] att=0.651 rej  ben_med=1.039 ben_q10/90=0.85/1.33 nben_acc=145 clip=1.00 lam=0.973 attnorm=0.709 bennorm=0.865 cos=-0.81 dF1=+0.74
+r17 mh=0.0433 band=[0.660,1.340] att=0.768 PASS ben_med=1.012 ben_q10/90=0.83/1.31 nben_acc=146 clip=1.00 lam=0.978 attnorm=0.746 bennorm=0.861 cos=-0.73 dF1=-0.12
+r18 mh=0.0431 band=[0.660,1.340] att=0.699 PASS ben_med=1.020 ben_q10/90=0.83/1.32 nben_acc=146 clip=1.00 lam=0.972 attnorm=0.728 bennorm=0.862 cos=-0.77 dF1=-0.12
+r19 mh=0.0430 band=[0.659,1.341] att=0.703 PASS ben_med=1.025 ben_q10/90=0.83/1.28 nben_acc=148 clip=1.00 lam=0.989 attnorm=0.727 bennorm=0.862 cos=-0.81 dF1=-0.06
+r20 mh=0.0429 band=[0.658,1.342] att=0.659 PASS ben_med=1.022 ben_q10/90=0.84/1.33 nben_acc=145 clip=1.00 lam=0.994 attnorm=0.716 bennorm=0.864 cos=-0.82 dF1=-0.16
+r21 mh=0.0427 band=[0.658,1.342] att=0.615 rej  ben_med=1.022 ben_q10/90=0.81/1.33 nben_acc=146 clip=1.00 lam=0.978 attnorm=0.693 bennorm=0.864 cos=-0.84 dF1=+0.74
+r22 mh=0.0427 band=[0.658,1.342] att=0.757 PASS ben_med=1.012 ben_q10/90=0.83/1.27 nben_acc=148 clip=1.00 lam=0.984 attnorm=0.741 bennorm=0.857 cos=-0.75 dF1=-0.08
+r23 mh=0.0426 band=[0.657,1.343] att=0.722 PASS ben_med=1.018 ben_q10/90=0.84/1.35 nben_acc=143 clip=1.00 lam=0.976 attnorm=0.718 bennorm=0.859 cos=-0.80 dF1=-0.10
+r24 mh=0.0425 band=[0.657,1.343] att=0.700 PASS ben_med=1.019 ben_q10/90=0.83/1.34 nben_acc=144 clip=1.00 lam=0.994 attnorm=0.720 bennorm=0.859 cos=-0.81 dF1=-0.06
+r25 mh=0.0424 band=[0.657,1.343] att=0.611 rej  ben_med=1.039 ben_q10/90=0.83/1.30 nben_acc=147 clip=1.00 lam=0.985 attnorm=0.698 bennorm=0.861 cos=-0.84 dF1=+0.60
+r26 mh=0.0425 band=[0.657,1.343] att=0.676 PASS ben_med=1.009 ben_q10/90=0.82/1.32 nben_acc=150 clip=1.00 lam=0.944 attnorm=0.700 bennorm=0.856 cos=-0.74 dF1=-0.14
+r27 mh=0.0424 band=[0.657,1.343] att=0.679 PASS ben_med=1.030 ben_q10/90=0.84/1.31 nben_acc=150 clip=1.00 lam=0.974 attnorm=0.718 bennorm=0.856 cos=-0.79 dF1=-0.03
+r28 mh=0.0423 band=[0.656,1.344] att=0.661 PASS ben_med=1.013 ben_q10/90=0.83/1.32 nben_acc=146 clip=1.00 lam=0.978 attnorm=0.700 bennorm=0.856 cos=-0.83 dF1=+0.03
+r29 mh=0.0422 band=[0.656,1.344] att=0.505 rej  ben_med=1.038 ben_q10/90=0.84/1.32 nben_acc=147 clip=1.00 lam=0.931 attnorm=0.645 bennorm=0.859 cos=-0.84 dF1=+0.56
+r30 mh=0.0422 band=[0.656,1.344] att=0.744 PASS ben_med=1.011 ben_q10/90=0.82/1.30 nben_acc=151 clip=1.00 lam=1.001 attnorm=0.754 bennorm=0.854 cos=-0.76 dF1=-0.21
+r31 mh=0.0422 band=[0.656,1.344] att=0.671 PASS ben_med=1.017 ben_q10/90=0.83/1.31 nben_acc=146 clip=1.00 lam=1.009 attnorm=0.745 bennorm=0.856 cos=-0.80 dF1=-0.14
+r32 mh=0.0421 band=[0.656,1.344] att=0.600 rej  ben_med=1.026 ben_q10/90=0.83/1.34 nben_acc=144 clip=1.00 lam=0.989 attnorm=0.705 bennorm=0.856 cos=-0.83 dF1=+0.54
+r33 mh=0.0421 band=[0.656,1.344] att=0.646 rej  ben_med=1.003 ben_q10/90=0.81/1.30 nben_acc=145 clip=1.00 lam=0.961 attnorm=0.716 bennorm=0.851 cos=-0.74 dF1=+0.63
+r34 mh=0.0421 band=[0.655,1.345] att=0.705 PASS ben_med=1.001 ben_q10/90=0.82/1.28 nben_acc=149 clip=1.00 lam=0.962 attnorm=0.736 bennorm=0.850 cos=-0.68 dF1=-0.22
+r35 mh=0.0420 band=[0.655,1.345] att=0.646 rej  ben_med=1.026 ben_q10/90=0.82/1.29 nben_acc=146 clip=1.00 lam=0.956 attnorm=0.711 bennorm=0.850 cos=-0.75 dF1=+0.38
+r36 mh=0.0421 band=[0.655,1.345] att=0.732 PASS ben_med=1.004 ben_q10/90=0.79/1.30 nben_acc=148 clip=1.00 lam=0.951 attnorm=0.724 bennorm=0.848 cos=-0.68 dF1=-0.14
+r37 mh=0.0420 band=[0.655,1.345] att=0.585 rej  ben_med=0.998 ben_q10/90=0.82/1.33 nben_acc=145 clip=1.00 lam=0.940 attnorm=0.696 bennorm=0.848 cos=-0.76 dF1=+0.22
+r38 mh=0.0420 band=[0.655,1.345] att=0.754 PASS ben_med=0.999 ben_q10/90=0.79/1.30 nben_acc=149 clip=1.00 lam=0.978 attnorm=0.753 bennorm=0.844 cos=-0.67 dF1=-0.21
+r39 mh=0.0419 band=[0.655,1.345] att=0.662 PASS ben_med=1.014 ben_q10/90=0.81/1.30 nben_acc=148 clip=1.00 lam=0.961 attnorm=0.712 bennorm=0.847 cos=-0.76 dF1=-0.14
+r40 mh=0.0418 band=[0.654,1.346] att=0.551 rej  ben_med=1.016 ben_q10/90=0.80/1.29 nben_acc=148 clip=1.00 lam=0.952 attnorm=0.681 bennorm=0.846 cos=-0.80 dF1=+0.53
+r41 mh=0.0418 band=[0.654,1.346] att=0.685 PASS ben_med=0.988 ben_q10/90=0.79/1.29 nben_acc=150 clip=1.00 lam=0.972 attnorm=0.735 bennorm=0.843 cos=-0.71 dF1=-0.17
+r42 mh=0.0418 band=[0.654,1.346] att=0.641 rej  ben_med=1.010 ben_q10/90=0.82/1.34 nben_acc=144 clip=1.00 lam=0.963 attnorm=0.706 bennorm=0.846 cos=-0.77 dF1=+0.12
+r43 mh=0.0417 band=[0.654,1.346] att=0.787 PASS ben_med=0.987 ben_q10/90=0.80/1.29 nben_acc=147 clip=1.00 lam=0.992 attnorm=0.763 bennorm=0.843 cos=-0.69 dF1=-0.11
+r44 mh=0.0417 band=[0.654,1.346] att=0.637 rej  ben_med=0.992 ben_q10/90=0.80/1.30 nben_acc=145 clip=1.00 lam=0.985 attnorm=0.730 bennorm=0.845 cos=-0.77 dF1=+0.38
+r45 mh=0.0416 band=[0.653,1.347] att=0.750 PASS ben_med=0.993 ben_q10/90=0.81/1.24 nben_acc=149 clip=1.00 lam=0.993 attnorm=0.764 bennorm=0.840 cos=-0.68 dF1=-0.12
+r46 mh=0.0416 band=[0.653,1.347] att=0.680 PASS ben_med=0.997 ben_q10/90=0.80/1.28 nben_acc=151 clip=1.00 lam=1.011 attnorm=0.756 bennorm=0.845 cos=-0.76 dF1=-0.13
+r47 mh=0.0415 band=[0.653,1.347] att=0.547 rej  ben_med=1.007 ben_q10/90=0.83/1.27 nben_acc=147 clip=1.00 lam=0.945 attnorm=0.673 bennorm=0.843 cos=-0.82 dF1=+0.25
+r48 mh=0.0415 band=[0.653,1.347] att=0.666 PASS ben_med=1.004 ben_q10/90=0.79/1.31 nben_acc=148 clip=1.00 lam=0.976 attnorm=0.732 bennorm=0.841 cos=-0.72 dF1=-0.15
+r49 mh=0.0414 band=[0.653,1.347] att=0.624 rej  ben_med=0.994 ben_q10/90=0.82/1.27 nben_acc=150 clip=1.00 lam=0.976 attnorm=0.709 bennorm=0.840 cos=-0.79 dF1=+0.24
+r50 mh=0.0414 band=[0.653,1.347] att=0.678 PASS ben_med=0.989 ben_q10/90=0.82/1.30 nben_acc=150 clip=1.00 lam=0.979 attnorm=0.742 bennorm=0.838 cos=-0.69 dF1=-0.19
+== natural n=60 drop=6.81 recall=0.44
+r 1 mh=0.0456 band=[0.669,1.331] att=0.491 rej  ben_med=1.092 ben_q10/90=0.91/1.32 nben_acc=128 clip=1.00 lam=0.938 attnorm=0.612 bennorm=0.908 cos=-0.92 dF1=+2.10
+r 2 mh=0.0489 band=[0.680,1.320] att=1.117 PASS ben_med=0.911 ben_q10/90=0.75/1.12 nben_acc=132 clip=0.90 lam=0.944 attnorm=0.698 bennorm=0.879 cos=-0.85 dF1=-0.43
+r 3 mh=0.0486 band=[0.679,1.321] att=0.858 PASS ben_med=0.933 ben_q10/90=0.79/1.18 nben_acc=138 clip=1.00 lam=0.963 attnorm=0.700 bennorm=0.884 cos=-0.87 dF1=-0.58
+r 4 mh=0.0463 band=[0.671,1.329] att=0.648 rej  ben_med=1.004 ben_q10/90=0.83/1.23 nben_acc=135 clip=1.00 lam=0.907 attnorm=0.631 bennorm=0.888 cos=-0.88 dF1=+2.44
+r 5 mh=0.0462 band=[0.671,1.329] att=0.996 PASS ben_med=0.982 ben_q10/90=0.78/1.21 nben_acc=133 clip=1.00 lam=0.977 attnorm=0.756 bennorm=0.873 cos=-0.79 dF1=-1.11
+r 6 mh=0.0462 band=[0.671,1.329] att=0.858 PASS ben_med=0.994 ben_q10/90=0.82/1.24 nben_acc=135 clip=1.00 lam=0.989 attnorm=0.745 bennorm=0.879 cos=-0.84 dF1=-0.69
+r 7 mh=0.0455 band=[0.669,1.331] att=0.672 PASS ben_med=1.032 ben_q10/90=0.84/1.29 nben_acc=130 clip=1.00 lam=0.936 attnorm=0.667 bennorm=0.886 cos=-0.87 dF1=-0.56
+r 8 mh=0.0452 band=[0.667,1.333] att=0.648 rej  ben_med=1.036 ben_q10/90=0.89/1.30 nben_acc=129 clip=1.00 lam=0.966 attnorm=0.674 bennorm=0.890 cos=-0.88 dF1=+2.00
+r 9 mh=0.0454 band=[0.668,1.332] att=0.862 PASS ben_med=1.026 ben_q10/90=0.83/1.26 nben_acc=132 clip=1.00 lam=0.961 attnorm=0.725 bennorm=0.875 cos=-0.82 dF1=-0.69
+r10 mh=0.0450 band=[0.667,1.333] att=0.746 PASS ben_med=1.050 ben_q10/90=0.86/1.25 nben_acc=131 clip=1.00 lam=0.975 attnorm=0.716 bennorm=0.883 cos=-0.86 dF1=-0.88
+r11 mh=0.0447 band=[0.666,1.334] att=0.595 rej  ben_med=1.074 ben_q10/90=0.87/1.31 nben_acc=129 clip=1.00 lam=0.950 attnorm=0.664 bennorm=0.891 cos=-0.88 dF1=+1.74
+r12 mh=0.0450 band=[0.667,1.333] att=0.798 PASS ben_med=1.019 ben_q10/90=0.86/1.28 nben_acc=128 clip=1.00 lam=1.003 attnorm=0.769 bennorm=0.877 cos=-0.81 dF1=-0.65
+r13 mh=0.0447 band=[0.665,1.335] att=0.649 rej  ben_med=1.028 ben_q10/90=0.88/1.27 nben_acc=132 clip=1.00 lam=0.952 attnorm=0.686 bennorm=0.883 cos=-0.86 dF1=+0.97
+r14 mh=0.0447 band=[0.666,1.334] att=0.780 PASS ben_med=1.012 ben_q10/90=0.83/1.28 nben_acc=131 clip=1.00 lam=0.968 attnorm=0.744 bennorm=0.872 cos=-0.79 dF1=-0.52
+r15 mh=0.0445 band=[0.665,1.335] att=0.663 rej  ben_med=1.037 ben_q10/90=0.86/1.26 nben_acc=132 clip=1.00 lam=0.946 attnorm=0.691 bennorm=0.877 cos=-0.84 dF1=+0.90
+r16 mh=0.0445 band=[0.665,1.335] att=0.869 PASS ben_med=1.006 ben_q10/90=0.82/1.25 nben_acc=130 clip=1.00 lam=0.994 attnorm=0.778 bennorm=0.867 cos=-0.77 dF1=-0.64
+r17 mh=0.0443 band=[0.664,1.336] att=0.734 PASS ben_med=1.026 ben_q10/90=0.86/1.27 nben_acc=131 clip=1.00 lam=0.994 attnorm=0.743 bennorm=0.875 cos=-0.83 dF1=-0.49
+r18 mh=0.0441 band=[0.663,1.337] att=0.652 rej  ben_med=1.045 ben_q10/90=0.85/1.32 nben_acc=127 clip=1.00 lam=1.007 attnorm=0.729 bennorm=0.881 cos=-0.88 dF1=+0.78
+r19 mh=0.0442 band=[0.664,1.336] att=0.752 PASS ben_med=1.007 ben_q10/90=0.84/1.27 nben_acc=132 clip=1.00 lam=0.983 attnorm=0.747 bennorm=0.870 cos=-0.81 dF1=-0.46
+r20 mh=0.0440 band=[0.663,1.337] att=0.626 rej  ben_med=1.060 ben_q10/90=0.86/1.31 nben_acc=127 clip=1.00 lam=0.967 attnorm=0.700 bennorm=0.875 cos=-0.85 dF1=+0.88
+r21 mh=0.0441 band=[0.663,1.337] att=0.786 PASS ben_med=1.011 ben_q10/90=0.83/1.26 nben_acc=133 clip=1.00 lam=0.983 attnorm=0.753 bennorm=0.867 cos=-0.79 dF1=-0.39
+r22 mh=0.0439 band=[0.663,1.337] att=0.692 PASS ben_med=1.034 ben_q10/90=0.85/1.28 nben_acc=130 clip=1.00 lam=1.005 attnorm=0.743 bennorm=0.872 cos=-0.85 dF1=-0.53
+r23 mh=0.0438 band=[0.662,1.338] att=0.483 rej  ben_med=1.041 ben_q10/90=0.87/1.32 nben_acc=129 clip=1.00 lam=0.928 attnorm=0.636 bennorm=0.883 cos=-0.88 dF1=+1.08
+r24 mh=0.0438 band=[0.662,1.338] att=0.720 PASS ben_med=1.018 ben_q10/90=0.82/1.29 nben_acc=130 clip=1.00 lam=0.971 attnorm=0.729 bennorm=0.867 cos=-0.82 dF1=-0.25
+r25 mh=0.0436 band=[0.662,1.338] att=0.631 rej  ben_med=1.047 ben_q10/90=0.84/1.28 nben_acc=131 clip=1.00 lam=1.004 attnorm=0.726 bennorm=0.876 cos=-0.86 dF1=+0.49
+r26 mh=0.0437 band=[0.662,1.338] att=0.781 PASS ben_med=1.029 ben_q10/90=0.83/1.26 nben_acc=132 clip=1.00 lam=1.016 attnorm=0.785 bennorm=0.866 cos=-0.79 dF1=-0.59
+r27 mh=0.0436 band=[0.661,1.339] att=0.604 rej  ben_med=1.032 ben_q10/90=0.85/1.33 nben_acc=127 clip=1.00 lam=0.978 attnorm=0.707 bennorm=0.872 cos=-0.87 dF1=+0.92
+r28 mh=0.0436 band=[0.661,1.339] att=0.837 PASS ben_med=1.022 ben_q10/90=0.85/1.29 nben_acc=131 clip=1.00 lam=1.029 attnorm=0.797 bennorm=0.864 cos=-0.79 dF1=-0.69
+r29 mh=0.0435 band=[0.661,1.339] att=0.626 rej  ben_med=1.027 ben_q10/90=0.84/1.25 nben_acc=134 clip=1.00 lam=0.989 attnorm=0.715 bennorm=0.868 cos=-0.86 dF1=+0.58
+r30 mh=0.0435 band=[0.661,1.339] att=0.678 PASS ben_med=1.015 ben_q10/90=0.85/1.26 nben_acc=130 clip=1.00 lam=0.952 attnorm=0.717 bennorm=0.865 cos=-0.79 dF1=-0.35
+r31 mh=0.0434 band=[0.661,1.339] att=0.587 rej  ben_med=1.008 ben_q10/90=0.86/1.27 nben_acc=132 clip=1.00 lam=0.963 attnorm=0.698 bennorm=0.867 cos=-0.84 dF1=+0.49
+r32 mh=0.0434 band=[0.661,1.339] att=0.643 rej  ben_med=1.011 ben_q10/90=0.84/1.24 nben_acc=131 clip=1.00 lam=0.934 attnorm=0.703 bennorm=0.863 cos=-0.78 dF1=+0.32
+r33 mh=0.0434 band=[0.661,1.339] att=0.875 PASS ben_med=0.992 ben_q10/90=0.82/1.25 nben_acc=134 clip=1.00 lam=1.038 attnorm=0.831 bennorm=0.855 cos=-0.71 dF1=-0.44
+r34 mh=0.0433 band=[0.660,1.340] att=0.703 PASS ben_med=1.017 ben_q10/90=0.83/1.23 nben_acc=132 clip=1.00 lam=0.994 attnorm=0.747 bennorm=0.860 cos=-0.82 dF1=-0.59
+r35 mh=0.0432 band=[0.660,1.340] att=0.567 rej  ben_med=1.022 ben_q10/90=0.86/1.24 nben_acc=132 clip=1.00 lam=0.990 attnorm=0.706 bennorm=0.865 cos=-0.87 dF1=+0.76
+r36 mh=0.0432 band=[0.660,1.340] att=0.707 PASS ben_med=1.010 ben_q10/90=0.83/1.28 nben_acc=134 clip=1.00 lam=1.007 attnorm=0.764 bennorm=0.859 cos=-0.80 dF1=-0.50
+r37 mh=0.0431 band=[0.659,1.341] att=0.619 rej  ben_med=1.020 ben_q10/90=0.84/1.27 nben_acc=134 clip=1.00 lam=0.989 attnorm=0.712 bennorm=0.862 cos=-0.86 dF1=+0.45
+r38 mh=0.0431 band=[0.659,1.341] att=0.771 PASS ben_med=1.011 ben_q10/90=0.82/1.28 nben_acc=131 clip=1.00 lam=1.014 attnorm=0.778 bennorm=0.856 cos=-0.79 dF1=-0.52
+r39 mh=0.0430 band=[0.659,1.341] att=0.582 rej  ben_med=1.015 ben_q10/90=0.85/1.25 nben_acc=132 clip=1.00 lam=0.973 attnorm=0.697 bennorm=0.860 cos=-0.86 dF1=+0.69
+r40 mh=0.0430 band=[0.659,1.341] att=0.690 PASS ben_med=1.013 ben_q10/90=0.81/1.23 nben_acc=135 clip=1.00 lam=0.976 attnorm=0.739 bennorm=0.855 cos=-0.78 dF1=-0.47
+r41 mh=0.0429 band=[0.659,1.341] att=0.582 rej  ben_med=1.017 ben_q10/90=0.83/1.24 nben_acc=131 clip=1.00 lam=0.981 attnorm=0.707 bennorm=0.860 cos=-0.86 dF1=+0.54
+r42 mh=0.0429 band=[0.659,1.341] att=0.737 PASS ben_med=0.987 ben_q10/90=0.84/1.26 nben_acc=131 clip=1.00 lam=1.006 attnorm=0.771 bennorm=0.854 cos=-0.78 dF1=-0.49
+r43 mh=0.0428 band=[0.658,1.342] att=0.543 rej  ben_med=1.024 ben_q10/90=0.85/1.23 nben_acc=131 clip=1.00 lam=0.950 attnorm=0.676 bennorm=0.861 cos=-0.85 dF1=+0.69
+r44 mh=0.0428 band=[0.658,1.342] att=0.644 rej  ben_med=0.989 ben_q10/90=0.82/1.24 nben_acc=131 clip=1.00 lam=0.963 attnorm=0.725 bennorm=0.852 cos=-0.78 dF1=+0.63
+r45 mh=0.0428 band=[0.658,1.342] att=0.698 PASS ben_med=0.993 ben_q10/90=0.80/1.28 nben_acc=132 clip=1.00 lam=0.975 attnorm=0.759 bennorm=0.851 cos=-0.72 dF1=-1.01
+r46 mh=0.0427 band=[0.658,1.342] att=0.718 PASS ben_med=1.014 ben_q10/90=0.83/1.27 nben_acc=134 clip=1.00 lam=1.017 attnorm=0.766 bennorm=0.854 cos=-0.82 dF1=-0.49
+r47 mh=0.0426 band=[0.657,1.343] att=0.492 rej  ben_med=1.024 ben_q10/90=0.83/1.24 nben_acc=133 clip=1.00 lam=0.945 attnorm=0.654 bennorm=0.859 cos=-0.87 dF1=+0.95
+r48 mh=0.0426 band=[0.657,1.343] att=0.650 rej  ben_med=1.001 ben_q10/90=0.82/1.25 nben_acc=132 clip=1.00 lam=0.964 attnorm=0.718 bennorm=0.852 cos=-0.80 dF1=+0.59
+r49 mh=0.0426 band=[0.657,1.343] att=0.752 PASS ben_med=0.988 ben_q10/90=0.84/1.25 nben_acc=135 clip=1.00 lam=0.976 attnorm=0.753 bennorm=0.851 cos=-0.73 dF1=-0.70
+r50 mh=0.0425 band=[0.657,1.343] att=0.675 PASS ben_med=0.976 ben_q10/90=0.83/1.23 nben_acc=133 clip=1.00 lam=1.004 attnorm=0.746 bennorm=0.850 cos=-0.83 dF1=-0.39
+== natural n=80 drop=4.19 recall=0.64
+r 1 mh=0.0425 band=[0.657,1.343] att=0.527 rej  ben_med=1.165 ben_q10/90=0.98/1.43 nben_acc=98 clip=1.00 lam=0.935 attnorm=0.617 bennorm=0.908 cos=-0.92 dF1=+2.19
+r 2 mh=0.0475 band=[0.676,1.324] att=1.123 PASS ben_med=0.927 ben_q10/90=0.77/1.20 nben_acc=114 clip=0.89 lam=0.934 attnorm=0.694 bennorm=0.880 cos=-0.86 dF1=-0.63
+r 3 mh=0.0497 band=[0.683,1.317] att=0.665 rej  ben_med=0.936 ben_q10/90=0.77/1.21 nben_acc=116 clip=1.00 lam=0.955 attnorm=0.675 bennorm=0.894 cos=-0.89 dF1=+1.40
+r 4 mh=0.0487 band=[0.679,1.321] att=0.957 PASS ben_med=0.916 ben_q10/90=0.75/1.16 nben_acc=117 clip=1.00 lam=0.975 attnorm=0.761 bennorm=0.875 cos=-0.83 dF1=-0.85
+r 5 mh=0.0481 band=[0.678,1.322] att=0.791 PASS ben_med=0.989 ben_q10/90=0.81/1.22 nben_acc=115 clip=1.00 lam=0.999 attnorm=0.739 bennorm=0.888 cos=-0.88 dF1=-0.97
+r 6 mh=0.0467 band=[0.673,1.327] att=0.500 rej  ben_med=1.058 ben_q10/90=0.88/1.29 nben_acc=112 clip=1.00 lam=0.931 attnorm=0.625 bennorm=0.904 cos=-0.91 dF1=+1.47
+r 7 mh=0.0471 band=[0.674,1.326] att=0.804 PASS ben_med=0.987 ben_q10/90=0.80/1.24 nben_acc=113 clip=1.00 lam=0.989 attnorm=0.747 bennorm=0.883 cos=-0.86 dF1=-1.42
+r 8 mh=0.0458 band=[0.670,1.330] att=0.671 PASS ben_med=1.070 ben_q10/90=0.88/1.32 nben_acc=111 clip=1.00 lam=0.994 attnorm=0.703 bennorm=0.897 cos=-0.90 dF1=-0.63
+r 9 mh=0.0452 band=[0.667,1.333] att=0.443 rej  ben_med=1.131 ben_q10/90=0.91/1.43 nben_acc=100 clip=1.00 lam=0.924 attnorm=0.588 bennorm=0.913 cos=-0.93 dF1=+1.30
+r10 mh=0.0456 band=[0.669,1.331] att=0.752 PASS ben_med=1.054 ben_q10/90=0.87/1.29 nben_acc=109 clip=1.00 lam=0.991 attnorm=0.719 bennorm=0.892 cos=-0.88 dF1=-0.76
+r11 mh=0.0451 band=[0.667,1.333] att=0.512 rej  ben_med=1.136 ben_q10/90=0.92/1.40 nben_acc=98 clip=1.00 lam=0.949 attnorm=0.632 bennorm=0.911 cos=-0.91 dF1=+1.31
+r12 mh=0.0454 band=[0.668,1.332] att=0.639 rej  ben_med=1.041 ben_q10/90=0.85/1.40 nben_acc=104 clip=1.00 lam=0.940 attnorm=0.674 bennorm=0.890 cos=-0.87 dF1=+0.86
+r13 mh=0.0454 band=[0.668,1.332] att=0.794 PASS ben_med=1.018 ben_q10/90=0.83/1.32 nben_acc=108 clip=1.00 lam=0.985 attnorm=0.756 bennorm=0.881 cos=-0.83 dF1=-0.94
+r14 mh=0.0449 band=[0.666,1.334] att=0.587 rej  ben_med=1.073 ben_q10/90=0.84/1.46 nben_acc=101 clip=1.00 lam=0.941 attnorm=0.663 bennorm=0.894 cos=-0.89 dF1=+1.09
+r15 mh=0.0450 band=[0.667,1.333] att=0.794 PASS ben_med=1.040 ben_q10/90=0.84/1.32 nben_acc=109 clip=1.00 lam=0.995 attnorm=0.757 bennorm=0.883 cos=-0.84 dF1=-0.49
+r16 mh=0.0446 band=[0.665,1.335] att=0.504 rej  ben_med=1.092 ben_q10/90=0.85/1.44 nben_acc=100 clip=1.00 lam=0.907 attnorm=0.614 bennorm=0.899 cos=-0.89 dF1=+0.62
+r17 mh=0.0447 band=[0.666,1.334] att=0.666 PASS ben_med=1.039 ben_q10/90=0.86/1.41 nben_acc=104 clip=1.00 lam=0.934 attnorm=0.683 bennorm=0.887 cos=-0.84 dF1=-0.44
+r18 mh=0.0444 band=[0.664,1.336] att=0.474 rej  ben_med=1.072 ben_q10/90=0.87/1.47 nben_acc=94 clip=1.00 lam=0.906 attnorm=0.612 bennorm=0.900 cos=-0.90 dF1=+0.59
+r19 mh=0.0444 band=[0.664,1.336] att=0.697 PASS ben_med=1.036 ben_q10/90=0.83/1.44 nben_acc=101 clip=1.00 lam=0.978 attnorm=0.718 bennorm=0.886 cos=-0.86 dF1=-0.45
+r20 mh=0.0440 band=[0.663,1.337] att=0.392 rej  ben_med=1.087 ben_q10/90=0.87/1.47 nben_acc=94 clip=1.00 lam=0.875 attnorm=0.558 bennorm=0.901 cos=-0.91 dF1=+0.50
+r21 mh=0.0441 band=[0.663,1.337] att=0.531 rej  ben_med=1.069 ben_q10/90=0.85/1.47 nben_acc=98 clip=1.00 lam=0.916 attnorm=0.647 bennorm=0.892 cos=-0.87 dF1=+0.52
+r22 mh=0.0442 band=[0.664,1.336] att=0.656 rej  ben_med=1.032 ben_q10/90=0.82/1.43 nben_acc=103 clip=1.00 lam=0.949 attnorm=0.706 bennorm=0.881 cos=-0.84 dF1=+0.40
+r23 mh=0.0442 band=[0.664,1.336] att=0.715 PASS ben_med=1.010 ben_q10/90=0.82/1.34 nben_acc=107 clip=1.00 lam=0.949 attnorm=0.730 bennorm=0.876 cos=-0.78 dF1=-0.55
+r24 mh=0.0439 band=[0.662,1.338] att=0.536 rej  ben_med=1.062 ben_q10/90=0.84/1.51 nben_acc=96 clip=1.00 lam=0.909 attnorm=0.638 bennorm=0.890 cos=-0.87 dF1=+0.51
+r25 mh=0.0439 band=[0.662,1.338] att=0.593 rej  ben_med=1.052 ben_q10/90=0.82/1.45 nben_acc=102 clip=1.00 lam=0.906 attnorm=0.665 bennorm=0.878 cos=-0.82 dF1=+0.53
+r26 mh=0.0438 band=[0.662,1.338] att=0.822 PASS ben_med=1.029 ben_q10/90=0.84/1.44 nben_acc=105 clip=1.00 lam=0.996 attnorm=0.784 bennorm=0.873 cos=-0.77 dF1=-0.44
+r27 mh=0.0436 band=[0.661,1.339] att=0.531 rej  ben_med=1.050 ben_q10/90=0.85/1.48 nben_acc=96 clip=1.00 lam=0.917 attnorm=0.638 bennorm=0.886 cos=-0.88 dF1=+0.53
+r28 mh=0.0436 band=[0.661,1.339] att=0.594 rej  ben_med=1.041 ben_q10/90=0.83/1.43 nben_acc=102 clip=1.00 lam=0.913 attnorm=0.668 bennorm=0.877 cos=-0.83 dF1=+0.63
+r29 mh=0.0436 band=[0.661,1.339] att=0.763 PASS ben_med=1.026 ben_q10/90=0.82/1.41 nben_acc=101 clip=1.00 lam=0.976 attnorm=0.755 bennorm=0.869 cos=-0.78 dF1=-0.36
+r30 mh=0.0433 band=[0.660,1.340] att=0.548 rej  ben_med=1.055 ben_q10/90=0.81/1.47 nben_acc=98 clip=1.00 lam=0.944 attnorm=0.661 bennorm=0.886 cos=-0.88 dF1=+0.03
+r31 mh=0.0433 band=[0.660,1.340] att=0.638 rej  ben_med=1.047 ben_q10/90=0.82/1.46 nben_acc=98 clip=1.00 lam=0.959 attnorm=0.710 bennorm=0.877 cos=-0.82 dF1=+0.50
+r32 mh=0.0433 band=[0.660,1.340] att=0.645 rej  ben_med=1.031 ben_q10/90=0.80/1.39 nben_acc=105 clip=1.00 lam=0.933 attnorm=0.709 bennorm=0.870 cos=-0.79 dF1=+0.34
+r33 mh=0.0433 band=[0.660,1.340] att=0.694 PASS ben_med=1.030 ben_q10/90=0.80/1.38 nben_acc=105 clip=1.00 lam=0.940 attnorm=0.736 bennorm=0.862 cos=-0.75 dF1=-0.42
+r34 mh=0.0431 band=[0.659,1.341] att=0.584 rej  ben_med=1.044 ben_q10/90=0.81/1.50 nben_acc=99 clip=1.00 lam=0.952 attnorm=0.688 bennorm=0.877 cos=-0.86 dF1=+0.30
+r35 mh=0.0431 band=[0.659,1.341] att=0.619 rej  ben_med=1.031 ben_q10/90=0.81/1.44 nben_acc=101 clip=1.00 lam=0.925 attnorm=0.695 bennorm=0.869 cos=-0.81 dF1=+0.29
+r36 mh=0.0431 band=[0.659,1.341] att=0.678 PASS ben_med=1.012 ben_q10/90=0.82/1.42 nben_acc=102 clip=1.00 lam=0.927 attnorm=0.717 bennorm=0.861 cos=-0.75 dF1=-0.33
+r37 mh=0.0429 band=[0.658,1.342] att=0.486 rej  ben_med=1.051 ben_q10/90=0.82/1.49 nben_acc=97 clip=1.00 lam=0.900 attnorm=0.628 bennorm=0.873 cos=-0.86 dF1=+0.23
+r38 mh=0.0428 band=[0.658,1.342] att=0.584 rej  ben_med=1.039 ben_q10/90=0.82/1.44 nben_acc=101 clip=1.00 lam=0.913 attnorm=0.680 bennorm=0.867 cos=-0.80 dF1=+0.09
+r39 mh=0.0428 band=[0.658,1.342] att=0.656 rej  ben_med=1.019 ben_q10/90=0.81/1.40 nben_acc=105 clip=1.00 lam=0.920 attnorm=0.706 bennorm=0.862 cos=-0.76 dF1=+0.39
+r40 mh=0.0428 band=[0.658,1.342] att=0.768 PASS ben_med=1.013 ben_q10/90=0.79/1.37 nben_acc=105 clip=1.00 lam=0.965 attnorm=0.764 bennorm=0.857 cos=-0.71 dF1=-0.37
+r41 mh=0.0426 band=[0.657,1.343] att=0.565 rej  ben_med=1.048 ben_q10/90=0.80/1.49 nben_acc=101 clip=1.00 lam=0.933 attnorm=0.670 bennorm=0.867 cos=-0.85 dF1=+0.11
+r42 mh=0.0426 band=[0.657,1.343] att=0.525 rej  ben_med=1.036 ben_q10/90=0.79/1.48 nben_acc=100 clip=1.00 lam=0.878 attnorm=0.650 bennorm=0.860 cos=-0.79 dF1=+0.25
+r43 mh=0.0426 band=[0.657,1.343] att=0.537 rej  ben_med=1.008 ben_q10/90=0.80/1.44 nben_acc=100 clip=1.00 lam=0.845 attnorm=0.639 bennorm=0.858 cos=-0.73 dF1=+0.17
+r44 mh=0.0426 band=[0.657,1.343] att=0.692 PASS ben_med=0.981 ben_q10/90=0.82/1.43 nben_acc=105 clip=1.00 lam=0.919 attnorm=0.722 bennorm=0.852 cos=-0.68 dF1=-0.34
+r45 mh=0.0424 band=[0.657,1.343] att=0.590 rej  ben_med=1.012 ben_q10/90=0.81/1.44 nben_acc=101 clip=1.00 lam=0.945 attnorm=0.690 bennorm=0.862 cos=-0.84 dF1=+0.19
+r46 mh=0.0424 band=[0.656,1.344] att=0.683 PASS ben_med=1.018 ben_q10/90=0.78/1.41 nben_acc=101 clip=1.00 lam=0.945 attnorm=0.725 bennorm=0.855 cos=-0.77 dF1=-0.36
+r47 mh=0.0422 band=[0.656,1.344] att=0.398 rej  ben_med=1.041 ben_q10/90=0.80/1.51 nben_acc=98 clip=1.00 lam=0.872 attnorm=0.582 bennorm=0.870 cos=-0.89 dF1=+0.22
+r48 mh=0.0421 band=[0.656,1.344] att=0.474 rej  ben_med=1.026 ben_q10/90=0.80/1.39 nben_acc=105 clip=1.00 lam=0.876 attnorm=0.625 bennorm=0.860 cos=-0.83 dF1=+0.30
+r49 mh=0.0421 band=[0.655,1.345] att=0.607 rej  ben_med=1.023 ben_q10/90=0.81/1.38 nben_acc=104 clip=1.00 lam=0.917 attnorm=0.699 bennorm=0.854 cos=-0.76 dF1=+0.20
+r50 mh=0.0421 band=[0.655,1.345] att=0.613 rej  ben_med=0.999 ben_q10/90=0.80/1.40 nben_acc=103 clip=1.00 lam=0.883 attnorm=0.682 bennorm=0.850 cos=-0.72 dF1=+0.17
+== dirichlet_1.0 n=10 drop=0.42 recall=0.68
+r 1 mh=0.0476 band=[0.676,1.324] att=0.634 rej  ben_med=1.016 ben_q10/90=0.84/1.52 nben_acc=153 clip=1.00 lam=1.212 attnorm=0.756 bennorm=0.931 cos=-0.82 dF1=-0.52
+r 2 mh=0.0462 band=[0.671,1.329] att=1.090 PASS ben_med=0.851 ben_q10/90=0.70/1.44 nben_acc=158 clip=0.92 lam=1.060 attnorm=0.679 bennorm=0.872 cos=-0.73 dF1=+1.20
+r 3 mh=0.0427 band=[0.658,1.342] att=0.966 PASS ben_med=0.909 ben_q10/90=0.73/1.47 nben_acc=159 clip=1.00 lam=0.994 attnorm=0.662 bennorm=0.848 cos=-0.65 dF1=+1.04
+r 4 mh=0.0410 band=[0.651,1.349] att=0.811 PASS ben_med=0.897 ben_q10/90=0.77/1.55 nben_acc=160 clip=1.00 lam=0.967 attnorm=0.640 bennorm=0.837 cos=-0.65 dF1=+0.39
+r 5 mh=0.0395 band=[0.644,1.356] att=0.744 PASS ben_med=0.947 ben_q10/90=0.78/1.68 nben_acc=155 clip=1.00 lam=0.962 attnorm=0.631 bennorm=0.833 cos=-0.67 dF1=+0.39
+r 6 mh=0.0388 band=[0.641,1.359] att=0.706 PASS ben_med=0.933 ben_q10/90=0.75/1.68 nben_acc=153 clip=1.00 lam=0.939 attnorm=0.612 bennorm=0.828 cos=-0.67 dF1=+0.07
+r 7 mh=0.0380 band=[0.637,1.363] att=0.679 PASS ben_med=0.959 ben_q10/90=0.78/1.82 nben_acc=151 clip=1.00 lam=0.915 attnorm=0.584 bennorm=0.827 cos=-0.68 dF1=+0.34
+r 8 mh=0.0374 band=[0.634,1.366] att=0.514 rej  ben_med=0.961 ben_q10/90=0.78/1.79 nben_acc=148 clip=1.00 lam=0.877 attnorm=0.539 bennorm=0.823 cos=-0.68 dF1=+1.16
+r 9 mh=0.0370 band=[0.632,1.368] att=0.626 rej  ben_med=0.957 ben_q10/90=0.78/1.81 nben_acc=150 clip=1.00 lam=0.896 attnorm=0.565 bennorm=0.821 cos=-0.66 dF1=+0.68
+r10 mh=0.0366 band=[0.630,1.370] att=0.598 rej  ben_med=0.973 ben_q10/90=0.79/1.77 nben_acc=149 clip=1.00 lam=0.919 attnorm=0.594 bennorm=0.817 cos=-0.66 dF1=+0.39
+r11 mh=0.0363 band=[0.629,1.371] att=0.612 rej  ben_med=0.962 ben_q10/90=0.80/1.75 nben_acc=151 clip=1.00 lam=0.898 attnorm=0.579 bennorm=0.814 cos=-0.64 dF1=+0.46
+r12 mh=0.0361 band=[0.628,1.372] att=0.631 PASS ben_med=0.980 ben_q10/90=0.79/1.71 nben_acc=151 clip=1.00 lam=0.900 attnorm=0.581 bennorm=0.811 cos=-0.64 dF1=-0.38
+r13 mh=0.0358 band=[0.626,1.374] att=0.507 rej  ben_med=0.966 ben_q10/90=0.80/1.82 nben_acc=147 clip=1.00 lam=0.850 attnorm=0.524 bennorm=0.813 cos=-0.67 dF1=+0.84
+r14 mh=0.0356 band=[0.625,1.375] att=0.576 rej  ben_med=0.970 ben_q10/90=0.81/1.78 nben_acc=153 clip=1.00 lam=0.898 attnorm=0.582 bennorm=0.809 cos=-0.65 dF1=+0.21
+r15 mh=0.0354 band=[0.624,1.376] att=0.538 rej  ben_med=0.973 ben_q10/90=0.79/1.78 nben_acc=149 clip=1.00 lam=0.868 attnorm=0.554 bennorm=0.805 cos=-0.62 dF1=+0.02
+r16 mh=0.0352 band=[0.623,1.377] att=0.686 PASS ben_med=0.955 ben_q10/90=0.79/1.75 nben_acc=149 clip=1.00 lam=0.905 attnorm=0.600 bennorm=0.804 cos=-0.60 dF1=-0.50
+r17 mh=0.0350 band=[0.622,1.378] att=0.523 rej  ben_med=0.983 ben_q10/90=0.79/1.85 nben_acc=149 clip=1.00 lam=0.866 attnorm=0.544 bennorm=0.806 cos=-0.66 dF1=+0.79
+r18 mh=0.0349 band=[0.621,1.379] att=0.493 rej  ben_med=0.988 ben_q10/90=0.80/1.78 nben_acc=152 clip=1.00 lam=0.861 attnorm=0.546 bennorm=0.802 cos=-0.62 dF1=+0.16
+r19 mh=0.0347 band=[0.621,1.379] att=0.532 rej  ben_med=0.970 ben_q10/90=0.80/1.80 nben_acc=154 clip=1.00 lam=0.856 attnorm=0.544 bennorm=0.799 cos=-0.63 dF1=+0.23
+r20 mh=0.0346 band=[0.620,1.380] att=0.596 rej  ben_med=0.983 ben_q10/90=0.82/1.75 nben_acc=149 clip=1.00 lam=0.879 attnorm=0.583 bennorm=0.800 cos=-0.60 dF1=+0.29
+r21 mh=0.0345 band=[0.619,1.381] att=0.623 PASS ben_med=0.993 ben_q10/90=0.83/1.73 nben_acc=151 clip=1.00 lam=0.913 attnorm=0.612 bennorm=0.798 cos=-0.58 dF1=-0.52
+r22 mh=0.0344 band=[0.619,1.381] att=0.510 rej  ben_med=0.994 ben_q10/90=0.80/1.75 nben_acc=152 clip=1.00 lam=0.850 attnorm=0.535 bennorm=0.797 cos=-0.63 dF1=+0.71
+r23 mh=0.0343 band=[0.618,1.382] att=0.553 rej  ben_med=1.001 ben_q10/90=0.82/1.74 nben_acc=153 clip=1.00 lam=0.862 attnorm=0.556 bennorm=0.794 cos=-0.61 dF1=+0.15
+r24 mh=0.0342 band=[0.618,1.382] att=0.592 rej  ben_med=1.004 ben_q10/90=0.79/1.78 nben_acc=153 clip=1.00 lam=0.892 attnorm=0.589 bennorm=0.794 cos=-0.61 dF1=+0.15
+r25 mh=0.0342 band=[0.617,1.383] att=0.607 rej  ben_med=0.985 ben_q10/90=0.81/1.72 nben_acc=155 clip=1.00 lam=0.851 attnorm=0.559 bennorm=0.792 cos=-0.60 dF1=+0.29
+r26 mh=0.0341 band=[0.617,1.383] att=0.587 rej  ben_med=0.986 ben_q10/90=0.82/1.71 nben_acc=151 clip=1.00 lam=0.847 attnorm=0.555 bennorm=0.790 cos=-0.58 dF1=-0.16
+r27 mh=0.0340 band=[0.617,1.383] att=0.587 rej  ben_med=0.995 ben_q10/90=0.81/1.77 nben_acc=155 clip=1.00 lam=0.836 attnorm=0.540 bennorm=0.790 cos=-0.58 dF1=+0.52
+r28 mh=0.0340 band=[0.616,1.384] att=0.619 PASS ben_med=0.991 ben_q10/90=0.80/1.70 nben_acc=154 clip=1.00 lam=0.865 attnorm=0.574 bennorm=0.789 cos=-0.56 dF1=-0.56
+r29 mh=0.0339 band=[0.616,1.384] att=0.532 rej  ben_med=0.986 ben_q10/90=0.79/1.73 nben_acc=148 clip=1.00 lam=0.839 attnorm=0.537 bennorm=0.789 cos=-0.62 dF1=+0.99
+r30 mh=0.0338 band=[0.616,1.384] att=0.588 rej  ben_med=0.980 ben_q10/90=0.82/1.74 nben_acc=153 clip=1.00 lam=0.862 attnorm=0.574 bennorm=0.787 cos=-0.56 dF1=-0.04
+r31 mh=0.0338 band=[0.615,1.385] att=0.535 rej  ben_med=1.004 ben_q10/90=0.82/1.71 nben_acc=153 clip=1.00 lam=0.856 attnorm=0.559 bennorm=0.787 cos=-0.57 dF1=+0.07
+r32 mh=0.0337 band=[0.615,1.385] att=0.580 rej  ben_med=0.985 ben_q10/90=0.80/1.79 nben_acc=153 clip=1.00 lam=0.849 attnorm=0.554 bennorm=0.785 cos=-0.57 dF1=+0.20
+r33 mh=0.0337 band=[0.615,1.385] att=0.682 PASS ben_med=0.965 ben_q10/90=0.80/1.67 nben_acc=152 clip=1.00 lam=0.899 attnorm=0.618 bennorm=0.783 cos=-0.53 dF1=-0.50
+r34 mh=0.0336 band=[0.614,1.386] att=0.572 rej  ben_med=0.996 ben_q10/90=0.82/1.69 nben_acc=150 clip=1.00 lam=0.870 attnorm=0.566 bennorm=0.786 cos=-0.59 dF1=+0.41
+r35 mh=0.0336 band=[0.614,1.386] att=0.612 rej  ben_med=0.981 ben_q10/90=0.81/1.75 nben_acc=153 clip=1.00 lam=0.865 attnorm=0.575 bennorm=0.784 cos=-0.59 dF1=+0.34
+r36 mh=0.0335 band=[0.614,1.386] att=0.616 PASS ben_med=0.984 ben_q10/90=0.81/1.72 nben_acc=156 clip=1.00 lam=0.844 attnorm=0.560 bennorm=0.781 cos=-0.55 dF1=-0.34
+r37 mh=0.0334 band=[0.613,1.387] att=0.540 rej  ben_med=1.012 ben_q10/90=0.82/1.71 nben_acc=154 clip=1.00 lam=0.833 attnorm=0.541 bennorm=0.783 cos=-0.60 dF1=+0.68
+r38 mh=0.0334 band=[0.613,1.387] att=0.570 rej  ben_med=0.994 ben_q10/90=0.81/1.70 nben_acc=156 clip=1.00 lam=0.846 attnorm=0.555 bennorm=0.781 cos=-0.55 dF1=-0.02
+r39 mh=0.0334 band=[0.613,1.387] att=0.565 rej  ben_med=0.981 ben_q10/90=0.82/1.75 nben_acc=154 clip=1.00 lam=0.836 attnorm=0.548 bennorm=0.780 cos=-0.56 dF1=+0.05
+r40 mh=0.0333 band=[0.613,1.387] att=0.574 rej  ben_med=1.003 ben_q10/90=0.81/1.71 nben_acc=156 clip=1.00 lam=0.844 attnorm=0.556 bennorm=0.779 cos=-0.55 dF1=+0.15
+r41 mh=0.0333 band=[0.612,1.388] att=0.652 PASS ben_med=0.984 ben_q10/90=0.81/1.69 nben_acc=155 clip=1.00 lam=0.888 attnorm=0.601 bennorm=0.778 cos=-0.52 dF1=-0.31
+r42 mh=0.0332 band=[0.612,1.388] att=0.606 rej  ben_med=0.993 ben_q10/90=0.81/1.76 nben_acc=152 clip=1.00 lam=0.879 attnorm=0.589 bennorm=0.779 cos=-0.56 dF1=+0.32
+r43 mh=0.0332 band=[0.612,1.388] att=0.652 PASS ben_med=1.006 ben_q10/90=0.83/1.71 nben_acc=157 clip=1.00 lam=0.863 attnorm=0.577 bennorm=0.777 cos=-0.54 dF1=-0.37
+r44 mh=0.0332 band=[0.612,1.388] att=0.533 rej  ben_med=0.999 ben_q10/90=0.82/1.73 nben_acc=154 clip=1.00 lam=0.840 attnorm=0.542 bennorm=0.778 cos=-0.58 dF1=+0.56
+r45 mh=0.0331 band=[0.612,1.388] att=0.555 rej  ben_med=1.008 ben_q10/90=0.82/1.69 nben_acc=155 clip=1.00 lam=0.848 attnorm=0.559 bennorm=0.777 cos=-0.54 dF1=+0.27
+r46 mh=0.0331 band=[0.611,1.389] att=0.630 PASS ben_med=0.994 ben_q10/90=0.83/1.66 nben_acc=153 clip=1.00 lam=0.857 attnorm=0.579 bennorm=0.776 cos=-0.53 dF1=-0.45
+r47 mh=0.0331 band=[0.611,1.389] att=0.557 rej  ben_med=1.005 ben_q10/90=0.81/1.74 nben_acc=152 clip=1.00 lam=0.841 attnorm=0.553 bennorm=0.774 cos=-0.57 dF1=+0.41
+r48 mh=0.0330 band=[0.611,1.389] att=0.617 PASS ben_med=1.000 ben_q10/90=0.83/1.69 nben_acc=152 clip=1.00 lam=0.864 attnorm=0.581 bennorm=0.775 cos=-0.54 dF1=-0.44
+r49 mh=0.0330 band=[0.611,1.389] att=0.581 rej  ben_med=0.998 ben_q10/90=0.81/1.71 nben_acc=151 clip=1.00 lam=0.882 attnorm=0.589 bennorm=0.775 cos=-0.58 dF1=+0.55
+r50 mh=0.0330 band=[0.611,1.389] att=0.606 rej  ben_med=0.993 ben_q10/90=0.82/1.71 nben_acc=154 clip=1.00 lam=0.861 attnorm=0.579 bennorm=0.775 cos=-0.54 dF1=+0.21
+== dirichlet_1.0 n=20 drop=1.61 recall=0.52
+r 1 mh=0.0468 band=[0.673,1.327] att=0.879 PASS ben_med=1.033 ben_q10/90=0.85/1.55 nben_acc=144 clip=1.00 lam=1.243 attnorm=0.857 bennorm=0.932 cos=-0.88 dF1=-1.01
+r 2 mh=0.0450 band=[0.667,1.333] att=0.995 PASS ben_med=0.857 ben_q10/90=0.70/1.57 nben_acc=144 clip=1.00 lam=1.054 attnorm=0.718 bennorm=0.895 cos=-0.83 dF1=+0.23
+r 3 mh=0.0417 band=[0.654,1.346] att=1.031 PASS ben_med=0.914 ben_q10/90=0.75/1.64 nben_acc=147 clip=0.97 lam=0.994 attnorm=0.698 bennorm=0.866 cos=-0.78 dF1=+0.47
+r 4 mh=0.0404 band=[0.648,1.352] att=0.810 PASS ben_med=0.931 ben_q10/90=0.76/1.71 nben_acc=145 clip=1.00 lam=0.925 attnorm=0.646 bennorm=0.854 cos=-0.75 dF1=+0.13
+r 5 mh=0.0390 band=[0.642,1.358] att=0.733 PASS ben_med=0.952 ben_q10/90=0.77/1.86 nben_acc=145 clip=1.00 lam=0.892 attnorm=0.617 bennorm=0.847 cos=-0.77 dF1=+0.70
+r 6 mh=0.0382 band=[0.638,1.362] att=0.728 PASS ben_med=0.976 ben_q10/90=0.77/1.81 nben_acc=144 clip=1.00 lam=0.898 attnorm=0.624 bennorm=0.841 cos=-0.76 dF1=+0.25
+r 7 mh=0.0375 band=[0.635,1.365] att=0.679 PASS ben_med=0.984 ben_q10/90=0.78/1.95 nben_acc=139 clip=1.00 lam=0.868 attnorm=0.594 bennorm=0.840 cos=-0.75 dF1=+0.02
+r 8 mh=0.0369 band=[0.632,1.368] att=0.582 rej  ben_med=1.004 ben_q10/90=0.78/2.00 nben_acc=134 clip=1.00 lam=0.843 attnorm=0.561 bennorm=0.839 cos=-0.78 dF1=+1.45
+r 9 mh=0.0366 band=[0.630,1.370] att=0.711 PASS ben_med=0.989 ben_q10/90=0.80/1.94 nben_acc=137 clip=1.00 lam=0.875 attnorm=0.611 bennorm=0.833 cos=-0.72 dF1=-0.70
+r10 mh=0.0362 band=[0.628,1.372] att=0.499 rej  ben_med=1.019 ben_q10/90=0.79/2.03 nben_acc=137 clip=1.00 lam=0.811 attnorm=0.528 bennorm=0.833 cos=-0.78 dF1=+1.92
+r11 mh=0.0360 band=[0.628,1.372] att=0.627 rej  ben_med=0.982 ben_q10/90=0.79/1.88 nben_acc=139 clip=1.00 lam=0.848 attnorm=0.592 bennorm=0.826 cos=-0.71 dF1=+0.75
+r12 mh=0.0358 band=[0.626,1.374] att=0.666 PASS ben_med=1.005 ben_q10/90=0.80/1.85 nben_acc=138 clip=1.00 lam=0.866 attnorm=0.618 bennorm=0.821 cos=-0.68 dF1=-1.44
+r13 mh=0.0356 band=[0.625,1.375] att=0.474 rej  ben_med=1.012 ben_q10/90=0.78/1.91 nben_acc=135 clip=1.00 lam=0.801 attnorm=0.536 bennorm=0.825 cos=-0.76 dF1=+2.03
+r14 mh=0.0354 band=[0.624,1.376] att=0.623 rej  ben_med=0.991 ben_q10/90=0.80/1.89 nben_acc=137 clip=1.00 lam=0.851 attnorm=0.604 bennorm=0.819 cos=-0.70 dF1=+0.11
+r15 mh=0.0352 band=[0.623,1.377] att=0.608 rej  ben_med=0.980 ben_q10/90=0.80/1.87 nben_acc=139 clip=1.00 lam=0.834 attnorm=0.586 bennorm=0.815 cos=-0.69 dF1=+0.53
+r16 mh=0.0351 band=[0.622,1.378] att=0.682 PASS ben_med=0.978 ben_q10/90=0.79/1.81 nben_acc=140 clip=1.00 lam=0.846 attnorm=0.611 bennorm=0.813 cos=-0.66 dF1=-1.24
+r17 mh=0.0349 band=[0.621,1.379] att=0.555 rej  ben_med=1.014 ben_q10/90=0.77/1.94 nben_acc=137 clip=1.00 lam=0.812 attnorm=0.557 bennorm=0.818 cos=-0.73 dF1=+1.51
+r18 mh=0.0347 band=[0.621,1.379] att=0.700 PASS ben_med=0.985 ben_q10/90=0.81/1.92 nben_acc=137 clip=1.00 lam=0.872 attnorm=0.634 bennorm=0.810 cos=-0.67 dF1=-1.16
+r19 mh=0.0346 band=[0.620,1.380] att=0.471 rej  ben_med=1.010 ben_q10/90=0.78/2.01 nben_acc=137 clip=1.00 lam=0.775 attnorm=0.510 bennorm=0.815 cos=-0.75 dF1=+1.30
+r20 mh=0.0345 band=[0.619,1.381] att=0.619 rej  ben_med=0.997 ben_q10/90=0.79/1.79 nben_acc=139 clip=1.00 lam=0.831 attnorm=0.591 bennorm=0.810 cos=-0.68 dF1=+0.49
+r21 mh=0.0344 band=[0.619,1.381] att=0.688 PASS ben_med=1.008 ben_q10/90=0.80/1.84 nben_acc=141 clip=1.00 lam=0.839 attnorm=0.610 bennorm=0.806 cos=-0.64 dF1=-0.92
+r22 mh=0.0343 band=[0.618,1.382] att=0.475 rej  ben_med=1.003 ben_q10/90=0.78/1.90 nben_acc=138 clip=1.00 lam=0.757 attnorm=0.510 bennorm=0.809 cos=-0.73 dF1=+1.00
+r23 mh=0.0342 band=[0.618,1.382] att=0.717 PASS ben_med=1.018 ben_q10/90=0.80/1.88 nben_acc=141 clip=1.00 lam=0.861 attnorm=0.627 bennorm=0.805 cos=-0.66 dF1=-0.96
+r24 mh=0.0341 band=[0.617,1.383] att=0.505 rej  ben_med=1.034 ben_q10/90=0.81/1.96 nben_acc=138 clip=1.00 lam=0.778 attnorm=0.523 bennorm=0.809 cos=-0.74 dF1=+0.88
+r25 mh=0.0340 band=[0.616,1.384] att=0.605 rej  ben_med=1.003 ben_q10/90=0.80/1.89 nben_acc=137 clip=1.00 lam=0.814 attnorm=0.582 bennorm=0.805 cos=-0.67 dF1=+0.48
+r26 mh=0.0339 band=[0.616,1.384] att=0.595 rej  ben_med=0.993 ben_q10/90=0.79/1.91 nben_acc=141 clip=1.00 lam=0.794 attnorm=0.565 bennorm=0.800 cos=-0.65 dF1=+0.42
+r27 mh=0.0338 band=[0.616,1.384] att=0.677 PASS ben_med=1.006 ben_q10/90=0.81/1.86 nben_acc=144 clip=1.00 lam=0.831 attnorm=0.611 bennorm=0.801 cos=-0.64 dF1=-1.19
+r28 mh=0.0338 band=[0.615,1.385] att=0.514 rej  ben_med=1.004 ben_q10/90=0.79/1.85 nben_acc=141 clip=1.00 lam=0.764 attnorm=0.518 bennorm=0.802 cos=-0.70 dF1=+1.50
+r29 mh=0.0337 band=[0.615,1.385] att=0.630 PASS ben_med=1.008 ben_q10/90=0.82/1.73 nben_acc=141 clip=1.00 lam=0.835 attnorm=0.606 bennorm=0.797 cos=-0.64 dF1=-1.20
+r30 mh=0.0336 band=[0.614,1.386] att=0.519 rej  ben_med=1.007 ben_q10/90=0.78/1.91 nben_acc=139 clip=1.00 lam=0.782 attnorm=0.539 bennorm=0.800 cos=-0.70 dF1=+1.29
+r31 mh=0.0336 band=[0.614,1.386] att=0.603 rej  ben_med=1.007 ben_q10/90=0.80/1.78 nben_acc=144 clip=1.00 lam=0.808 attnorm=0.578 bennorm=0.797 cos=-0.65 dF1=+0.44
+r32 mh=0.0335 band=[0.614,1.386] att=0.685 PASS ben_med=1.001 ben_q10/90=0.81/1.78 nben_acc=141 clip=1.00 lam=0.811 attnorm=0.588 bennorm=0.794 cos=-0.62 dF1=-1.02
+r33 mh=0.0335 band=[0.613,1.387] att=0.566 rej  ben_med=1.015 ben_q10/90=0.81/1.83 nben_acc=138 clip=1.00 lam=0.799 attnorm=0.563 bennorm=0.798 cos=-0.68 dF1=+0.87
+r34 mh=0.0334 band=[0.613,1.387] att=0.659 PASS ben_med=1.021 ben_q10/90=0.82/1.74 nben_acc=144 clip=1.00 lam=0.834 attnorm=0.608 bennorm=0.795 cos=-0.63 dF1=-0.67
+r35 mh=0.0334 band=[0.613,1.387] att=0.592 rej  ben_med=1.025 ben_q10/90=0.77/1.80 nben_acc=137 clip=1.00 lam=0.797 attnorm=0.562 bennorm=0.796 cos=-0.68 dF1=+0.78
+r36 mh=0.0333 band=[0.613,1.387] att=0.602 rej  ben_med=1.003 ben_q10/90=0.81/1.75 nben_acc=141 clip=1.00 lam=0.802 attnorm=0.578 bennorm=0.792 cos=-0.62 dF1=+0.52
+r37 mh=0.0333 band=[0.612,1.388] att=0.642 PASS ben_med=0.999 ben_q10/90=0.82/1.71 nben_acc=140 clip=1.00 lam=0.814 attnorm=0.599 bennorm=0.791 cos=-0.60 dF1=-1.10
+r38 mh=0.0332 band=[0.612,1.388] att=0.610 rej  ben_med=1.012 ben_q10/90=0.78/1.81 nben_acc=141 clip=1.00 lam=0.807 attnorm=0.567 bennorm=0.794 cos=-0.67 dF1=+1.04
+r39 mh=0.0332 band=[0.612,1.388] att=0.657 PASS ben_med=1.005 ben_q10/90=0.83/1.75 nben_acc=145 clip=1.00 lam=0.801 attnorm=0.576 bennorm=0.790 cos=-0.61 dF1=-0.92
+r40 mh=0.0331 band=[0.611,1.389] att=0.531 rej  ben_med=1.018 ben_q10/90=0.80/1.80 nben_acc=139 clip=1.00 lam=0.767 attnorm=0.532 bennorm=0.794 cos=-0.68 dF1=+1.01
+r41 mh=0.0331 band=[0.611,1.389] att=0.704 PASS ben_med=0.998 ben_q10/90=0.82/1.77 nben_acc=144 clip=1.00 lam=0.844 attnorm=0.625 bennorm=0.791 cos=-0.61 dF1=-0.80
+r42 mh=0.0330 band=[0.611,1.389] att=0.566 rej  ben_med=0.997 ben_q10/90=0.82/1.83 nben_acc=139 clip=1.00 lam=0.784 attnorm=0.548 bennorm=0.792 cos=-0.66 dF1=+1.12
+r43 mh=0.0330 band=[0.611,1.389] att=0.789 PASS ben_med=1.009 ben_q10/90=0.83/1.75 nben_acc=143 clip=1.00 lam=0.865 attnorm=0.645 bennorm=0.787 cos=-0.61 dF1=-1.05
+r44 mh=0.0330 band=[0.611,1.389] att=0.453 rej  ben_med=1.023 ben_q10/90=0.82/1.85 nben_acc=138 clip=1.00 lam=0.742 attnorm=0.503 bennorm=0.792 cos=-0.69 dF1=+1.06
+r45 mh=0.0329 band=[0.610,1.390] att=0.584 rej  ben_med=1.001 ben_q10/90=0.83/1.81 nben_acc=143 clip=1.00 lam=0.790 attnorm=0.572 bennorm=0.787 cos=-0.62 dF1=+0.42
+r46 mh=0.0329 band=[0.610,1.390] att=0.728 PASS ben_med=1.026 ben_q10/90=0.83/1.70 nben_acc=141 clip=1.00 lam=0.836 attnorm=0.624 bennorm=0.785 cos=-0.58 dF1=-1.06
+r47 mh=0.0329 band=[0.610,1.390] att=0.614 PASS ben_med=1.022 ben_q10/90=0.79/1.79 nben_acc=137 clip=1.00 lam=0.818 attnorm=0.585 bennorm=0.789 cos=-0.66 dF1=-0.67
+r48 mh=0.0328 band=[0.610,1.390] att=0.444 rej  ben_med=1.058 ben_q10/90=0.78/1.93 nben_acc=137 clip=1.00 lam=0.733 attnorm=0.485 bennorm=0.793 cos=-0.71 dF1=+1.63
+r49 mh=0.0328 band=[0.610,1.390] att=0.684 PASS ben_med=1.022 ben_q10/90=0.81/1.77 nben_acc=142 clip=1.00 lam=0.845 attnorm=0.622 bennorm=0.786 cos=-0.62 dF1=-0.74
+r50 mh=0.0327 band=[0.609,1.391] att=0.559 rej  ben_med=1.005 ben_q10/90=0.83/1.75 nben_acc=141 clip=1.00 lam=0.787 attnorm=0.549 bennorm=0.789 cos=-0.66 dF1=+0.88
+== dirichlet_1.0 n=40 drop=2.06 recall=0.72
+r 1 mh=0.0453 band=[0.668,1.332] att=0.876 PASS ben_med=1.061 ben_q10/90=0.88/1.61 nben_acc=127 clip=1.00 lam=1.242 attnorm=0.838 bennorm=0.931 cos=-0.94 dF1=-2.23
+r 2 mh=0.0433 band=[0.660,1.340] att=0.693 PASS ben_med=1.026 ben_q10/90=0.77/1.89 nben_acc=118 clip=1.00 lam=1.087 attnorm=0.679 bennorm=0.921 cos=-0.94 dF1=-1.98
+r 3 mh=0.0407 band=[0.649,1.351] att=0.553 rej  ben_med=1.083 ben_q10/90=0.75/2.08 nben_acc=105 clip=1.00 lam=1.003 attnorm=0.581 bennorm=0.915 cos=-0.95 dF1=+2.01
+r 4 mh=0.0403 band=[0.648,1.352] att=0.756 PASS ben_med=0.979 ben_q10/90=0.73/1.86 nben_acc=121 clip=1.00 lam=0.962 attnorm=0.633 bennorm=0.868 cos=-0.91 dF1=-1.31
+r 5 mh=0.0387 band=[0.641,1.359] att=0.529 rej  ben_med=1.013 ben_q10/90=0.72/2.14 nben_acc=115 clip=1.00 lam=0.881 attnorm=0.525 bennorm=0.873 cos=-0.93 dF1=+3.37
+r 6 mh=0.0382 band=[0.638,1.362] att=0.692 PASS ben_med=0.976 ben_q10/90=0.76/1.82 nben_acc=128 clip=1.00 lam=0.879 attnorm=0.601 bennorm=0.843 cos=-0.88 dF1=-1.92
+r 7 mh=0.0374 band=[0.634,1.366] att=0.514 rej  ben_med=1.004 ben_q10/90=0.75/2.04 nben_acc=116 clip=1.00 lam=0.839 attnorm=0.515 bennorm=0.853 cos=-0.91 dF1=+3.08
+r 8 mh=0.0371 band=[0.633,1.367] att=0.611 rej  ben_med=0.966 ben_q10/90=0.77/1.95 nben_acc=127 clip=1.00 lam=0.847 attnorm=0.573 bennorm=0.837 cos=-0.87 dF1=+1.79
+r 9 mh=0.0367 band=[0.631,1.369] att=0.715 PASS ben_med=0.980 ben_q10/90=0.81/1.90 nben_acc=126 clip=1.00 lam=0.856 attnorm=0.606 bennorm=0.831 cos=-0.84 dF1=-3.29
+r10 mh=0.0362 band=[0.628,1.372] att=0.446 rej  ben_med=1.050 ben_q10/90=0.77/2.17 nben_acc=116 clip=1.00 lam=0.810 attnorm=0.493 bennorm=0.843 cos=-0.91 dF1=+3.03
+r11 mh=0.0361 band=[0.628,1.372] att=0.617 rej  ben_med=0.982 ben_q10/90=0.78/1.93 nben_acc=125 clip=1.00 lam=0.840 attnorm=0.574 bennorm=0.828 cos=-0.86 dF1=+1.11
+r12 mh=0.0359 band=[0.627,1.373] att=0.650 PASS ben_med=1.009 ben_q10/90=0.79/1.87 nben_acc=125 clip=1.00 lam=0.838 attnorm=0.597 bennorm=0.823 cos=-0.83 dF1=-3.25
+r13 mh=0.0355 band=[0.625,1.375] att=0.422 rej  ben_med=1.020 ben_q10/90=0.73/2.21 nben_acc=110 clip=1.00 lam=0.800 attnorm=0.487 bennorm=0.835 cos=-0.91 dF1=+3.43
+r14 mh=0.0354 band=[0.624,1.376] att=0.612 rej  ben_med=0.991 ben_q10/90=0.80/1.99 nben_acc=124 clip=1.00 lam=0.848 attnorm=0.594 bennorm=0.824 cos=-0.85 dF1=+0.45
+r15 mh=0.0352 band=[0.623,1.377] att=0.593 rej  ben_med=1.001 ben_q10/90=0.78/2.00 nben_acc=123 clip=1.00 lam=0.827 attnorm=0.582 bennorm=0.818 cos=-0.84 dF1=+0.89
+r16 mh=0.0351 band=[0.623,1.377] att=0.689 PASS ben_med=0.988 ben_q10/90=0.79/1.91 nben_acc=128 clip=1.00 lam=0.839 attnorm=0.610 bennorm=0.816 cos=-0.81 dF1=-3.43
+r17 mh=0.0348 band=[0.621,1.379] att=0.422 rej  ben_med=1.053 ben_q10/90=0.76/2.15 nben_acc=115 clip=1.00 lam=0.789 attnorm=0.488 bennorm=0.828 cos=-0.89 dF1=+2.87
+r18 mh=0.0347 band=[0.621,1.379] att=0.526 rej  ben_med=0.979 ben_q10/90=0.78/2.03 nben_acc=121 clip=1.00 lam=0.804 attnorm=0.553 bennorm=0.817 cos=-0.85 dF1=+0.76
+r19 mh=0.0346 band=[0.620,1.380] att=0.585 rej  ben_med=0.987 ben_q10/90=0.79/1.97 nben_acc=126 clip=1.00 lam=0.817 attnorm=0.581 bennorm=0.812 cos=-0.83 dF1=+0.14
+r20 mh=0.0345 band=[0.619,1.381] att=0.548 rej  ben_med=0.982 ben_q10/90=0.80/1.87 nben_acc=124 clip=1.00 lam=0.794 attnorm=0.564 bennorm=0.811 cos=-0.82 dF1=+0.51
+r21 mh=0.0344 band=[0.619,1.381] att=0.641 PASS ben_med=1.000 ben_q10/90=0.80/1.80 nben_acc=125 clip=1.00 lam=0.817 attnorm=0.597 bennorm=0.807 cos=-0.80 dF1=-2.90
+r22 mh=0.0342 band=[0.618,1.382] att=0.378 rej  ben_med=1.013 ben_q10/90=0.75/2.07 nben_acc=116 clip=1.00 lam=0.759 attnorm=0.463 bennorm=0.821 cos=-0.90 dF1=+2.49
+r23 mh=0.0341 band=[0.617,1.383] att=0.518 rej  ben_med=1.008 ben_q10/90=0.79/1.99 nben_acc=123 clip=1.00 lam=0.787 attnorm=0.545 bennorm=0.810 cos=-0.83 dF1=+0.66
+r24 mh=0.0341 band=[0.617,1.383] att=0.583 rej  ben_med=1.017 ben_q10/90=0.80/1.92 nben_acc=125 clip=1.00 lam=0.804 attnorm=0.570 bennorm=0.806 cos=-0.81 dF1=+0.19
+r25 mh=0.0340 band=[0.617,1.383] att=0.546 rej  ben_med=0.992 ben_q10/90=0.81/1.85 nben_acc=124 clip=1.00 lam=0.780 attnorm=0.558 bennorm=0.805 cos=-0.81 dF1=+0.22
+r26 mh=0.0340 band=[0.616,1.384] att=0.573 rej  ben_med=1.001 ben_q10/90=0.82/1.88 nben_acc=126 clip=1.00 lam=0.785 attnorm=0.566 bennorm=0.802 cos=-0.80 dF1=+0.06
+r27 mh=0.0339 band=[0.616,1.384] att=0.540 rej  ben_med=1.005 ben_q10/90=0.82/1.89 nben_acc=128 clip=1.00 lam=0.773 attnorm=0.554 bennorm=0.801 cos=-0.79 dF1=+0.37
+r28 mh=0.0338 band=[0.616,1.384] att=0.651 PASS ben_med=0.998 ben_q10/90=0.80/1.80 nben_acc=126 clip=1.00 lam=0.812 attnorm=0.602 bennorm=0.797 cos=-0.78 dF1=-2.73
+r29 mh=0.0337 band=[0.615,1.385] att=0.393 rej  ben_med=1.032 ben_q10/90=0.75/2.08 nben_acc=118 clip=1.00 lam=0.754 attnorm=0.468 bennorm=0.812 cos=-0.88 dF1=+2.52
+r30 mh=0.0337 band=[0.615,1.385] att=0.522 rej  ben_med=0.980 ben_q10/90=0.81/1.86 nben_acc=125 clip=1.00 lam=0.782 attnorm=0.555 bennorm=0.800 cos=-0.81 dF1=+0.31
+r31 mh=0.0336 band=[0.614,1.386] att=0.620 PASS ben_med=1.029 ben_q10/90=0.79/1.85 nben_acc=126 clip=1.00 lam=0.826 attnorm=0.609 bennorm=0.798 cos=-0.80 dF1=-2.90
+r32 mh=0.0334 band=[0.613,1.387] att=0.383 rej  ben_med=1.068 ben_q10/90=0.77/2.21 nben_acc=113 clip=1.00 lam=0.752 attnorm=0.459 bennorm=0.813 cos=-0.89 dF1=+2.76
+r33 mh=0.0334 band=[0.613,1.387] att=0.526 rej  ben_med=0.991 ben_q10/90=0.78/1.90 nben_acc=123 clip=1.00 lam=0.775 attnorm=0.545 bennorm=0.800 cos=-0.82 dF1=+0.42
+r34 mh=0.0334 band=[0.613,1.387] att=0.514 rej  ben_med=0.995 ben_q10/90=0.83/1.83 nben_acc=129 clip=1.00 lam=0.766 attnorm=0.547 bennorm=0.798 cos=-0.80 dF1=+0.47
+r35 mh=0.0333 band=[0.613,1.387] att=0.649 PASS ben_med=0.978 ben_q10/90=0.80/1.78 nben_acc=126 clip=1.00 lam=0.813 attnorm=0.606 bennorm=0.793 cos=-0.77 dF1=-2.81
+r36 mh=0.0332 band=[0.612,1.388] att=0.354 rej  ben_med=1.044 ben_q10/90=0.73/2.11 nben_acc=118 clip=1.00 lam=0.739 attnorm=0.459 bennorm=0.807 cos=-0.88 dF1=+2.43
+r37 mh=0.0332 band=[0.612,1.388] att=0.535 rej  ben_med=1.023 ben_q10/90=0.80/1.87 nben_acc=127 clip=1.00 lam=0.782 attnorm=0.551 bennorm=0.798 cos=-0.83 dF1=+0.35
+r38 mh=0.0331 band=[0.612,1.388] att=0.602 rej  ben_med=1.007 ben_q10/90=0.84/1.85 nben_acc=130 clip=1.00 lam=0.794 attnorm=0.580 bennorm=0.794 cos=-0.79 dF1=+0.30
+r39 mh=0.0331 band=[0.611,1.389] att=0.613 PASS ben_med=1.009 ben_q10/90=0.82/1.82 nben_acc=128 clip=1.00 lam=0.788 attnorm=0.577 bennorm=0.792 cos=-0.77 dF1=-2.63
+r40 mh=0.0330 band=[0.611,1.389] att=0.368 rej  ben_med=1.064 ben_q10/90=0.76/2.02 nben_acc=118 clip=1.00 lam=0.735 attnorm=0.459 bennorm=0.805 cos=-0.88 dF1=+2.15
+r41 mh=0.0330 band=[0.611,1.389] att=0.511 rej  ben_med=1.025 ben_q10/90=0.81/1.83 nben_acc=123 clip=1.00 lam=0.771 attnorm=0.544 bennorm=0.796 cos=-0.81 dF1=+0.40
+r42 mh=0.0330 band=[0.611,1.389] att=0.542 rej  ben_med=0.992 ben_q10/90=0.80/1.80 nben_acc=125 clip=1.00 lam=0.769 attnorm=0.559 bennorm=0.791 cos=-0.78 dF1=+0.31
+r43 mh=0.0330 band=[0.611,1.389] att=0.610 rej  ben_med=1.001 ben_q10/90=0.83/1.85 nben_acc=129 clip=1.00 lam=0.798 attnorm=0.588 bennorm=0.790 cos=-0.78 dF1=+0.27
+r44 mh=0.0329 band=[0.610,1.390] att=0.581 rej  ben_med=1.023 ben_q10/90=0.84/1.83 nben_acc=128 clip=1.00 lam=0.788 attnorm=0.586 bennorm=0.790 cos=-0.76 dF1=+0.07
+r45 mh=0.0329 band=[0.610,1.390] att=0.562 rej  ben_med=1.032 ben_q10/90=0.82/1.80 nben_acc=130 clip=1.00 lam=0.777 attnorm=0.574 bennorm=0.785 cos=-0.76 dF1=+0.43
+r46 mh=0.0329 band=[0.610,1.390] att=0.643 PASS ben_med=1.015 ben_q10/90=0.83/1.74 nben_acc=126 clip=1.00 lam=0.801 attnorm=0.603 bennorm=0.784 cos=-0.74 dF1=-2.90
+r47 mh=0.0328 band=[0.610,1.390] att=0.330 rej  ben_med=1.036 ben_q10/90=0.78/1.92 nben_acc=119 clip=1.00 lam=0.713 attnorm=0.445 bennorm=0.798 cos=-0.87 dF1=+2.09
+r48 mh=0.0328 band=[0.610,1.390] att=0.554 rej  ben_med=1.030 ben_q10/90=0.81/1.90 nben_acc=125 clip=1.00 lam=0.786 attnorm=0.561 bennorm=0.789 cos=-0.81 dF1=+0.86
+r49 mh=0.0328 band=[0.609,1.391] att=0.630 PASS ben_med=1.023 ben_q10/90=0.79/1.78 nben_acc=125 clip=1.00 lam=0.802 attnorm=0.597 bennorm=0.786 cos=-0.75 dF1=-2.37
+r50 mh=0.0327 band=[0.609,1.391] att=0.339 rej  ben_med=1.034 ben_q10/90=0.80/1.98 nben_acc=117 clip=1.00 lam=0.719 attnorm=0.442 bennorm=0.799 cos=-0.88 dF1=+2.00
+== dirichlet_1.0 n=60 drop=1.95 recall=0.82
+r 1 mh=0.0452 band=[0.668,1.332] att=1.000 PASS ben_med=1.056 ben_q10/90=0.88/1.62 nben_acc=111 clip=1.00 lam=1.302 attnorm=0.904 bennorm=0.931 cos=-0.95 dF1=-2.42
+r 2 mh=0.0452 band=[0.668,1.332] att=0.517 rej  ben_med=1.256 ben_q10/90=0.85/2.02 nben_acc=81 clip=1.00 lam=1.183 attnorm=0.730 bennorm=0.954 cos=-0.96 dF1=-2.17
+r 3 mh=0.0470 band=[0.674,1.326] att=0.515 rej  ben_med=0.883 ben_q10/90=0.64/1.85 nben_acc=91 clip=1.00 lam=0.953 attnorm=0.569 bennorm=0.903 cos=-0.95 dF1=+5.86
+r 4 mh=0.0449 band=[0.666,1.334] att=1.202 PASS ben_med=0.828 ben_q10/90=0.72/1.48 nben_acc=119 clip=0.83 lam=1.073 attnorm=0.835 bennorm=0.849 cos=-0.87 dF1=-3.82
+r 5 mh=0.0443 band=[0.664,1.336] att=0.609 rej  ben_med=0.861 ben_q10/90=0.67/1.70 nben_acc=105 clip=1.00 lam=0.914 attnorm=0.609 bennorm=0.863 cos=-0.92 dF1=+3.96
+r 6 mh=0.0429 band=[0.659,1.341] att=0.889 PASS ben_med=0.866 ben_q10/90=0.72/1.57 nben_acc=117 clip=1.00 lam=0.958 attnorm=0.726 bennorm=0.839 cos=-0.86 dF1=-5.44
+r 7 mh=0.0421 band=[0.655,1.345] att=0.481 rej  ben_med=0.891 ben_q10/90=0.68/1.97 nben_acc=103 clip=1.00 lam=0.859 attnorm=0.541 bennorm=0.861 cos=-0.93 dF1=+4.99
+r 8 mh=0.0412 band=[0.652,1.348] att=0.698 PASS ben_med=0.897 ben_q10/90=0.73/1.76 nben_acc=114 clip=1.00 lam=0.887 attnorm=0.644 bennorm=0.841 cos=-0.88 dF1=-5.25
+r 9 mh=0.0400 band=[0.646,1.354] att=0.414 rej  ben_med=0.986 ben_q10/90=0.70/2.18 nben_acc=97 clip=1.00 lam=0.841 attnorm=0.502 bennorm=0.865 cos=-0.94 dF1=+5.87
+r10 mh=0.0396 band=[0.645,1.355] att=0.673 PASS ben_med=0.926 ben_q10/90=0.75/1.91 nben_acc=114 clip=1.00 lam=0.896 attnorm=0.645 bennorm=0.839 cos=-0.89 dF1=-5.28
+r11 mh=0.0388 band=[0.641,1.359] att=0.354 rej  ben_med=0.976 ben_q10/90=0.69/2.36 nben_acc=91 clip=1.00 lam=0.824 attnorm=0.474 bennorm=0.862 cos=-0.94 dF1=+5.69
+r12 mh=0.0385 band=[0.639,1.361] att=0.617 rej  ben_med=0.934 ben_q10/90=0.75/2.02 nben_acc=110 clip=1.00 lam=0.866 attnorm=0.612 bennorm=0.838 cos=-0.89 dF1=+0.82
+r13 mh=0.0381 band=[0.638,1.362] att=0.607 rej  ben_med=0.938 ben_q10/90=0.75/1.88 nben_acc=110 clip=1.00 lam=0.850 attnorm=0.608 bennorm=0.832 cos=-0.88 dF1=+0.61
+r14 mh=0.0378 band=[0.636,1.364] att=0.661 PASS ben_med=0.939 ben_q10/90=0.77/1.87 nben_acc=113 clip=1.00 lam=0.858 attnorm=0.626 bennorm=0.828 cos=-0.87 dF1=-5.32
+r15 mh=0.0372 band=[0.634,1.366] att=0.328 rej  ben_med=1.022 ben_q10/90=0.68/2.38 nben_acc=91 clip=1.00 lam=0.791 attnorm=0.446 bennorm=0.851 cos=-0.94 dF1=+5.08
+r16 mh=0.0371 band=[0.633,1.367] att=0.612 rej  ben_med=0.942 ben_q10/90=0.75/2.04 nben_acc=109 clip=1.00 lam=0.846 attnorm=0.602 bennorm=0.829 cos=-0.88 dF1=+0.66
+r17 mh=0.0369 band=[0.632,1.368] att=0.586 rej  ben_med=0.968 ben_q10/90=0.77/1.91 nben_acc=110 clip=1.00 lam=0.827 attnorm=0.596 bennorm=0.824 cos=-0.87 dF1=+0.51
+r18 mh=0.0367 band=[0.631,1.369] att=0.574 rej  ben_med=0.962 ben_q10/90=0.76/1.95 nben_acc=108 clip=1.00 lam=0.822 attnorm=0.597 bennorm=0.821 cos=-0.86 dF1=+0.34
+r19 mh=0.0365 band=[0.630,1.370] att=0.579 rej  ben_med=0.967 ben_q10/90=0.76/1.87 nben_acc=112 clip=1.00 lam=0.823 attnorm=0.596 bennorm=0.818 cos=-0.86 dF1=+0.54
+r20 mh=0.0363 band=[0.629,1.371] att=0.583 rej  ben_med=0.951 ben_q10/90=0.77/1.88 nben_acc=112 clip=1.00 lam=0.791 attnorm=0.578 bennorm=0.817 cos=-0.84 dF1=+0.42
+r21 mh=0.0361 band=[0.628,1.372] att=0.649 PASS ben_med=0.954 ben_q10/90=0.76/1.83 nben_acc=114 clip=1.00 lam=0.827 attnorm=0.619 bennorm=0.813 cos=-0.83 dF1=-4.83
+r22 mh=0.0358 band=[0.626,1.374] att=0.313 rej  ben_med=1.013 ben_q10/90=0.70/2.24 nben_acc=93 clip=1.00 lam=0.754 attnorm=0.435 bennorm=0.835 cos=-0.94 dF1=+4.35
+r23 mh=0.0357 band=[0.626,1.374] att=0.527 rej  ben_med=0.972 ben_q10/90=0.75/1.90 nben_acc=109 clip=1.00 lam=0.783 attnorm=0.555 bennorm=0.815 cos=-0.87 dF1=+0.48
+r24 mh=0.0356 band=[0.625,1.375] att=0.563 rej  ben_med=0.970 ben_q10/90=0.77/1.89 nben_acc=111 clip=1.00 lam=0.804 attnorm=0.583 bennorm=0.812 cos=-0.86 dF1=+0.07
+r25 mh=0.0354 band=[0.624,1.376] att=0.560 rej  ben_med=0.971 ben_q10/90=0.79/1.84 nben_acc=109 clip=1.00 lam=0.791 attnorm=0.580 bennorm=0.810 cos=-0.84 dF1=+0.14
+r26 mh=0.0353 band=[0.624,1.376] att=0.549 rej  ben_med=0.970 ben_q10/90=0.77/1.90 nben_acc=110 clip=1.00 lam=0.788 attnorm=0.577 bennorm=0.805 cos=-0.84 dF1=+0.25
+r27 mh=0.0352 band=[0.623,1.377] att=0.547 rej  ben_med=0.975 ben_q10/90=0.80/1.90 nben_acc=111 clip=1.00 lam=0.777 attnorm=0.569 bennorm=0.806 cos=-0.84 dF1=-0.00
+r28 mh=0.0351 band=[0.623,1.377] att=0.569 rej  ben_med=0.941 ben_q10/90=0.78/1.78 nben_acc=112 clip=1.00 lam=0.793 attnorm=0.584 bennorm=0.803 cos=-0.84 dF1=+0.41
+r29 mh=0.0350 band=[0.622,1.378] att=0.544 rej  ben_med=0.972 ben_q10/90=0.79/1.86 nben_acc=113 clip=1.00 lam=0.779 attnorm=0.576 bennorm=0.802 cos=-0.83 dF1=+0.36
+r30 mh=0.0349 band=[0.622,1.378] att=0.577 rej  ben_med=0.985 ben_q10/90=0.76/1.78 nben_acc=113 clip=1.00 lam=0.785 attnorm=0.593 bennorm=0.798 cos=-0.81 dF1=+0.04
+r31 mh=0.0348 band=[0.621,1.379] att=0.552 rej  ben_med=0.949 ben_q10/90=0.79/1.73 nben_acc=115 clip=1.00 lam=0.788 attnorm=0.596 bennorm=0.799 cos=-0.80 dF1=+0.37
+r32 mh=0.0347 band=[0.621,1.379] att=0.609 rej  ben_med=0.985 ben_q10/90=0.81/1.77 nben_acc=116 clip=1.00 lam=0.787 attnorm=0.599 bennorm=0.797 cos=-0.80 dF1=+0.09
+r33 mh=0.0347 band=[0.620,1.380] att=0.592 rej  ben_med=0.957 ben_q10/90=0.78/1.87 nben_acc=115 clip=1.00 lam=0.781 attnorm=0.596 bennorm=0.795 cos=-0.79 dF1=+0.21
+r34 mh=0.0346 band=[0.620,1.380] att=0.553 rej  ben_med=0.964 ben_q10/90=0.81/1.73 nben_acc=117 clip=1.00 lam=0.779 attnorm=0.597 bennorm=0.795 cos=-0.78 dF1=+0.25
+r35 mh=0.0345 band=[0.619,1.381] att=0.631 PASS ben_med=0.968 ben_q10/90=0.80/1.71 nben_acc=115 clip=1.00 lam=0.798 attnorm=0.619 bennorm=0.792 cos=-0.77 dF1=-4.62
+r36 mh=0.0344 band=[0.619,1.381] att=0.290 rej  ben_med=1.009 ben_q10/90=0.72/2.11 nben_acc=97 clip=1.00 lam=0.710 attnorm=0.420 bennorm=0.815 cos=-0.92 dF1=+4.23
+r37 mh=0.0343 band=[0.618,1.382] att=0.543 rej  ben_med=1.002 ben_q10/90=0.80/1.76 nben_acc=113 clip=1.00 lam=0.780 attnorm=0.576 bennorm=0.797 cos=-0.83 dF1=+0.10
+r38 mh=0.0343 band=[0.618,1.382] att=0.587 rej  ben_med=0.980 ben_q10/90=0.80/1.76 nben_acc=112 clip=1.00 lam=0.798 attnorm=0.601 bennorm=0.793 cos=-0.81 dF1=+0.29
+r39 mh=0.0342 band=[0.618,1.382] att=0.554 rej  ben_med=0.975 ben_q10/90=0.81/1.75 nben_acc=113 clip=1.00 lam=0.773 attnorm=0.581 bennorm=0.793 cos=-0.80 dF1=+0.04
+r40 mh=0.0342 band=[0.617,1.383] att=0.508 rej  ben_med=0.967 ben_q10/90=0.77/1.74 nben_acc=112 clip=1.00 lam=0.745 attnorm=0.559 bennorm=0.792 cos=-0.80 dF1=+0.15
+r41 mh=0.0341 band=[0.617,1.383] att=0.524 rej  ben_med=0.979 ben_q10/90=0.82/1.77 nben_acc=113 clip=1.00 lam=0.767 attnorm=0.582 bennorm=0.791 cos=-0.79 dF1=+0.18
+r42 mh=0.0340 band=[0.617,1.383] att=0.555 rej  ben_med=0.974 ben_q10/90=0.81/1.70 nben_acc=116 clip=1.00 lam=0.767 attnorm=0.584 bennorm=0.790 cos=-0.78 dF1=+0.31
+r43 mh=0.0340 band=[0.617,1.383] att=0.613 rej  ben_med=0.979 ben_q10/90=0.82/1.72 nben_acc=115 clip=1.00 lam=0.788 attnorm=0.609 bennorm=0.786 cos=-0.76 dF1=+0.04
+r44 mh=0.0340 band=[0.616,1.384] att=0.565 rej  ben_med=0.973 ben_q10/90=0.81/1.68 nben_acc=113 clip=1.00 lam=0.771 attnorm=0.597 bennorm=0.787 cos=-0.76 dF1=+0.01
+r45 mh=0.0339 band=[0.616,1.384] att=0.559 rej  ben_med=1.000 ben_q10/90=0.81/1.68 nben_acc=117 clip=1.00 lam=0.768 attnorm=0.590 bennorm=0.784 cos=-0.77 dF1=+0.29
+r46 mh=0.0339 band=[0.616,1.384] att=0.635 PASS ben_med=0.998 ben_q10/90=0.82/1.73 nben_acc=116 clip=1.00 lam=0.787 attnorm=0.616 bennorm=0.784 cos=-0.75 dF1=-4.62
+r47 mh=0.0338 band=[0.615,1.385] att=0.269 rej  ben_med=1.017 ben_q10/90=0.73/1.99 nben_acc=96 clip=1.00 lam=0.690 attnorm=0.405 bennorm=0.803 cos=-0.92 dF1=+3.85
+r48 mh=0.0338 band=[0.615,1.385] att=0.467 rej  ben_med=1.005 ben_q10/90=0.78/1.80 nben_acc=112 clip=1.00 lam=0.746 attnorm=0.541 bennorm=0.788 cos=-0.83 dF1=+0.53
+r49 mh=0.0337 band=[0.615,1.385] att=0.560 rej  ben_med=0.989 ben_q10/90=0.80/1.74 nben_acc=113 clip=1.00 lam=0.773 attnorm=0.583 bennorm=0.786 cos=-0.80 dF1=+0.38
+r50 mh=0.0337 band=[0.615,1.385] att=0.480 rej  ben_med=0.970 ben_q10/90=0.82/1.71 nben_acc=115 clip=1.00 lam=0.739 attnorm=0.559 bennorm=0.784 cos=-0.76 dF1=-0.00
+== dirichlet_1.0 n=80 drop=1.49 recall=0.92
+r 1 mh=0.0426 band=[0.657,1.343] att=1.000 PASS ben_med=1.104 ben_q10/90=0.94/1.72 nben_acc=91 clip=1.00 lam=1.292 attnorm=0.879 bennorm=0.928 cos=-0.95 dF1=-3.46
+r 2 mh=0.0426 band=[0.657,1.343] att=0.266 rej  ben_med=1.685 ben_q10/90=1.07/2.72 nben_acc=28 clip=1.00 lam=1.198 attnorm=0.669 bennorm=0.983 cos=-0.97 dF1=-7.32
+r 3 mh=0.0463 band=[0.671,1.329] att=0.146 rej  ben_med=1.302 ben_q10/90=0.65/2.61 nben_acc=49 clip=1.00 lam=0.980 attnorm=0.387 bennorm=0.975 cos=-0.98 dF1=+6.45
+r 4 mh=0.0474 band=[0.675,1.325] att=0.433 rej  ben_med=0.865 ben_q10/90=0.60/1.82 nben_acc=75 clip=1.00 lam=0.944 attnorm=0.534 bennorm=0.891 cos=-0.96 dF1=+5.96
+r 5 mh=0.0458 band=[0.670,1.330] att=0.963 PASS ben_med=0.821 ben_q10/90=0.68/1.39 nben_acc=96 clip=1.00 lam=1.013 attnorm=0.770 bennorm=0.842 cos=-0.86 dF1=-7.57
+r 6 mh=0.0454 band=[0.668,1.332] att=0.358 rej  ben_med=0.875 ben_q10/90=0.63/1.91 nben_acc=79 clip=1.00 lam=0.895 attnorm=0.495 bennorm=0.875 cos=-0.96 dF1=+6.93
+r 7 mh=0.0443 band=[0.664,1.336] att=0.832 PASS ben_med=0.829 ben_q10/90=0.69/1.54 nben_acc=100 clip=1.00 lam=0.985 attnorm=0.732 bennorm=0.842 cos=-0.87 dF1=-7.65
+r 8 mh=0.0433 band=[0.660,1.340] att=0.311 rej  ben_med=0.923 ben_q10/90=0.67/1.98 nben_acc=82 clip=1.00 lam=0.870 attnorm=0.460 bennorm=0.876 cos=-0.96 dF1=+6.38
+r 9 mh=0.0426 band=[0.657,1.343] att=0.619 rej  ben_med=0.881 ben_q10/90=0.74/1.76 nben_acc=98 clip=1.00 lam=0.918 attnorm=0.632 bennorm=0.846 cos=-0.91 dF1=+1.21
+r10 mh=0.0418 band=[0.654,1.346] att=0.626 rej  ben_med=0.858 ben_q10/90=0.72/1.65 nben_acc=97 clip=1.00 lam=0.899 attnorm=0.632 bennorm=0.835 cos=-0.89 dF1=+0.78
+r11 mh=0.0411 band=[0.651,1.349] att=0.611 rej  ben_med=0.858 ben_q10/90=0.72/1.64 nben_acc=101 clip=1.00 lam=0.873 attnorm=0.624 bennorm=0.827 cos=-0.87 dF1=+0.72
+r12 mh=0.0405 band=[0.649,1.351] att=0.596 rej  ben_med=0.859 ben_q10/90=0.71/1.63 nben_acc=99 clip=1.00 lam=0.856 attnorm=0.610 bennorm=0.824 cos=-0.87 dF1=+0.31
+r13 mh=0.0399 band=[0.646,1.354] att=0.525 rej  ben_med=0.875 ben_q10/90=0.72/1.74 nben_acc=100 clip=1.00 lam=0.818 attnorm=0.570 bennorm=0.822 cos=-0.88 dF1=+1.53
+r14 mh=0.0394 band=[0.644,1.356] att=0.654 PASS ben_med=0.895 ben_q10/90=0.74/1.72 nben_acc=99 clip=1.00 lam=0.874 attnorm=0.643 bennorm=0.817 cos=-0.85 dF1=-8.20
+r15 mh=0.0386 band=[0.640,1.360] att=0.236 rej  ben_med=0.985 ben_q10/90=0.61/2.35 nben_acc=75 clip=1.00 lam=0.787 attnorm=0.381 bennorm=0.851 cos=-0.96 dF1=+7.31
+r16 mh=0.0385 band=[0.640,1.360] att=0.527 rej  ben_med=0.888 ben_q10/90=0.72/1.77 nben_acc=94 clip=1.00 lam=0.837 attnorm=0.577 bennorm=0.822 cos=-0.89 dF1=+0.31
+r17 mh=0.0382 band=[0.638,1.362] att=0.523 rej  ben_med=0.899 ben_q10/90=0.73/1.86 nben_acc=99 clip=1.00 lam=0.817 attnorm=0.564 bennorm=0.818 cos=-0.88 dF1=+0.69
+r18 mh=0.0379 band=[0.637,1.363] att=0.513 rej  ben_med=0.885 ben_q10/90=0.74/1.79 nben_acc=98 clip=1.00 lam=0.805 attnorm=0.562 bennorm=0.815 cos=-0.87 dF1=+0.15
+r19 mh=0.0375 band=[0.635,1.365] att=0.491 rej  ben_med=0.924 ben_q10/90=0.74/1.87 nben_acc=98 clip=1.00 lam=0.800 attnorm=0.551 bennorm=0.811 cos=-0.88 dF1=+0.23
+r20 mh=0.0373 band=[0.634,1.366] att=0.481 rej  ben_med=0.906 ben_q10/90=0.75/1.75 nben_acc=97 clip=1.00 lam=0.778 attnorm=0.536 bennorm=0.812 cos=-0.87 dF1=+0.15
+r21 mh=0.0371 band=[0.633,1.367] att=0.533 rej  ben_med=0.908 ben_q10/90=0.72/1.72 nben_acc=98 clip=1.00 lam=0.812 attnorm=0.573 bennorm=0.808 cos=-0.87 dF1=+0.36
+r22 mh=0.0368 band=[0.632,1.368] att=0.517 rej  ben_med=0.895 ben_q10/90=0.72/1.70 nben_acc=96 clip=1.00 lam=0.802 attnorm=0.576 bennorm=0.805 cos=-0.85 dF1=+0.24
+r23 mh=0.0366 band=[0.631,1.369] att=0.476 rej  ben_med=0.895 ben_q10/90=0.76/1.83 nben_acc=97 clip=1.00 lam=0.764 attnorm=0.538 bennorm=0.804 cos=-0.85 dF1=+0.15
+r24 mh=0.0364 band=[0.629,1.371] att=0.459 rej  ben_med=0.928 ben_q10/90=0.74/1.78 nben_acc=97 clip=1.00 lam=0.763 attnorm=0.533 bennorm=0.803 cos=-0.86 dF1=+0.54
+r25 mh=0.0362 band=[0.629,1.371] att=0.503 rej  ben_med=0.912 ben_q10/90=0.76/1.66 nben_acc=98 clip=1.00 lam=0.774 attnorm=0.556 bennorm=0.802 cos=-0.83 dF1=-0.08
+r26 mh=0.0361 band=[0.628,1.372] att=0.483 rej  ben_med=0.905 ben_q10/90=0.73/1.70 nben_acc=99 clip=1.00 lam=0.779 attnorm=0.557 bennorm=0.799 cos=-0.85 dF1=+0.21
+r27 mh=0.0359 band=[0.627,1.373] att=0.464 rej  ben_med=0.920 ben_q10/90=0.78/1.70 nben_acc=98 clip=1.00 lam=0.752 attnorm=0.534 bennorm=0.798 cos=-0.84 dF1=-0.01
+r28 mh=0.0358 band=[0.626,1.374] att=0.469 rej  ben_med=0.914 ben_q10/90=0.76/1.72 nben_acc=100 clip=1.00 lam=0.758 attnorm=0.535 bennorm=0.798 cos=-0.84 dF1=+0.31
+r29 mh=0.0356 band=[0.625,1.375] att=0.482 rej  ben_med=0.920 ben_q10/90=0.74/1.73 nben_acc=100 clip=1.00 lam=0.757 attnorm=0.541 bennorm=0.795 cos=-0.84 dF1=+0.33
+r30 mh=0.0355 band=[0.625,1.375] att=0.451 rej  ben_med=0.919 ben_q10/90=0.76/1.68 nben_acc=99 clip=1.00 lam=0.745 attnorm=0.538 bennorm=0.792 cos=-0.83 dF1=+0.05
+r31 mh=0.0353 band=[0.624,1.376] att=0.525 rej  ben_med=0.942 ben_q10/90=0.76/1.66 nben_acc=98 clip=1.00 lam=0.793 attnorm=0.584 bennorm=0.793 cos=-0.82 dF1=+0.38
+r32 mh=0.0352 band=[0.623,1.377] att=0.513 rej  ben_med=0.935 ben_q10/90=0.79/1.75 nben_acc=99 clip=1.00 lam=0.773 attnorm=0.567 bennorm=0.793 cos=-0.82 dF1=-0.02
+r33 mh=0.0351 band=[0.623,1.377] att=0.517 rej  ben_med=0.943 ben_q10/90=0.77/1.72 nben_acc=98 clip=1.00 lam=0.765 attnorm=0.557 bennorm=0.791 cos=-0.82 dF1=+0.14
+r34 mh=0.0350 band=[0.622,1.378] att=0.439 rej  ben_med=0.928 ben_q10/90=0.77/1.79 nben_acc=101 clip=1.00 lam=0.738 attnorm=0.531 bennorm=0.790 cos=-0.81 dF1=+0.01
+r35 mh=0.0349 band=[0.622,1.378] att=0.490 rej  ben_med=0.935 ben_q10/90=0.74/1.64 nben_acc=99 clip=1.00 lam=0.751 attnorm=0.545 bennorm=0.786 cos=-0.83 dF1=+0.23
+r36 mh=0.0348 band=[0.621,1.379] att=0.425 rej  ben_med=0.926 ben_q10/90=0.76/1.66 nben_acc=97 clip=1.00 lam=0.732 attnorm=0.533 bennorm=0.787 cos=-0.81 dF1=-0.10
+r37 mh=0.0347 band=[0.620,1.380] att=0.459 rej  ben_med=0.928 ben_q10/90=0.77/1.76 nben_acc=99 clip=1.00 lam=0.736 attnorm=0.527 bennorm=0.786 cos=-0.83 dF1=+0.33
+r38 mh=0.0346 band=[0.620,1.380] att=0.492 rej  ben_med=0.949 ben_q10/90=0.78/1.66 nben_acc=99 clip=1.00 lam=0.756 attnorm=0.555 bennorm=0.782 cos=-0.81 dF1=+0.10
+r39 mh=0.0346 band=[0.620,1.380] att=0.486 rej  ben_med=0.930 ben_q10/90=0.76/1.65 nben_acc=99 clip=1.00 lam=0.754 attnorm=0.552 bennorm=0.783 cos=-0.82 dF1=+0.05
+r40 mh=0.0345 band=[0.619,1.381] att=0.452 rej  ben_med=0.922 ben_q10/90=0.75/1.61 nben_acc=98 clip=1.00 lam=0.728 attnorm=0.528 bennorm=0.783 cos=-0.81 dF1=+0.13
+r41 mh=0.0344 band=[0.619,1.381] att=0.489 rej  ben_med=0.953 ben_q10/90=0.80/1.77 nben_acc=99 clip=1.00 lam=0.753 attnorm=0.557 bennorm=0.782 cos=-0.81 dF1=+0.10
+r42 mh=0.0343 band=[0.618,1.382] att=0.485 rej  ben_med=0.959 ben_q10/90=0.78/1.57 nben_acc=98 clip=1.00 lam=0.740 attnorm=0.543 bennorm=0.780 cos=-0.81 dF1=+0.46
+r43 mh=0.0343 band=[0.618,1.382] att=0.562 rej  ben_med=0.949 ben_q10/90=0.80/1.61 nben_acc=102 clip=1.00 lam=0.770 attnorm=0.585 bennorm=0.779 cos=-0.78 dF1=+0.04
+r44 mh=0.0342 band=[0.618,1.382] att=0.502 rej  ben_med=0.952 ben_q10/90=0.78/1.69 nben_acc=99 clip=1.00 lam=0.741 attnorm=0.551 bennorm=0.777 cos=-0.79 dF1=+0.01
+r45 mh=0.0341 band=[0.617,1.383] att=0.490 rej  ben_med=0.961 ben_q10/90=0.77/1.64 nben_acc=100 clip=1.00 lam=0.746 attnorm=0.557 bennorm=0.776 cos=-0.79 dF1=-0.01
+r46 mh=0.0341 band=[0.617,1.383] att=0.507 rej  ben_med=0.949 ben_q10/90=0.77/1.65 nben_acc=99 clip=1.00 lam=0.754 attnorm=0.564 bennorm=0.776 cos=-0.79 dF1=+0.19
+r47 mh=0.0340 band=[0.617,1.383] att=0.456 rej  ben_med=0.949 ben_q10/90=0.76/1.63 nben_acc=99 clip=1.00 lam=0.718 attnorm=0.525 bennorm=0.774 cos=-0.79 dF1=-0.06
+r48 mh=0.0340 band=[0.616,1.384] att=0.449 rej  ben_med=0.951 ben_q10/90=0.78/1.67 nben_acc=99 clip=1.00 lam=0.724 attnorm=0.528 bennorm=0.774 cos=-0.80 dF1=+0.53
+r49 mh=0.0339 band=[0.616,1.384] att=0.542 rej  ben_med=0.975 ben_q10/90=0.76/1.63 nben_acc=99 clip=1.00 lam=0.762 attnorm=0.580 bennorm=0.775 cos=-0.78 dF1=+0.04
+r50 mh=0.0339 band=[0.616,1.384] att=0.448 rej  ben_med=0.935 ben_q10/90=0.75/1.68 nben_acc=101 clip=1.00 lam=0.712 attnorm=0.528 bennorm=0.774 cos=-0.78 dF1=-0.08

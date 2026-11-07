@@ -1,0 +1,21 @@
+\begin{tabular}{llrrrrrrrrr}
+\toprule
+ & & \multicolumn{3}{c}{\gls{iid}} & \multicolumn{3}{c}{Natural} & \multicolumn{3}{c}{Dirichlet} \\
+\cmidrule(lr){3-5} \cmidrule(lr){6-8} \cmidrule(lr){9-11}
+Target & Share & \gls{fedavg} & \gls{fc} & Rej. & \gls{fedavg} & \gls{fc} & Rej. & \gls{fedavg} & \gls{fc} & Rej. \\
+\midrule
+rare & 1\,\% & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ & 5\,\% & 0 & 0 & 0 & 0 & 0 & 0 & 6 & 0 & 100 \\
+ & 10\,\% & 9 & 8 & 0 & 78 & \textbf{31} & 6 & 98 & 0 & 100 \\
+ & 20\,\% & 100 & \textbf{98} & 48 & 98 & \textbf{98} & 50 & 100 & 0 & 100 \\
+ & 30\,\% & 100 & \textbf{100} & 48 & 100 & \textbf{100} & 62 & 100 & 0 & 100 \\
+ & 40\,\% & 100 & \textbf{100} & 56 & 100 & \textbf{100} & 70 & 100 & 0 & 100 \\
+\midrule
+common & 1\,\% & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ & 5\,\% & 1 & 1 & 0 & 100 & \textbf{99} & 50 & 96 & 0 & 100 \\
+ & 10\,\% & 94 & \textbf{27} & 4 & 100 & \textbf{87} & 58 & 99 & 0 & 100 \\
+ & 20\,\% & 98 & \textbf{96} & 50 & 100 & \textbf{100} & 74 & 100 & 0 & 100 \\
+ & 30\,\% & 100 & \textbf{100} & 52 & 100 & \textbf{100} & 80 & 100 & 0 & 100 \\
+ & 40\,\% & 100 & \textbf{100} & 64 & 100 & \textbf{100} & 88 & 100 & 0 & 100 \\
+\bottomrule
+\end{tabular}

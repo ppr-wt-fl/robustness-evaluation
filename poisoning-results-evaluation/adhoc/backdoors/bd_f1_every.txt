@@ -1,0 +1,94 @@
+schedules <ArrowStringArray>
+['every']
+Length: 1, dtype: str rounds [70] n runs 408
+
+== drop_f1 (pp, max over partitions)
+n_malicious                                           1          ...     80       
+aggregator                                        EPPRFL FedAvg  ... EPPRFL FedAvg
+host                    name                                     ...              
+ad-delivery.net         MR-constrain_scale_cosine  -0.00   0.02  ...   0.05   0.62
+                        MR-naive                   -0.01   0.02  ...   0.32   0.76
+                        MR-replacement             -0.00   0.08  ...   0.05   0.58
+                        MR-train_scale_max           NaN    NaN  ...   0.05   0.71
+                        Tails-pgd                   0.11   0.06  ...   0.34   0.90
+stats.g.doubleclick.net MR-constrain_scale_cosine  -0.00   0.01  ...   0.05   0.59
+                        MR-naive                    0.05   0.07  ...   0.29   0.73
+                        MR-replacement             -0.00   0.09  ...   0.05   0.64
+                        MR-train_scale_max           NaN    NaN  ...   0.18   0.65
+                        Tails-pgd                   0.01   0.03  ...   0.77   1.06
+
+[10 rows x 14 columns]
+
+== drop_non_target_f1 (pp, max over partitions)
+n_malicious                                           1          ...     80       
+aggregator                                        EPPRFL FedAvg  ... EPPRFL FedAvg
+host                    name                                     ...              
+ad-delivery.net         MR-constrain_scale_cosine  -0.00   0.02  ...   0.05   0.66
+                        MR-naive                   -0.01   0.02  ...   0.34   0.79
+                        MR-replacement             -0.00   0.09  ...   0.05   0.61
+                        MR-train_scale_max           NaN    NaN  ...   0.05   0.75
+                        Tails-pgd                   0.12   0.06  ...   0.35   0.94
+stats.g.doubleclick.net MR-constrain_scale_cosine  -0.00   0.01  ...   0.05   0.62
+                        MR-naive                    0.06   0.07  ...   0.30   0.77
+                        MR-replacement             -0.00   0.08  ...   0.05   0.67
+                        MR-train_scale_max           NaN    NaN  ...   0.18   0.68
+                        Tails-pgd                   0.01   0.03  ...   0.81   1.11
+
+[10 rows x 14 columns]
+
+== max_round_dip (pp, max over partitions)
+n_malicious                                           1          ...     80       
+aggregator                                        EPPRFL FedAvg  ... EPPRFL FedAvg
+host                    name                                     ...              
+ad-delivery.net         MR-constrain_scale_cosine   0.41   1.79  ...   0.85   2.53
+                        MR-naive                    0.40   0.32  ...   1.80   2.49
+                        MR-replacement              0.41   1.77  ...   0.85   2.57
+                        MR-train_scale_max           NaN    NaN  ...   1.20   2.57
+                        Tails-pgd                   0.28   0.29  ...   2.68   3.60
+stats.g.doubleclick.net MR-constrain_scale_cosine   0.41   4.04  ...   0.85   3.98
+                        MR-naive                    0.45   0.21  ...   2.19   2.88
+                        MR-replacement              0.41   4.66  ...   0.85   3.82
+                        MR-train_scale_max           NaN    NaN  ...   2.01   3.77
+                        Tails-pgd                   0.43   0.18  ...   3.06   4.35
+
+[10 rows x 14 columns]
+
+worst 10 final drop_f1:
+    aggregator       name                     host      partition  n_malicious  drop_f1  drop_non_target_f1  max_round_dip
+34      FedAvg  Tails-pgd  stats.g.doubleclick.net            iid           80     1.06                1.11           2.52
+104     FedAvg  Tails-pgd          ad-delivery.net            iid           80     0.90                0.94           2.51
+69      FedAvg  Tails-pgd  stats.g.doubleclick.net  dirichlet_1.0           80     0.89                0.94           4.35
+154     EPPRFL  Tails-pgd  stats.g.doubleclick.net  dirichlet_1.0           60     0.88                0.93           1.90
+174     FedAvg  Tails-pgd          ad-delivery.net  dirichlet_1.0           80     0.83                0.87           3.60
+225     EPPRFL  Tails-pgd  stats.g.doubleclick.net  dirichlet_1.0           80     0.77                0.81           3.06
+102     FedAvg   MR-naive          ad-delivery.net            iid           80     0.76                0.79           2.26
+32      FedAvg   MR-naive  stats.g.doubleclick.net            iid           80     0.73                0.77           2.47
+139     FedAvg  Tails-pgd          ad-delivery.net        natural           80     0.73                0.76           2.72
+29      FedAvg  Tails-pgd  stats.g.doubleclick.net            iid           40     0.72                0.76           1.73
+
+worst 10 per-round dip:
+    aggregator                       name                     host      partition  n_malicious  drop_f1  max_round_dip
+402     FedAvg             MR-replacement  stats.g.doubleclick.net  dirichlet_1.0           10     0.10           6.20
+403     FedAvg  MR-constrain_scale_cosine  stats.g.doubleclick.net  dirichlet_1.0           10    -0.16           5.79
+407     FedAvg             MR-replacement  stats.g.doubleclick.net  dirichlet_1.0           40     0.27           5.07
+60      FedAvg             MR-replacement  stats.g.doubleclick.net  dirichlet_1.0           20    -0.11           5.07
+61      FedAvg  MR-constrain_scale_cosine  stats.g.doubleclick.net  dirichlet_1.0           20    -0.09           5.05
+263     FedAvg             MR-replacement  stats.g.doubleclick.net        natural            2     0.06           5.04
+408     FedAvg  MR-constrain_scale_cosine  stats.g.doubleclick.net  dirichlet_1.0           40     0.16           4.70
+53      FedAvg             MR-replacement  stats.g.doubleclick.net  dirichlet_1.0            1    -0.20           4.66
+69      FedAvg                  Tails-pgd  stats.g.doubleclick.net  dirichlet_1.0           80     0.89           4.35
+264     FedAvg  MR-constrain_scale_cosine  stats.g.doubleclick.net        natural            2     0.13           4.34
+
+max per aggregator:
+            drop_f1  drop_non_target_f1  max_round_dip
+aggregator                                            
+EPPRFL         0.88                0.93           3.06
+FedAvg         1.06                1.11           6.20
+            drop_f1
+aggregator         
+EPPRFL        -0.52
+FedAvg        -0.46
+          name                     host      partition  n_malicious  max_round_dip
+225  Tails-pgd  stats.g.doubleclick.net  dirichlet_1.0           80       3.060910
+52   Tails-pgd          ad-delivery.net  dirichlet_1.0           80       2.684746
+294  Tails-pgd  stats.g.doubleclick.net            iid           80       2.206730
